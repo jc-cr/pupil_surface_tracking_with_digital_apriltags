@@ -36,7 +36,7 @@ WORKDIR /app
 # Create plugdev group and user
 RUN groupadd -f -r plugdev && useradd -m -r -g plugdev opencvuser
 
-RUN pip install --no-cache-dir opencv-python numpy msgpack pyzmq cairosvg pillow
+RUN pip install --no-cache-dir opencv-python numpy msgpack pyzmq cairosvg pillow pupil-apriltags
 
 
 ENV LIBGL_ALWAYS_INDIRECT=0

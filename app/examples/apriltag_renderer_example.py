@@ -1,8 +1,13 @@
+# Renderign
 import cv2
 import numpy as np
 import cairosvg
 import io
 from PIL import Image
+
+# Surface Listener
+import zmq
+import msgpack
 
 class Video:
     def __init__(self):
@@ -70,8 +75,8 @@ if __name__ == "__main__":
     debug_video_stream = EmptyVideo(1920, 1080)
     
     # Specify the paths to the AprilTag SVG files
-    left_corner_tag = "data/tags/tag41_12_00000.svg"
-    right_corner_tag = "data/tags/tag41_12_00001.svg"
+    left_corner_tag = "tags/tag41_12_00000.svg"
+    right_corner_tag = "tags/tag41_12_00001.svg"
     
     # Render April tags on video object
     april_tag_renderer = AprilTagRenderer(debug_video_stream, left_corner_tag, right_corner_tag, scale=1/4)
