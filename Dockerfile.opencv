@@ -23,6 +23,11 @@ RUN apt-get update && apt-get install -y \
     libglu1-mesa \
     xvfb \
     xauth \
+    libcairo2-dev \
+    libgirepository1.0-dev \
+    pkg-config \
+    python3-dev \
+    gir1.2-gtk-3.0 \
     && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
@@ -31,7 +36,7 @@ WORKDIR /app
 # Create plugdev group and user
 RUN groupadd -f -r plugdev && useradd -m -r -g plugdev opencvuser
 
-RUN pip install --no-cache-dir opencv-python numpy msgpack pyzmq
+RUN pip install --no-cache-dir opencv-python numpy msgpack pyzmq cairosvg pillow
 
 
 ENV LIBGL_ALWAYS_INDIRECT=0

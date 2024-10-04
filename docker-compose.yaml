@@ -27,7 +27,8 @@ services:
       context: .
       dockerfile: Dockerfile.opencv
     volumes:
-      - ./scripts:/app/
+      - ./scripts:/app
+      - ./data:/app/data
       - /tmp/.X11-unix:/tmp/.X11-unix
     environment:
       - DISPLAY=${DISPLAY}
