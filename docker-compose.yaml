@@ -1,0 +1,42 @@
+version: '3.8'
+
+services:
+  gaze_module:
+    build:
+      context: .
+      dockerfile: Dockerfile.pupil-dev
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - /dev/shm:/dev/shm
+    devices:
+      - /dev/video0:/dev/video0
+      - /dev/dri:/dev/dri
+    environment:
+      - DISPLAY=${DISPLAY}
+      - QT_X11_NO_MITSHM=1
+      - LIBGL_ALWAYS_INDIRECT=0
+      - XAUTHORITY=/tmp/.docker.xauth
+    network_mode: host
+    privileged: true
+    command: "python main.py capture --hide-ui"
+    ports:
+      - "50020:50020"  # Example ZMQ port, adjust as needed
+
+  opencv_module:
+    build:
+      context: .
+      dockerfile: Dockerfile.opencv
+    volumes:
+      - ./scripts:/app/
+      - /tmp/.X11-unix:/tmp/.X11-unix
+    environment:
+      - DISPLAY=${DISPLAY}
+      - QT_X11_NO_MITSHM=1
+      - LIBGL_ALWAYS_INDIRECT=0
+      - XAUTHORITY=/tmp/.docker.xauth
+    network_mode: host
+    command: "python3 main.py"
+    privileged: true  
+networks:
+  default:
+    driver: bridge
