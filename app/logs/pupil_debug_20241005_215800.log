@@ -1,0 +1,6 @@
+2024-10-05 21:58:00,420 - __main__ - INFO - Connected to Pupil Remote at 127.0.0.1:50020
+2024-10-05 21:58:03,179 - __main__ - INFO - Subscriber port: 37961
+2024-10-05 21:58:03,180 - __main__ - INFO - Pub Socket: Unknown command.
+2024-10-05 21:58:03,180 - __main__ - INFO - Pupil time: 105255.991457307
+2024-10-05 21:58:08,185 - __main__ - INFO - Received topic: logging.debug
+2024-10-05 21:58:08,186 - __main__ - INFO - Pupil time: 105260.99666938

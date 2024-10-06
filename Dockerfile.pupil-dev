@@ -26,14 +26,22 @@ RUN apt-get update && apt-get install -y \
     xauth \
     && rm -rf /var/lib/apt/lists/*
 
-# Create plugdev group and user
-RUN groupadd -f -r plugdev && useradd -m -r -g plugdev pupiluser
+ARG USER_ID=1000
+ARG GROUP_ID=1000
+
+# Create pupilgroup and add pupiluser to existing plugdev group
+RUN groupadd -g ${GROUP_ID} pupilgroup && \
+    useradd -m -u ${USER_ID} -g pupilgroup -G plugdev -s /bin/bash pupiluser
+
 # Clone specific commit of Pupil repository
-RUN git clone https://github.com/jc-cr/pupil.git /app/pupil \
-    && cd /app/pupil \
-    && git checkout 04695b42b8e65b563d6127943720488f016664db
-# Set ownership of the cloned repository to pupiluser
-RUN chown -R pupiluser:plugdev /app/pupil
+RUN git clone https://github.com/jc-cr/pupil.git /app/pupil && \
+    cd /app/pupil && \
+    git checkout surface_app && \
+    git config --global --add safe.directory /app/pupil
+
+# Make sure pupiluser owns the app directory
+RUN chown -R pupiluser:pupilgroup /app/pupil
+
 WORKDIR /app/pupil
 # Install Python dependencies
 RUN python3 -m pip install --no-cache-dir -r requirements.txt

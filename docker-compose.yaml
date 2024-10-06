@@ -1,16 +1,22 @@
 version: '3.8'
 
+
 services:
   gaze_module:
     build:
       context: .
       dockerfile: Dockerfile.pupil-dev
+      args:
+          USER_ID: ${UID:-1000}
+          GROUP_ID: ${GID:-1000}
     volumes:
       - /tmp/.X11-unix:/tmp/.X11-unix
       - /dev/shm:/dev/shm
+      - ./app/pupil_capture_settings:/app/pupil/capture_settings
     devices:
       - /dev/video0:/dev/video0
       - /dev/dri:/dev/dri
+      - /dev/bus/usb:/dev/bus/usb
     environment:
       - DISPLAY=${DISPLAY}
       - QT_X11_NO_MITSHM=1
@@ -18,7 +24,9 @@ services:
       - XAUTHORITY=/tmp/.docker.xauth
     network_mode: host
     privileged: true
-    command: "python main.py capture" # --hide-ui
+    group_add:
+      - plugdev
+    command: "python main.py capture" #--hide-ui
 
   surface_module:
     build:
@@ -33,6 +41,4 @@ services:
       - LIBGL_ALWAYS_INDIRECT=0
       - XAUTHORITY=/tmp/.docker.xauth
     network_mode: host
-    command: "python3 scripts/main.py --debug"
-    depends_on:
-      - gaze_module
+    command: "python3 scripts/main.py"

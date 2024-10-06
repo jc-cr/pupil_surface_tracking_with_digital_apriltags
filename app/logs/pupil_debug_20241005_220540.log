@@ -1,0 +1,16 @@
+2024-10-05 22:05:40,191 - __main__ - INFO - Connected to Pupil Remote at 127.0.0.1:50020
+2024-10-05 22:05:42,766 - __main__ - INFO - Subscriber port: 37065
+2024-10-05 22:05:42,768 - __main__ - INFO - Pub Socket: Unknown command.
+2024-10-05 22:05:42,769 - __main__ - INFO - Pupil time: 105715.579944175
+2024-10-05 22:05:47,774 - __main__ - INFO - Received topic: logging.debug
+2024-10-05 22:05:47,774 - __main__ - DEBUG - Payload: {'name': 'network_api.controller.pupil_remote_controller', 'msg': "Request: 'PUB_SOCKET', Response: 'Unknown command.'", 'args': [], 'levelname': 'DEBUG', 'levelno': 10, 'pathname': '/app/pupil/pupil_src/shared_modules/network_api/controller/pupil_remote_controller.py', 'filename': 'pupil_remote_controller.py', 'module': 'pupil_remote_controller', 'exc_info': None, 'exc_text': None, 'stack_info': None, 'lineno': 305, 'funcName': '__on_recv', 'created': 1728165942.7681031, 'msecs': 768.1031227111816, 'relativeCreated': 2531.963586807251, 'thread': 126289432282880, 'threadName': 'Thread-5', 'processName': 'world', 'process': 18, 'topic': 'logging.debug'}
+2024-10-05 22:05:47,774 - __main__ - INFO - Pupil time: 105720.585472593
+2024-10-05 22:05:52,779 - __main__ - INFO - Received topic: logging.debug
+2024-10-05 22:05:52,779 - __main__ - DEBUG - Payload: {'name': 'network_api.controller.pupil_remote_controller', 'msg': "Request: 't', Response: '105715.579944175'", 'args': [], 'levelname': 'DEBUG', 'levelno': 10, 'pathname': '/app/pupil/pupil_src/shared_modules/network_api/controller/pupil_remote_controller.py', 'filename': 'pupil_remote_controller.py', 'module': 'pupil_remote_controller', 'exc_info': None, 'exc_text': None, 'stack_info': None, 'lineno': 305, 'funcName': '__on_recv', 'created': 1728165942.769501, 'msecs': 769.5009708404541, 'relativeCreated': 2533.3614349365234, 'thread': 126289432282880, 'threadName': 'Thread-5', 'processName': 'world', 'process': 18, 'topic': 'logging.debug'}
+2024-10-05 22:05:52,779 - __main__ - INFO - Pupil time: 105725.590436597
+2024-10-05 22:05:57,784 - __main__ - INFO - Received topic: logging.debug
+2024-10-05 22:05:57,784 - __main__ - DEBUG - Payload: {'name': 'video_capture.uvc_backend', 'msg': 'Received frame with invalid timestamp. This can happen after a disconnect. Frame will be dropped!', 'args': [], 'levelname': 'DEBUG', 'levelno': 10, 'pathname': '/app/pupil/pupil_src/shared_modules/video_capture/uvc_backend.py', 'filename': 'uvc_backend.py', 'module': 'uvc_backend', 'exc_info': None, 'exc_text': None, 'stack_info': None, 'lineno': 488, 'funcName': 'recent_events', 'created': 1728165942.8421052, 'msecs': 842.1051502227783, 'relativeCreated': 2605.9656143188477, 'thread': 126291197384512, 'threadName': 'MainThread', 'processName': 'world', 'process': 18, 'topic': 'logging.debug'}
+2024-10-05 22:05:57,786 - __main__ - INFO - Pupil time: 105730.596358146
+2024-10-05 22:06:02,790 - __main__ - INFO - Received topic: frame.world
+2024-10-05 22:06:02,790 - __main__ - DEBUG - Payload: {'topic': 'frame.world', 'width': 1280, 'height': 720, 'index': 2, 'timestamp': 105715.615072, 'format': 'jpeg'}
+2024-10-05 22:06:02,790 - __main__ - INFO - Pupil time: 105735.601503951

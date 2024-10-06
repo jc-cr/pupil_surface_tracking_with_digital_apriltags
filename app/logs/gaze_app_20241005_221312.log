@@ -1,0 +1,21 @@
+2024-10-05 22:13:12,565 - __main__ - INFO - Starting Gaze Drawing App
+2024-10-05 22:13:32,585 - __main__ - WARNING - Connection to Pupil timed out
+2024-10-05 22:13:32,585 - __main__ - INFO - Attempted connection to Surface Listener
+2024-10-05 22:13:32,585 - __main__ - INFO - Created Empty Video stream
+2024-10-05 22:13:32,691 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-10-05 22:13:32,691 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 41 6
+2024-10-05 22:13:32,691 - PIL.PngImagePlugin - DEBUG - b'bKGD' 41 6 (unknown)
+2024-10-05 22:13:32,692 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 59 5036
+2024-10-05 22:13:32,783 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-10-05 22:13:32,783 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 41 6
+2024-10-05 22:13:32,783 - PIL.PngImagePlugin - DEBUG - b'bKGD' 41 6 (unknown)
+2024-10-05 22:13:32,783 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 59 5021
+2024-10-05 22:13:32,796 - __main__ - INFO - Created AprilTagRenderer
+2024-10-05 22:13:32,797 - __main__ - INFO - Created FrameDrawing object
+2024-10-05 22:13:32,882 - __main__ - INFO - Created display window: Debug Window
+2024-10-05 22:13:32,883 - __main__ - ERROR - Application Error: 'SurfaceListener' object has no attribute 'get_latest_filtered_gaze_coordinates'
+Traceback (most recent call last):
+  File "scripts/main.py", line 311, in <module>
+    gaze_coords = surface_listener.get_latest_filtered_gaze_coordinates()
+AttributeError: 'SurfaceListener' object has no attribute 'get_latest_filtered_gaze_coordinates'
+2024-10-05 22:13:32,886 - __main__ - INFO - Closed ZMQ connections

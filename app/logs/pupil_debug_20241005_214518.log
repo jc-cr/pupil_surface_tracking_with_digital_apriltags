@@ -1,0 +1,6 @@
+2024-10-05 21:45:18,316 - __main__ - INFO - Attempting to connect to Pupil Core at 127.0.0.1:50020
+2024-10-05 21:45:18,316 - __main__ - INFO - Sent 't' command, waiting for response...
+2024-10-05 21:45:20,895 - __main__ - INFO - Received response: 104493.705575016
+2024-10-05 21:45:20,895 - __main__ - INFO - Subscriber port: 46843
+2024-10-05 21:45:20,896 - __main__ - INFO - Connection established. Starting topic request loop...
+2024-10-05 21:45:20,982 - __main__ - INFO - Requesting topics from Unknown command.

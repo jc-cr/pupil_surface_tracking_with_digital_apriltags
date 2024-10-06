@@ -8,6 +8,7 @@ import msgpack
 import logging
 import argparse
 import time
+from typing import Tuple, Optional
 from datetime import datetime
 
 class EmptyVideo:
@@ -78,14 +79,11 @@ class AprilTagRenderer:
 
 
 class SurfaceListener:
-    def __init__(self, ip='127.0.0.1',
-     port=50020,
-      initial_connection_timeout=20,
-       message_timeout=5):
+    def __init__(self, ip='127.0.0.1', port=50020, initial_connection_timeout=5, message_timeout=1):
+
         self.logger = logging.getLogger(__name__)
         self.ip = ip
         self.port = port
-
         self.initial_connection_timeout = initial_connection_timeout
         self.message_timeout = message_timeout
 
@@ -93,14 +91,14 @@ class SurfaceListener:
         self.pupil_remote = None
         self.subscriber = None
 
-        self.surface_topic_name = 'surface'
+        self.surface_topic_name = 'surfaces'.encode('utf-8')
         self.gaze_key = 'gaze_on_surfaces'
         self.fixation_key = 'fixations_on_surfaces'
 
         self.latest_gaze_coordinates = (None, None)
         self.latest_fixation_coordinates = (None, None)
 
-        self.__connect_to_pupil()
+        # self.__connect_to_pupil()
 
     def __connect_to_pupil(self):
         try:
@@ -108,67 +106,82 @@ class SurfaceListener:
             self.pupil_remote.setsockopt(zmq.LINGER, 0)
             self.pupil_remote.connect(f'tcp://{self.ip}:{self.port}')
             
-            # Use poll() for timeout
-            if self.pupil_remote.poll(timeout=self.initial_connection_timeout * 1000) == 0:
-                raise TimeoutError("Connection timed out")
-            
+            # Send a request for the sub port
             self.pupil_remote.send_string('SUB_PORT')
-            
-            if self.pupil_remote.poll(timeout=self.initial_connection_timeout * 1000) == 0:
-                raise TimeoutError("No response received")
-            
             self.sub_port = self.pupil_remote.recv_string()
 
             self.subscriber = self.context.socket(zmq.SUB)
             self.subscriber.setsockopt(zmq.LINGER, 0)
             self.subscriber.connect(f'tcp://{self.ip}:{self.sub_port}')
-            self.subscriber.subscribe(self.surface_topic_name)
 
-            self.logger.info("Successfully connected to Pupil")
+            self.logger.info("Connected to Pupil")
+
+            self.__connect_to_surface_topic()
 
         except (zmq.ZMQError, TimeoutError) as e:
-            self.logger.warning(f"Surface listener: {e}")
+            self.logger.warning(f"Error connecting to Pupil: {e}")
             self.pupil_remote = None
-            self.subscriber = None
 
         except Exception as e:
-            self.logger.exception(f"Unexpected error connecting to Pupil: {e}")
+            self.logger.warning(f"Unexpected error connecting to Pupil: {e}")
             self.pupil_remote = None
-            self.subscriber = None
 
-    def get_latest_filtered_gaze_coordinates(self):
+    def __connect_to_surface_topic(self):
+        try:
+            self.subscriber.subscribe(self.surface_topic_name)
+            self.logger.info("Connected to surface topic")
+        except (zmq.ZMQError, TimeoutError) as e:
+            self.logger.warning(f"Error connecting to surface topic: {e}")
+        except Exception as e:
+            self.logger.warning(f"Unexpected error connecting to surface topic: {e}")
+
+    def get_latest_surface_data(self) -> Tuple[Optional[float], Optional[float], Optional[float], Optional[float]]:
+        if self.pupil_remote is None:
+            return None, None, None, None
+
         if not self.subscriber:
-            self.logger.debug("Not connected to Pupil. Returning default coordinates.")
-            return (None, None)
+            self.logger.debug("Surface topic was not available. Attempting to reconnect...")
+            self.__connect_to_surface_topic()
+            if not self.subscriber:
+                self.logger.warning("Unable to connect to surface topic")
+                return None, None, None, None
+            else:
+                self.logger.info("Reconnected to surface topic")
 
         try:
             if self.subscriber.poll(timeout=self.message_timeout * 1000) == 0:
-                self.logger.debug("No new gaze data received within timeout period")
-                return (None, None)
+                self.logger.debug("No new surface data received within timeout period")
+                return None, None, None, None
 
             topic, payload = self.subscriber.recv_multipart(zmq.NOBLOCK)
             message = msgpack.loads(payload)
 
-            for key, value in message.items():
-                if key == self.gaze_key:
-                    for gaze_data in value:
-                        if 'norm_pos' in gaze_data:
-                            return tuple(gaze_data['norm_pos'])
+            if not message.get('surfaces'):
+                self.logger.debug("No surfaces detected")
+                return None, None, None, None
+
+            for surface in message['surfaces']:
+                gaze_on_surf = surface.get(self.gaze_key, [])
+                fixations_on_surf = surface.get(self.fixation_key, [])
+
+                if gaze_on_surf:
+                    self.latest_gaze_coordinates = gaze_on_surf[-1].get('norm_pos', (None, None))
+                
+                if fixations_on_surf:
+                    self.latest_fixation_coordinates = fixations_on_surf[-1].get('norm_pos', (None, None))
+
+            return (self.latest_gaze_coordinates[0], self.latest_gaze_coordinates[1],
+                    self.latest_fixation_coordinates[0], self.latest_fixation_coordinates[1])
 
         except zmq.ZMQError as e:
             if e.errno == zmq.EAGAIN:
-                self.logger.warning("No new gaze data available")
+                self.logger.debug("No new surface data available")
             else:
-                self.logger.exception(f"Error getting gaze coordinates: {e}")
+                self.logger.warning(f"Error getting surface data: {e}")
         except Exception as e:
-            self.logger.exception(f"Unexpected error getting gaze coordinates: {e}")
+            self.logger.warning(f"Unexpected error getting surface data: {e}")
 
-        return (None, None)
-
-    def get_latest_filtered_fixation_coordinates(self):
-        # Implement fixation data retrieval similar to gaze data
-        # For now, returning default value
-        return (None, None)
+        return None, None, None, None
 
     def close(self):
         if self.pupil_remote:
@@ -177,7 +190,6 @@ class SurfaceListener:
             self.subscriber.close()
         self.context.term()
         self.logger.info("Closed ZMQ connections")
-
 
 class FrameDrawing():
     """
@@ -253,18 +265,15 @@ def setup_logging(debug=False):
     logging.basicConfig(
         level=log_level,
         format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-        # store in logs/ directory
-        filename="logs/" + log_filename,
+        filename=f"logs/{log_filename}",
         filemode='w'
     )
     
-    # Also log to console
     console = logging.StreamHandler()
     console.setLevel(log_level)
     formatter = logging.Formatter('%(name)-12s: %(levelname)-8s %(message)s')
     console.setFormatter(formatter)
     logging.getLogger('').addHandler(console)
-
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Gaze Drawing App")
@@ -310,15 +319,11 @@ if __name__ == "__main__":
             raw_frame = debug_video_stream.get_latest_frame()
             
             # Get gaze and fixation coordinates
-            gaze_coords = surface_listener.get_latest_filtered_gaze_coordinates()
-            
-            fixation_coords = surface_listener.get_latest_filtered_fixation_coordinates()
-
+            gaze_x, gaze_y, fixation_x, fixation_y = surface_listener.get_latest_surface_data()
             
             # Pass frame to Drawer, get output
-            frame_drawer.set_latest_frame(raw_frame, gaze_coords, fixation_coords)
+            frame_drawer.set_latest_frame(raw_frame, (gaze_x, gaze_y), (fixation_x, fixation_y))
             drawn_frame = frame_drawer.get_latest_frame()
-
 
             # Add April tags to frame and output the frame
             april_tag_renderer.set_latest_frame(drawn_frame)
@@ -329,13 +334,12 @@ if __name__ == "__main__":
             
             frame_count += 1
             if frame_count % 100 == 0:  # Log every 100 frames
-                logger.info(f"Processed frame {frame_count}")
+                logger.debug(f"Processed frame {frame_count}")
                 logger.debug(f"Got raw frame: {raw_frame.shape}")
-                logger.debug(f"Got gaze coordinates: {gaze_coords}")
-                logger.debug(f"Got fixation coordinates: {fixation_coords}")
+                logger.debug(f"Got gaze coordinates: ({gaze_x}, {gaze_y})")
+                logger.debug(f"Got fixation coordinates: ({fixation_x}, {fixation_y})")
                 logger.debug(f"Got drawn frame: {drawn_frame.shape}")
                 logger.debug(f"Got final frame: {final_frame.shape}")
-            
             
             # Check for 'q' key to quit
             if cv2.waitKey(1) & 0xFF == ord('q'):
