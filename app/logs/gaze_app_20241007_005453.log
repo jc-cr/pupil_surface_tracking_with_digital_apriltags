@@ -1,0 +1,1666 @@
+2024-10-07 00:54:53,786 - __main__ - INFO - Starting Gaze Drawing App
+2024-10-07 00:54:53,786 - SurfaceListener - DEBUG - Initialized SurfaceListener with topic: surfaces
+2024-10-07 00:54:53,787 - SurfaceListener - DEBUG - SurfaceListener thread started
+2024-10-07 00:54:53,787 - __main__ - INFO - Attempted connection to Surface Listener
+2024-10-07 00:54:53,787 - __main__ - INFO - Created Empty Video stream
+2024-10-07 00:54:53,857 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-10-07 00:54:53,858 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 41 6
+2024-10-07 00:54:53,858 - PIL.PngImagePlugin - DEBUG - b'bKGD' 41 6 (unknown)
+2024-10-07 00:54:53,858 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 59 5036
+2024-10-07 00:54:53,907 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-10-07 00:54:53,907 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 41 6
+2024-10-07 00:54:53,907 - PIL.PngImagePlugin - DEBUG - b'bKGD' 41 6 (unknown)
+2024-10-07 00:54:53,907 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 59 5021
+2024-10-07 00:54:53,915 - __main__ - INFO - Created AprilTagRenderer
+2024-10-07 00:54:53,916 - __main__ - INFO - Created FrameDrawing object
+2024-10-07 00:54:53,934 - __main__ - INFO - Created display window: Debug Window
+2024-10-07 00:54:53,935 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:53,957 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:53,974 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:53,998 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,029 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,056 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,078 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,099 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,118 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,131 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,145 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,160 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,174 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,188 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,202 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,216 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,230 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,243 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,255 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,267 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,282 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,298 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,314 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,330 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,342 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,356 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,367 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,379 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,391 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,402 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,414 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,427 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,440 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,452 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,463 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,476 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,491 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,507 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,520 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,535 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,549 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,562 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,575 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,587 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,598 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,609 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,621 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,632 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,644 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,656 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,667 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,678 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,690 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,702 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,713 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,724 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,735 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,746 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,758 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,769 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,781 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,793 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,805 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,818 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,830 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,842 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,853 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,864 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,876 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,887 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,897 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,909 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,921 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,932 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,943 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,955 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,966 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,978 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:54,990 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,001 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,014 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,026 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,037 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,048 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,060 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,071 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,082 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,093 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,104 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,115 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,125 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,137 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,148 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,161 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,173 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,184 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,197 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,210 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,222 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,234 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,243 - __main__ - DEBUG - Processed frame 100
+2024-10-07 00:54:55,243 - __main__ - DEBUG - Got raw frame: (1080, 1920, 3)
+2024-10-07 00:54:55,244 - __main__ - DEBUG - Got gaze coordinates: (None, None)
+2024-10-07 00:54:55,244 - __main__ - DEBUG - Got fixation coordinates: (None, None)
+2024-10-07 00:54:55,244 - __main__ - DEBUG - Got drawn frame: (1080, 1920, 3)
+2024-10-07 00:54:55,244 - __main__ - DEBUG - Got final frame: (1080, 1920, 3)
+2024-10-07 00:54:55,248 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,261 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,274 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,286 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,299 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,311 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,323 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,334 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,346 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,360 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,377 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,396 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,416 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,431 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,444 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,457 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,469 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,481 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,493 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,506 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,518 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,531 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,543 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,556 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,568 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,580 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,593 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,606 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,618 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,630 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,642 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,654 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,667 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,680 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,692 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,705 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,717 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,730 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,743 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,755 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,766 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,777 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,788 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,799 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,810 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,821 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,832 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,843 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,855 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,866 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,877 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,888 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,898 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,909 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,920 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,931 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,942 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,953 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,964 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,975 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,986 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:55,997 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,009 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,021 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,033 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,048 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,064 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,075 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,087 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,098 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,110 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,121 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,132 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,143 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,156 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,167 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,178 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,189 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,201 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,212 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,224 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,235 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,246 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,258 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,269 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,281 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,293 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,304 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,316 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,327 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,338 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,349 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,360 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,372 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,382 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,394 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,406 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,418 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,430 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,441 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,448 - __main__ - DEBUG - Processed frame 200
+2024-10-07 00:54:56,449 - __main__ - DEBUG - Got raw frame: (1080, 1920, 3)
+2024-10-07 00:54:56,449 - __main__ - DEBUG - Got gaze coordinates: (None, None)
+2024-10-07 00:54:56,449 - __main__ - DEBUG - Got fixation coordinates: (None, None)
+2024-10-07 00:54:56,449 - __main__ - DEBUG - Got drawn frame: (1080, 1920, 3)
+2024-10-07 00:54:56,449 - __main__ - DEBUG - Got final frame: (1080, 1920, 3)
+2024-10-07 00:54:56,454 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,465 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,477 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,489 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,499 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,511 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,523 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,533 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,546 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,558 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,571 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,583 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,595 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,606 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,618 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,631 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,645 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,647 - SurfaceListener - INFO - Connected to Pupil on port 50020, subscribed on port 44751
+2024-10-07 00:54:56,648 - SurfaceListener - INFO - SUB_URL: Unknown command.
+2024-10-07 00:54:56,648 - SurfaceListener - INFO - PUB_URL: Unknown command.
+2024-10-07 00:54:56,649 - SurfaceListener - WARNING - Connection failed: unpack(b) received extra data.
+2024-10-07 00:54:56,649 - SurfaceListener - DEBUG - Connection failed, retrying in 5 seconds
+2024-10-07 00:54:56,661 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,675 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,690 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,706 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,719 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,732 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,744 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,756 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,767 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,779 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,790 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,802 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,813 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,824 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,836 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,847 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,858 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,868 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,879 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,890 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,901 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,912 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,923 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,934 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,946 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,957 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,968 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,979 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:56,990 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,001 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,012 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,026 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,037 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,049 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,060 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,071 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,082 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,094 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,105 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,116 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,127 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,139 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,149 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,162 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,173 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,185 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,195 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,206 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,218 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,230 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,241 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,254 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,267 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,278 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,291 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,303 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,314 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,326 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,337 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,349 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,360 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,372 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,385 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,396 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,418 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,438 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,461 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,485 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,503 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,520 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,540 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,552 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,563 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,575 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,588 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,600 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,612 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,624 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,637 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,649 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,665 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,676 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,691 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,703 - __main__ - DEBUG - Processed frame 300
+2024-10-07 00:54:57,703 - __main__ - DEBUG - Got raw frame: (1080, 1920, 3)
+2024-10-07 00:54:57,703 - __main__ - DEBUG - Got gaze coordinates: (None, None)
+2024-10-07 00:54:57,703 - __main__ - DEBUG - Got fixation coordinates: (None, None)
+2024-10-07 00:54:57,703 - __main__ - DEBUG - Got drawn frame: (1080, 1920, 3)
+2024-10-07 00:54:57,703 - __main__ - DEBUG - Got final frame: (1080, 1920, 3)
+2024-10-07 00:54:57,708 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,726 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,746 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,766 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,788 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,807 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,820 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,835 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,846 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,859 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,875 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,890 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,906 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,923 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,939 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,956 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,973 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:57,988 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:58,004 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:58,021 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:58,037 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:58,049 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:58,061 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:58,074 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:58,085 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:58,096 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:58,109 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:58,123 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:58,135 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:58,148 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:58,165 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:58,178 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:58,190 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:58,202 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:58,214 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:58,226 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:58,238 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:58,250 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:58,265 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:58,276 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:58,291 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:58,303 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:58,313 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:58,326 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:58,337 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:58,348 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:58,362 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:58,373 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:58,390 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:58,404 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:58,416 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:58,431 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:58,444 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:58,457 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:58,469 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:58,481 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:58,496 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:58,512 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:58,527 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:58,544 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:58,561 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:58,579 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:58,597 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:58,616 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:58,634 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:58,653 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:58,672 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:58,690 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:58,707 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:58,725 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:58,740 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:58,757 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:58,771 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:58,789 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:58,806 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:58,823 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:58,840 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:58,856 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:58,874 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:58,893 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:58,912 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:58,931 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:58,949 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:58,966 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:58,983 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:58,999 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:59,014 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:59,028 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:59,044 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:59,060 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:59,079 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:59,098 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:59,116 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:59,134 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:59,154 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:59,171 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:59,189 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:59,206 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:59,224 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:59,242 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:59,254 - __main__ - DEBUG - Processed frame 400
+2024-10-07 00:54:59,254 - __main__ - DEBUG - Got raw frame: (1080, 1920, 3)
+2024-10-07 00:54:59,254 - __main__ - DEBUG - Got gaze coordinates: (None, None)
+2024-10-07 00:54:59,254 - __main__ - DEBUG - Got fixation coordinates: (None, None)
+2024-10-07 00:54:59,254 - __main__ - DEBUG - Got drawn frame: (1080, 1920, 3)
+2024-10-07 00:54:59,254 - __main__ - DEBUG - Got final frame: (1080, 1920, 3)
+2024-10-07 00:54:59,260 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:59,278 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:59,304 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:59,324 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:59,342 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:59,369 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:59,390 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:59,409 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:59,428 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:59,446 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:59,465 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:59,484 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:59,503 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:59,521 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:59,541 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:59,560 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:59,582 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:59,597 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:59,614 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:59,634 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:59,650 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:59,667 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:59,685 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:59,703 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:59,716 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:59,732 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:59,744 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:59,755 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:59,767 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:59,778 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:59,789 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:59,799 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:59,810 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:59,821 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:59,832 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:59,844 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:59,856 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:59,868 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:59,881 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:59,894 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:59,905 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:59,916 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:59,932 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:59,950 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:59,964 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:59,981 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:54:59,991 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,004 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,017 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,027 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,039 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,049 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,063 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,075 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,085 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,096 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,109 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,121 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,135 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,146 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,157 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,169 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,180 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,191 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,203 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,214 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,226 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,239 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,255 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,280 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,299 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,316 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,330 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,343 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,356 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,370 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,381 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,391 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,402 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,413 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,423 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,435 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,446 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,461 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,473 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,486 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,498 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,509 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,521 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,532 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,544 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,555 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,566 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,577 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,589 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,608 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,621 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,631 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,643 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,654 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,662 - __main__ - DEBUG - Processed frame 500
+2024-10-07 00:55:00,662 - __main__ - DEBUG - Got raw frame: (1080, 1920, 3)
+2024-10-07 00:55:00,662 - __main__ - DEBUG - Got gaze coordinates: (None, None)
+2024-10-07 00:55:00,662 - __main__ - DEBUG - Got fixation coordinates: (None, None)
+2024-10-07 00:55:00,662 - __main__ - DEBUG - Got drawn frame: (1080, 1920, 3)
+2024-10-07 00:55:00,662 - __main__ - DEBUG - Got final frame: (1080, 1920, 3)
+2024-10-07 00:55:00,666 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,678 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,689 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,701 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,713 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,729 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,746 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,759 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,773 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,785 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,798 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,810 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,822 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,834 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,847 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,861 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,877 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,891 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,904 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,916 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,928 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,943 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,957 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,974 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:00,991 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:01,007 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:01,023 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:01,038 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:01,055 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:01,073 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:01,091 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:01,108 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:01,123 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:01,142 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:01,159 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:01,180 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:01,198 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:01,217 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:01,232 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:01,250 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:01,267 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:01,284 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:01,302 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:01,320 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:01,337 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:01,353 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:01,369 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:01,386 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:01,400 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:01,418 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:01,436 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:01,456 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:01,473 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:01,493 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:01,510 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:01,525 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:01,539 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:01,554 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:01,568 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:01,582 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:01,599 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:01,620 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:01,639 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:01,653 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:01,653 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:01,653 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:01,654 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:01,654 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:01,654 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:01,654 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:01,654 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:01,654 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:01,654 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:01,654 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:01,654 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:01,654 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:01,654 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:01,654 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:01,654 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:01,654 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:01,654 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:01,654 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:01,654 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:01,654 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:01,654 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:01,655 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:01,655 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:01,655 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:01,655 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:01,655 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:01,655 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:01,655 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:01,655 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:01,655 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:01,655 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:01,655 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:01,655 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:01,655 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:01,655 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:01,655 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:01,655 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:01,655 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:01,655 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:01,655 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:01,655 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:01,655 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:01,655 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:01,656 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:01,659 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:01,669 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:01,669 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:01,669 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:01,669 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:01,670 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:01,687 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:01,706 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:01,706 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:01,706 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:01,706 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:01,706 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:01,710 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:01,741 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:01,776 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:01,801 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:01,803 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:01,803 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:01,803 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:01,803 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:01,803 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:01,829 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:01,855 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:01,902 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:01,932 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:01,941 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:01,941 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:01,941 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:01,942 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:01,942 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:01,966 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:01,991 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:02,020 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:02,028 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:02,028 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:02,029 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:02,029 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:02,029 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:02,056 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:02,084 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:02,084 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:02,084 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:02,084 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:02,085 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:02,085 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:02,112 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:02,145 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:02,151 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:02,151 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:02,151 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:02,151 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:02,151 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:02,178 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:02,208 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:02,208 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:02,208 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:02,208 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:02,208 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:02,212 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:02,240 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:02,271 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:02,299 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:02,299 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:02,299 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:02,299 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:02,299 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:02,311 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:02,338 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:02,378 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:02,411 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:02,440 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:02,469 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:02,473 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:02,473 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:02,473 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:02,473 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:02,473 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:02,502 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:02,502 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:02,502 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:02,502 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:02,502 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:02,511 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:02,545 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:02,573 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:02,605 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:02,622 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:02,622 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:02,622 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:02,622 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:02,622 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:02,635 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:02,684 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:02,723 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:02,755 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:02,759 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:02,759 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:02,759 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:02,759 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:02,759 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:02,784 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:02,794 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:02,794 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:02,794 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:02,795 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:02,795 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:02,818 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:02,836 - __main__ - DEBUG - Processed frame 600
+2024-10-07 00:55:02,837 - __main__ - DEBUG - Got raw frame: (1080, 1920, 3)
+2024-10-07 00:55:02,837 - __main__ - DEBUG - Got gaze coordinates: (None, None)
+2024-10-07 00:55:02,837 - __main__ - DEBUG - Got fixation coordinates: (None, None)
+2024-10-07 00:55:02,837 - __main__ - DEBUG - Got drawn frame: (1080, 1920, 3)
+2024-10-07 00:55:02,837 - __main__ - DEBUG - Got final frame: (1080, 1920, 3)
+2024-10-07 00:55:02,843 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:02,845 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:02,845 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:02,845 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:02,845 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:02,845 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:02,890 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:02,914 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:02,914 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:02,914 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:02,914 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:02,914 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:02,921 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:02,964 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:02,990 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:02,996 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:02,996 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:02,996 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:02,996 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:02,996 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:03,020 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:03,060 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:03,085 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:03,109 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:03,132 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:03,148 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:03,148 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:03,148 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:03,148 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:03,148 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:03,159 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:03,192 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:03,224 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:03,253 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:03,281 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:03,309 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:03,320 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:03,320 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:03,320 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:03,320 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:03,320 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:03,354 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:03,361 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:03,361 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:03,361 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:03,361 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:03,361 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:03,392 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:03,403 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:03,403 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:03,403 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:03,403 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:03,403 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:03,417 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:03,445 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:03,445 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:03,446 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:03,446 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:03,446 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:03,449 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:03,481 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:03,482 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:03,482 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:03,482 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:03,482 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:03,482 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:03,517 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:03,562 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:03,592 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:03,592 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:03,592 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:03,592 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:03,592 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:03,593 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:03,630 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:03,648 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:03,648 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:03,648 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:03,648 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:03,648 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:03,654 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:03,693 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:03,698 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:03,698 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:03,698 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:03,698 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:03,698 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:03,725 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:03,746 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:03,746 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:03,746 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:03,747 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:03,747 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:03,756 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:03,782 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:03,782 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:03,782 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:03,782 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:03,782 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:03,788 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:03,817 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:03,821 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:03,821 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:03,821 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:03,821 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:03,821 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:03,847 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:03,902 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:03,902 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:03,902 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:03,902 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:03,902 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:03,902 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:03,973 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:03,974 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:03,974 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:03,974 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:03,974 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:03,974 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:04,019 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:04,021 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:04,021 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:04,021 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:04,021 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:04,021 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:04,048 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:04,057 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:04,057 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:04,058 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:04,058 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:04,058 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:04,088 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:04,094 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:04,095 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:04,095 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:04,095 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:04,095 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:04,124 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:04,148 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:04,148 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:04,148 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:04,148 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:04,148 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:04,149 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:04,185 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:04,190 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:04,190 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:04,190 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:04,190 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:04,190 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:04,217 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:04,226 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:04,226 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:04,226 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:04,226 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:04,226 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:04,255 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:04,256 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:04,256 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:04,256 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:04,256 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:04,263 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:04,309 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:04,309 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:04,309 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:04,309 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:04,309 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:04,314 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:04,361 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:04,373 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:04,373 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:04,373 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:04,373 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:04,373 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:04,391 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:04,420 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:04,432 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:04,432 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:04,432 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:04,433 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:04,433 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:04,466 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:04,482 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:04,482 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:04,482 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:04,483 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:04,483 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:04,494 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:04,527 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:04,540 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:04,540 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:04,540 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:04,540 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:04,540 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:04,553 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:04,582 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:04,591 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:04,591 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:04,591 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:04,591 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:04,591 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:04,612 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:04,643 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:04,643 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:04,643 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:04,643 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:04,643 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:04,649 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:04,676 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:04,676 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:04,676 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:04,676 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:04,676 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:04,682 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:04,711 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:04,712 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:04,712 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:04,712 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:04,712 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:04,712 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:04,743 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:04,757 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:04,758 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:04,758 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:04,758 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:04,758 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:04,781 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:04,811 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:04,811 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:04,811 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:04,811 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:04,811 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:04,818 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:04,855 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:04,856 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:04,856 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:04,856 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:04,856 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:04,856 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:04,891 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:04,891 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:04,892 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:04,892 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:04,892 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:04,897 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:04,939 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:04,961 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:04,961 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:04,961 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:04,961 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:04,961 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:04,979 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:05,011 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:05,017 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:05,017 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:05,017 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:05,018 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:05,018 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:05,055 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:05,055 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:05,055 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:05,055 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:05,055 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:05,069 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:05,090 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:05,090 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:05,090 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:05,091 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:05,091 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:05,111 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:05,130 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:05,130 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:05,130 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:05,130 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:05,130 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:05,155 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:05,177 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:05,177 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:05,177 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:05,177 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:05,177 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:05,217 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:05,231 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:05,231 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:05,231 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:05,231 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:05,231 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:05,247 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:05,275 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:05,275 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:05,275 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:05,275 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:05,275 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:05,280 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:05,303 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:05,322 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:05,322 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:05,322 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:05,322 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:05,322 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:05,330 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:05,358 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:05,365 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:05,365 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:05,365 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:05,365 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:05,365 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:05,383 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:05,425 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:05,425 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:05,425 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:05,425 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:05,425 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:05,426 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:05,453 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:05,470 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:05,470 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:05,470 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:05,470 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:05,470 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:05,488 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:05,515 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:05,516 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:05,516 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:05,516 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:05,516 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:05,516 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:05,550 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:05,575 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:05,608 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:05,621 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:05,621 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:05,622 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:05,622 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:05,622 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:05,634 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:05,664 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:05,692 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:05,692 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:05,693 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:05,693 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:05,693 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:05,707 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:05,742 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:05,742 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:05,742 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:05,742 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:05,742 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:05,748 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:05,773 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:05,773 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:05,775 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:05,775 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:05,775 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:05,792 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:05,823 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:05,830 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:05,830 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:05,830 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:05,830 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:05,830 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:05,858 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:05,878 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:05,878 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:05,878 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:05,878 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:05,878 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:05,886 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:05,912 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:05,942 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:05,948 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:05,948 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:05,948 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:05,948 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:05,948 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:05,983 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:05,993 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:05,993 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:05,994 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:05,994 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:05,994 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:06,014 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:06,041 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:06,041 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:06,041 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:06,042 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:06,042 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:06,046 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:06,067 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:06,093 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:06,094 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:06,094 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:06,094 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:06,094 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:06,094 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:06,127 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:06,133 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:06,133 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:06,133 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:06,133 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:06,133 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:06,159 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:06,181 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:06,181 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:06,181 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:06,181 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:06,181 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:06,184 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:06,213 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:06,244 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:06,244 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:06,244 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:06,244 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:06,245 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:06,254 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:06,271 - __main__ - DEBUG - Processed frame 700
+2024-10-07 00:55:06,271 - __main__ - DEBUG - Got raw frame: (1080, 1920, 3)
+2024-10-07 00:55:06,271 - __main__ - DEBUG - Got gaze coordinates: (None, None)
+2024-10-07 00:55:06,271 - __main__ - DEBUG - Got fixation coordinates: (None, None)
+2024-10-07 00:55:06,271 - __main__ - DEBUG - Got drawn frame: (1080, 1920, 3)
+2024-10-07 00:55:06,272 - __main__ - DEBUG - Got final frame: (1080, 1920, 3)
+2024-10-07 00:55:06,288 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:06,302 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:06,303 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:06,303 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:06,303 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:06,303 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:06,325 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:06,361 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:06,402 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:06,402 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:06,402 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:06,402 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:06,402 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:06,409 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:06,436 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:06,445 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:06,446 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:06,446 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:06,446 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:06,446 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:06,485 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:06,485 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:06,485 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:06,485 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:06,485 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:06,485 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:06,519 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:06,523 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:06,523 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:06,523 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:06,523 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:06,523 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:06,551 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:06,567 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:06,567 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:06,567 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:06,567 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:06,567 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:06,575 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:06,609 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:06,638 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:06,638 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:06,638 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:06,638 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:06,638 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:06,643 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:06,671 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:06,689 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:06,689 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:06,689 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:06,690 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:06,690 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:06,694 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:06,725 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:06,728 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:06,728 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:06,728 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:06,728 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:06,728 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:06,747 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:06,782 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:06,788 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:06,788 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:06,788 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:06,788 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:06,788 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:06,818 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:06,838 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:06,838 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:06,838 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:06,838 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:06,838 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:06,853 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:06,881 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:06,897 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:06,897 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:06,897 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:06,897 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:06,897 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:06,902 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:06,926 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:06,946 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:06,946 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:06,946 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:06,946 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:06,946 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:06,963 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:06,991 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:06,992 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:06,992 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:06,992 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:06,992 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:06,992 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:07,030 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:07,036 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:07,036 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:07,036 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:07,036 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:07,036 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:07,054 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:07,076 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:07,076 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:07,076 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:07,076 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:07,077 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:07,081 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:07,110 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:07,113 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:07,114 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:07,114 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:07,114 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:07,114 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:07,137 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:07,164 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:07,165 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:07,165 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:07,165 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:07,165 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:07,165 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:07,197 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:07,197 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:07,197 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:07,198 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:07,198 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:07,203 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:07,230 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:07,252 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:07,252 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:07,252 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:07,252 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:07,252 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:07,258 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:07,290 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:07,299 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:07,299 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:07,299 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:07,299 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:07,299 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:07,319 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:07,350 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:07,363 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:07,364 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:07,364 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:07,364 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:07,364 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:07,390 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:07,424 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:07,439 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:07,439 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:07,439 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:07,439 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:07,439 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:07,450 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:07,479 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:07,494 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:07,494 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:07,494 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:07,494 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:07,494 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:07,521 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:07,524 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:07,524 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:07,524 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:07,525 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:07,525 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:07,566 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:07,573 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:07,574 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:07,574 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:07,574 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:07,574 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:07,591 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:07,617 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:07,617 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:07,617 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:07,618 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:07,618 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:07,621 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:07,647 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:07,655 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:07,655 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:07,655 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:07,655 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:07,655 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:07,702 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:07,711 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:07,711 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:07,711 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:07,711 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:07,711 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:07,733 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:07,749 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:07,749 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:07,749 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:07,749 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:07,749 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:07,765 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:07,789 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:07,818 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:07,818 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:07,818 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:07,819 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:07,819 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:07,821 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:07,850 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:07,884 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:07,908 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:07,908 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:07,908 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:07,908 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:07,908 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:07,916 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:07,973 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:07,973 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:07,974 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:07,974 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:07,974 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:07,974 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:08,005 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:08,037 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:08,037 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:08,037 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:08,037 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:08,037 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:08,058 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:08,104 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:08,104 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:08,104 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:08,105 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:08,105 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:08,105 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:08,162 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:08,188 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:08,227 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:08,227 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:08,227 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:08,228 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:08,228 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:08,232 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:08,264 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:08,279 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:08,279 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:08,279 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:08,279 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:08,279 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:08,309 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:08,337 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:08,340 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:08,340 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:08,340 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:08,340 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:08,340 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:08,384 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:08,398 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:08,398 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:08,398 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:08,398 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:08,399 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:08,427 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:08,427 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:08,427 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:08,427 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:08,427 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:08,427 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:08,453 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:08,475 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:08,475 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:08,475 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:08,475 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:08,475 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:08,498 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:08,518 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:08,518 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:08,518 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:08,518 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:08,518 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:08,518 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:08,554 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:08,555 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:08,555 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:08,555 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:08,555 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:08,567 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:08,589 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:08,589 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:08,589 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:08,589 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:08,589 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:08,597 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:08,628 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:08,629 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:08,629 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:08,629 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:08,629 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:08,629 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:08,665 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:08,665 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:08,665 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:08,665 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:08,665 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:08,683 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:08,700 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:08,700 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:08,700 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:08,700 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:08,700 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:08,711 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:08,732 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:08,733 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:08,733 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:08,733 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:08,733 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:08,754 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:08,780 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:08,780 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:08,780 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:08,780 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:08,780 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:08,782 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:08,811 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:08,815 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:08,815 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:08,815 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:08,815 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:08,815 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:08,852 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:08,866 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:08,866 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:08,866 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:08,866 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:08,866 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:08,881 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:08,916 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:08,925 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:08,925 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:08,925 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:08,925 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:08,925 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:08,945 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:08,967 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:08,967 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:08,967 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:08,967 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:08,968 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:08,980 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:09,012 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:09,013 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:09,013 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:09,013 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:09,013 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:09,013 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:09,046 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:09,059 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:09,060 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:09,060 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:09,060 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:09,060 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:09,070 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:09,106 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:09,106 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:09,106 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:09,106 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:09,106 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:09,110 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:09,143 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:09,155 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:09,155 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:09,155 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:09,156 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:09,156 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:09,167 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:09,193 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:09,204 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:09,204 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:09,204 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:09,204 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:09,204 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:09,224 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:09,267 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:09,295 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:09,326 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:09,327 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:09,327 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:09,327 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:09,327 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:09,327 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:09,356 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:09,382 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:09,382 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:09,382 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:09,383 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:09,383 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:09,395 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:09,424 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:09,424 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:09,425 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:09,425 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:09,425 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:09,435 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:09,457 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:09,457 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:09,457 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:09,457 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:09,458 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:09,471 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:09,496 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:09,496 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:09,496 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:09,496 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:09,496 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:09,517 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:09,546 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:09,552 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:09,553 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:09,553 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:09,553 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:09,553 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:09,574 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:09,592 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:09,593 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:09,593 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:09,593 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:09,593 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:09,612 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:09,643 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:09,643 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:09,643 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:09,643 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:09,643 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:09,663 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:09,697 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:09,698 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:09,698 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:09,698 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:09,698 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:09,709 - __main__ - DEBUG - Processed frame 800
+2024-10-07 00:55:09,709 - __main__ - DEBUG - Got raw frame: (1080, 1920, 3)
+2024-10-07 00:55:09,709 - __main__ - DEBUG - Got gaze coordinates: (None, None)
+2024-10-07 00:55:09,709 - __main__ - DEBUG - Got fixation coordinates: (None, None)
+2024-10-07 00:55:09,709 - __main__ - DEBUG - Got drawn frame: (1080, 1920, 3)
+2024-10-07 00:55:09,709 - __main__ - DEBUG - Got final frame: (1080, 1920, 3)
+2024-10-07 00:55:09,720 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:09,757 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:09,783 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:09,808 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:09,875 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:09,906 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:09,944 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:09,980 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:10,019 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:10,052 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:10,081 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:10,114 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:10,145 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:10,174 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:10,202 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:10,202 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:10,202 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:10,202 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:10,202 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:10,202 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:10,241 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:10,271 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:10,296 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 00:55:10,297 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 00:55:10,297 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 00:55:10,297 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 00:55:10,297 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 00:55:10,305 - SurfaceListener - DEBUG - Retrieved latest data: (None, None, None, None)
+2024-10-07 00:55:10,337 - __main__ - INFO - Quit signal received
+2024-10-07 00:55:10,339 - SurfaceListener - INFO - Closed ZMQ connections
+2024-10-07 00:55:10,339 - SurfaceListener - DEBUG - SurfaceListener stopped
+2024-10-07 00:55:10,339 - __main__ - INFO - Application closed successfully

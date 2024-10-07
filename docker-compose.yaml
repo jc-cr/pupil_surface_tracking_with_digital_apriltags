@@ -26,7 +26,7 @@ services:
     privileged: true
     group_add:
       - plugdev
-    command: "python main.py capture" #--hide-ui
+    command: "python main.py capture" #--hide-ui"
 
   surface_module:
     build:
@@ -41,4 +41,4 @@ services:
       - LIBGL_ALWAYS_INDIRECT=0
       - XAUTHORITY=/tmp/.docker.xauth
     network_mode: host
-    command: "python3 scripts/main.py"
+    command: "python3 scripts/main.py --debug"

@@ -1,9 +1,0 @@
-2024-10-06 21:44:33,678 - __main__ - INFO - Starting Gaze Drawing App
-2024-10-06 21:44:33,680 - __main__ - INFO - Attempted connection to Surface Listener
-2024-10-06 21:44:33,680 - __main__ - INFO - Created Empty Video stream
-2024-10-06 21:44:33,790 - __main__ - INFO - Created AprilTagRenderer
-2024-10-06 21:44:33,790 - __main__ - INFO - Created FrameDrawing object
-2024-10-06 21:44:33,863 - __main__ - INFO - Created display window: Debug Window
-2024-10-06 22:30:43,851 - __main__ - INFO - Quit signal received
-2024-10-06 22:30:43,898 - __main__ - INFO - Closed ZMQ connections
-2024-10-06 22:30:43,898 - __main__ - INFO - Application closed successfully

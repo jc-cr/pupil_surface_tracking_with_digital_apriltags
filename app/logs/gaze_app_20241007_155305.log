@@ -1,0 +1,1229 @@
+2024-10-07 15:53:05,841 - __main__ - INFO - Starting Gaze Drawing App
+2024-10-07 15:53:05,842 - SurfaceListener - DEBUG - Initialized SurfaceListener with topic: surfaces
+2024-10-07 15:53:05,844 - SurfaceListener - DEBUG - SurfaceListener thread started
+2024-10-07 15:53:05,844 - __main__ - INFO - Attempted connection to Surface Listener
+2024-10-07 15:53:05,844 - __main__ - INFO - Created Empty Video stream
+2024-10-07 15:53:05,926 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-10-07 15:53:05,926 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 41 6
+2024-10-07 15:53:05,926 - PIL.PngImagePlugin - DEBUG - b'bKGD' 41 6 (unknown)
+2024-10-07 15:53:05,926 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 59 5036
+2024-10-07 15:53:05,982 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-10-07 15:53:05,982 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 41 6
+2024-10-07 15:53:05,982 - PIL.PngImagePlugin - DEBUG - b'bKGD' 41 6 (unknown)
+2024-10-07 15:53:05,982 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 59 5021
+2024-10-07 15:53:05,991 - __main__ - INFO - Created AprilTagRenderer
+2024-10-07 15:53:05,992 - __main__ - INFO - Created FrameDrawing object
+2024-10-07 15:53:06,080 - __main__ - INFO - Created display window: Debug Window
+2024-10-07 15:53:06,080 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:06,080 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:06,453 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:06,453 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:06,759 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:06,759 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:07,044 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:07,044 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:07,247 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:07,247 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:07,446 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:07,446 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:07,655 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:07,656 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:07,852 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:07,852 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:08,043 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:08,043 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:08,284 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:08,284 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:08,482 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:08,482 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:08,632 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:08,632 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:08,804 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:08,805 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:09,004 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:09,005 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:09,174 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:09,174 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:09,339 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:09,339 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:09,437 - SurfaceListener - INFO - Connected to Pupil on port 50020, subscribed on port 44437
+2024-10-07 15:53:09,437 - SurfaceListener - INFO - Subscribed to topic: surfaces
+2024-10-07 15:53:09,437 - SurfaceListener - INFO - Subscribed to topic: gaze
+2024-10-07 15:53:09,437 - SurfaceListener - INFO - Subscribed to topic: fixations
+2024-10-07 15:53:09,534 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:09,534 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:09,769 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:09,769 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:09,929 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:09,929 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:09,929 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:09,929 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:09,929 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:09,952 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:09,952 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:09,952 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:09,952 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:09,952 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:09,968 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:09,968 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:09,978 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:09,978 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:09,978 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:09,978 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:09,978 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:10,021 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:10,021 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:10,021 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:10,021 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:10,021 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:10,067 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:10,068 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:10,068 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:10,068 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:10,068 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:10,099 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:10,099 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:10,099 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:10,099 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:10,099 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:10,122 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:10,122 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:10,122 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:10,122 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:10,122 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:10,163 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:10,164 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:10,164 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:10,164 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:10,164 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:10,213 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:10,213 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:10,213 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:10,213 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:10,213 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:10,213 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:10,214 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:10,246 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:10,247 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:10,247 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:10,247 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:10,247 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:10,282 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:10,283 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:10,283 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:10,283 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:10,283 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:10,309 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:10,309 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:10,309 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:10,309 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:10,309 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:10,355 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:10,355 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:10,355 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:10,355 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:10,355 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:10,383 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:10,383 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:10,383 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:10,383 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:10,383 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:10,413 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:10,413 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:10,413 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:10,413 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:10,413 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:10,442 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:10,442 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:10,442 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:10,442 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:10,442 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:10,481 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:10,481 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:10,481 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:10,481 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:10,481 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:10,485 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:10,485 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:10,525 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:10,525 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:10,525 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:10,525 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:10,525 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:10,690 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:10,690 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:10,690 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:10,690 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:10,690 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:10,745 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:10,745 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:10,746 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:10,746 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:10,746 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:10,773 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:10,773 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:10,804 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:10,804 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:10,804 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:10,804 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:10,804 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:10,929 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:10,933 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:10,934 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:10,934 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:10,934 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:10,976 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:10,976 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:10,976 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:10,976 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:10,976 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:11,038 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:11,038 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:11,038 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:11,038 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:11,039 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:11,090 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:11,090 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:11,093 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:11,093 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:11,093 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:11,093 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:11,093 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:11,181 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:11,181 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:11,181 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:11,181 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:11,181 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:11,239 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:11,240 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:11,240 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:11,240 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:11,240 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:11,288 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:11,288 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:11,288 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:11,288 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:11,288 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:11,342 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:11,342 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:11,343 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:11,343 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:11,343 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:11,400 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:11,400 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:11,400 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:11,400 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:11,400 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:11,419 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:11,419 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:11,456 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:11,457 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:11,457 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:11,457 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:11,457 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:11,517 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:11,517 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:11,517 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:11,517 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:11,517 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:11,564 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:11,564 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:11,564 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:11,564 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:11,564 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:11,624 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:11,624 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:11,624 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:11,624 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:11,624 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:11,672 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:11,672 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:11,672 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:11,672 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:11,673 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:11,735 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:11,735 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:11,736 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:11,736 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:11,736 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:11,736 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:11,736 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:11,785 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:11,785 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:11,785 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:11,785 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:11,785 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:11,858 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:11,858 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:11,859 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:11,859 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:11,859 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:11,919 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:11,919 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:11,919 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:11,919 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:11,920 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:11,964 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:11,964 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:11,964 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:11,964 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:11,964 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:11,991 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:11,991 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:12,011 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:12,011 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:12,011 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:12,011 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:12,011 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:12,047 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:12,047 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:12,047 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:12,047 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:12,047 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:12,123 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:12,124 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:12,124 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:12,124 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:12,124 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:12,180 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:12,180 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:12,181 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:12,181 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:12,181 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:12,220 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:12,220 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:12,220 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:12,220 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:12,220 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:12,233 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:12,233 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:12,283 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:12,284 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:12,284 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:12,284 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:12,284 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:12,325 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:12,325 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:12,325 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:12,325 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:12,325 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:12,439 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:12,439 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:12,439 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:12,440 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:12,440 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:12,498 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:12,498 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:12,498 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:12,498 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:12,499 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:12,541 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:12,542 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:12,542 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:12,542 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:12,542 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:12,590 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:12,590 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:12,590 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:12,590 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:12,590 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:12,636 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:12,636 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:12,636 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:12,636 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:12,636 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:12,654 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:12,654 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:12,696 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:12,696 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:12,696 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:12,696 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:12,696 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:13,001 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:13,001 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:13,338 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:13,338 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:13,798 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:13,798 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:14,062 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:14,062 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:14,318 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:14,318 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:14,538 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:14,538 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:14,736 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:14,737 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:14,975 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:14,975 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:15,210 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:15,211 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:15,453 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:15,453 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:15,682 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:15,683 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:15,941 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:15,941 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:16,147 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:16,148 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:16,384 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:16,384 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:16,617 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:16,617 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:16,843 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:16,843 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:17,091 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:17,091 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:17,323 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:17,323 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:17,561 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:17,561 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:17,820 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:17,820 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:18,095 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:18,095 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:18,382 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:18,382 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:18,778 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:18,778 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:19,064 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:19,064 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:19,280 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:19,280 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:19,280 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:19,280 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:19,280 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:19,411 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:19,411 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:19,569 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:19,569 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:19,570 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:19,570 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:19,570 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:19,715 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:19,716 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:19,970 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:19,970 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:19,970 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:19,970 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:19,970 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:20,009 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:20,009 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:20,051 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:20,051 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:20,052 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:20,052 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:20,052 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:20,322 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:20,322 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:20,477 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:20,477 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:20,478 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:20,478 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:20,478 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:20,613 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:20,613 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:20,921 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:20,921 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:21,311 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:21,311 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:21,580 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:21,581 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:21,871 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:21,872 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:21,994 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:21,995 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:21,995 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:21,995 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:21,995 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:22,075 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:22,075 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:22,075 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:22,075 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:22,075 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:22,152 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:22,152 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:22,153 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:22,153 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:22,153 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:22,212 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:22,212 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:22,250 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:22,250 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:22,250 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:22,250 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:22,251 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:22,314 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:22,314 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:22,315 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:22,315 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:22,315 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:22,403 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:22,404 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:22,404 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:22,404 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:22,404 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:22,485 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:22,485 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:22,485 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:22,485 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:22,485 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:22,523 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:22,523 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:22,545 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:22,545 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:22,545 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:22,545 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:22,545 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:22,652 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:22,653 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:22,653 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:22,653 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:22,653 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:22,746 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:22,746 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:22,746 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:22,747 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:22,747 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:22,756 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:22,756 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:22,839 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:22,839 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:22,839 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:22,839 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:22,839 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:22,948 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:22,949 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:22,949 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:22,949 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:22,949 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:23,022 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:23,022 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:23,039 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:23,040 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:23,040 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:23,040 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:23,040 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:23,159 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:23,159 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:23,159 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:23,159 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:23,160 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:23,267 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:23,268 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:23,269 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:23,269 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:23,269 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:23,269 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:23,270 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:23,374 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:23,375 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:23,375 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:23,375 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:23,375 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:23,490 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:23,490 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:23,490 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:23,490 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:23,491 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:23,583 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:23,583 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:23,583 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:23,583 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:23,583 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:23,588 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:23,588 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:23,670 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:23,672 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:23,672 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:23,672 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:23,672 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:23,748 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:23,749 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:23,749 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:23,749 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:23,749 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:23,894 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:23,894 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:23,895 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:23,895 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:23,895 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:23,986 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:23,986 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:24,018 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:24,018 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:24,018 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:24,018 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:24,018 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:24,138 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:24,138 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:24,138 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:24,138 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:24,139 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:24,230 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:24,230 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:24,231 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:24,231 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:24,231 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:24,315 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:24,316 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:24,357 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:24,357 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:24,357 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:24,357 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:24,358 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:24,458 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:24,458 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:24,458 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:24,458 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:24,458 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:24,581 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:24,581 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:24,582 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:24,582 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:24,582 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:24,652 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:24,653 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:24,734 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:24,735 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:24,735 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:24,735 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:24,735 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:24,851 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:24,851 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:24,852 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:24,852 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:24,852 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:24,988 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:24,988 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:24,988 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:24,988 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:24,988 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:25,107 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:25,107 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:25,107 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:25,107 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:25,107 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:25,107 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:25,107 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:25,196 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:25,196 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:25,196 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:25,196 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:25,196 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:25,331 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:25,331 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:25,332 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:25,332 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:25,332 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:25,449 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:25,449 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:25,451 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:25,452 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:25,452 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:25,452 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:25,452 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:25,617 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:25,617 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:25,618 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:25,618 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:25,618 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:25,724 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:25,724 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:25,724 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:25,724 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:25,724 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:25,780 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:25,780 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:25,835 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:25,836 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:25,836 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:25,836 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:25,836 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:25,974 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:25,975 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:25,975 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:25,975 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:25,975 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:26,115 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:26,116 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:26,116 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:26,116 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:26,116 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:26,123 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:26,123 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:26,197 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:26,197 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:26,197 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:26,197 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:26,197 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:26,315 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:26,316 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:26,316 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:26,316 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:26,316 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:26,442 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:26,442 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:26,443 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:26,443 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:26,443 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:26,536 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:26,536 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:26,536 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:26,536 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:26,536 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:26,552 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:26,552 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:26,638 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:26,638 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:26,638 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:26,638 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:26,638 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:26,723 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:26,723 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:26,723 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:26,723 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:26,723 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:26,879 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:26,879 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:26,879 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:26,879 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:26,879 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:26,890 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:26,890 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:27,054 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:27,054 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:27,054 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:27,054 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:27,054 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:27,187 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:27,187 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:27,187 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:27,187 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:27,187 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:27,244 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:27,245 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:27,335 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:27,335 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:27,335 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:27,335 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:27,335 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:27,454 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:27,454 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:27,454 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:27,454 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:27,454 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:27,566 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:27,567 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:27,567 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:27,567 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:27,567 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:27,572 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:27,572 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:27,682 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:27,682 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:27,682 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:27,682 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:27,682 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:27,756 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:27,756 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:27,756 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:27,756 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:27,757 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:27,831 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:27,831 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:27,832 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:27,832 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:27,832 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:27,951 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:27,951 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:27,985 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:27,986 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:27,986 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:27,986 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:27,986 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:28,130 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:28,131 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:28,131 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:28,131 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:28,131 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:28,275 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:28,275 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:28,275 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:28,275 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:28,275 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:28,307 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:28,307 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:28,413 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:28,413 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:28,413 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:28,413 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:28,413 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:28,635 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:28,635 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:28,650 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:28,654 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:28,654 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:28,654 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:28,654 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:28,808 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:28,809 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:28,809 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:28,809 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:28,809 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:28,930 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:28,930 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:28,930 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:28,930 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:28,930 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:28,985 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:28,986 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:29,043 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:29,044 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:29,044 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:29,044 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:29,044 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:29,224 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:29,225 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:29,225 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:29,225 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:29,225 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:29,290 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:29,290 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:29,290 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:29,290 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:29,290 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:29,307 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:29,307 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:29,439 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:29,439 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:29,439 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:29,440 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:29,440 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:29,591 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:29,592 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:29,592 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:29,592 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:29,592 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:29,686 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:29,686 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:29,715 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:29,715 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:29,715 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:29,715 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:29,716 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:29,855 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:29,855 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:29,855 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:29,855 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:29,855 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:29,956 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:29,956 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:29,956 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:29,956 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:29,956 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:30,017 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:30,018 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:30,046 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:30,047 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:30,047 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:30,048 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:30,048 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:30,212 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:30,213 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:30,213 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:30,213 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:30,213 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:30,310 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:30,310 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:30,310 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:30,310 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:30,310 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:30,323 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:30,323 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:30,386 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:30,386 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:30,387 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:30,387 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:30,387 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:30,474 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:30,475 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:30,475 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:30,475 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:30,475 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:30,577 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:30,577 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:30,577 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:30,577 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:30,577 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:30,663 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:30,665 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:30,688 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:30,688 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:30,688 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:30,688 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:30,688 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:30,816 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:30,817 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:30,817 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:30,817 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:30,817 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:30,918 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:30,918 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:30,919 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:30,919 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:30,919 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:30,975 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:30,975 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:30,990 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:30,991 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:30,991 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:30,991 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:30,991 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:31,096 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:31,097 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:31,097 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:31,097 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:31,097 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:31,190 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:31,191 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:31,191 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:31,191 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:31,191 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:31,330 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:31,330 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:31,331 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:31,331 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:31,331 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:31,331 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:31,331 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:31,465 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:31,466 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:31,466 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:31,466 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:31,466 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:31,613 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:31,613 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:31,613 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:31,613 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:31,614 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:31,655 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:31,655 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:31,724 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:31,724 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:31,724 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:31,724 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:31,724 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:31,868 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:31,868 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:31,868 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:31,869 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:31,869 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:31,956 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:31,956 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:31,957 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:31,957 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:31,957 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:32,026 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:32,026 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:32,044 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:32,044 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:32,045 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:32,045 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:32,045 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:32,147 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:32,147 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:32,147 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:32,147 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:32,147 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:32,302 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:32,303 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:32,303 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:32,303 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:32,303 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:32,325 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:32,326 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:32,453 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:32,453 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:32,454 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:32,454 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:32,454 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:32,591 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:32,591 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:32,591 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:32,592 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:32,592 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:32,619 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:32,619 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:32,707 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:32,708 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:32,708 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:32,708 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:32,708 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:32,777 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:32,778 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:32,778 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:32,778 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:32,778 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:32,871 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:32,871 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:32,871 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:32,871 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:32,871 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:32,894 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:32,895 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:32,951 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:32,951 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:32,951 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:32,951 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:32,952 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:33,045 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:33,045 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:33,045 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:33,045 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:33,045 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:33,155 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:33,156 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:33,156 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:33,156 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:33,156 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:33,179 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:33,179 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:33,233 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:33,234 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:33,234 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:33,234 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:33,234 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:33,361 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:33,361 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:33,361 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:33,361 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:33,361 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:33,494 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:33,495 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:33,495 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:33,495 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:33,495 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:33,508 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:33,509 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:33,576 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:33,576 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:33,576 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:33,576 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:33,576 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:33,670 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:33,670 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:33,671 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:33,671 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:33,671 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:33,796 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:33,796 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:33,796 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:33,796 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:33,797 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:33,863 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:33,863 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:33,905 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:33,905 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:33,906 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:33,906 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:33,906 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:34,040 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:34,040 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:34,040 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:34,041 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:34,041 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:34,147 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:34,148 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:34,191 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:34,192 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:34,192 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:34,192 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:34,192 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:34,325 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:34,325 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:34,325 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:34,325 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:34,325 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:34,457 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:34,458 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:34,458 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:34,458 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:34,458 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:34,459 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:34,460 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:34,580 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:34,581 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:34,581 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:34,581 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:34,581 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:34,714 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:34,714 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:34,714 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:34,714 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:34,714 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:34,759 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:34,759 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:34,849 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:34,849 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:34,849 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:34,849 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:34,849 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:34,917 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:34,918 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:34,918 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:34,918 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:34,918 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:34,998 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:34,999 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:34,999 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:35,000 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:35,000 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:35,030 - __main__ - DEBUG - Processed frame 100
+2024-10-07 15:53:35,031 - __main__ - DEBUG - Got raw frame: (1080, 1920, 3)
+2024-10-07 15:53:35,031 - __main__ - DEBUG - Got gaze coordinates: (None, None)
+2024-10-07 15:53:35,031 - __main__ - DEBUG - Got fixation coordinates: (None, None)
+2024-10-07 15:53:35,031 - __main__ - DEBUG - Got drawn frame: (1080, 1920, 3)
+2024-10-07 15:53:35,031 - __main__ - DEBUG - Got final frame: (1080, 1920, 3)
+2024-10-07 15:53:35,045 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:35,045 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:35,110 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:35,110 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:35,110 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:35,110 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:35,110 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:35,217 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:35,217 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:35,217 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:35,217 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:35,217 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:35,331 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:35,331 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:35,331 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:35,331 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:35,331 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:35,343 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:35,343 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:35,417 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:35,418 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:35,418 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:35,418 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:35,418 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:35,555 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:35,556 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:35,556 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:35,556 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:35,556 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:35,646 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:35,646 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:35,702 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:35,702 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:35,702 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:35,702 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:35,702 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:35,806 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:35,806 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:35,807 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:35,807 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:35,807 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:35,925 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:35,925 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:35,925 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:35,925 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:35,925 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:35,948 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:35,948 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:36,046 - SurfaceListener - DEBUG - Received data on topic: surfaces.Surface 1
+2024-10-07 15:53:36,047 - SurfaceListener - DEBUG - Payload keys: dict_keys(['topic', 'name', 'surf_to_img_trans', 'img_to_surf_trans', 'surf_to_dist_img_trans', 'dist_img_to_surf_trans', 'gaze_on_surfaces', 'fixations_on_surfaces', 'timestamp'])
+2024-10-07 15:53:36,047 - SurfaceListener - DEBUG - Gaze data: []
+2024-10-07 15:53:36,048 - SurfaceListener - DEBUG - Fixation data: []
+2024-10-07 15:53:36,048 - SurfaceListener - DEBUG - Added to buffer: gaze(None, None), fixation(None, None)
+2024-10-07 15:53:36,310 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:36,310 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:36,701 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:36,701 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:37,045 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:37,049 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:37,370 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:37,372 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:37,742 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:37,743 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:38,250 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:38,250 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:38,737 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:38,738 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:39,253 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:39,253 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:39,695 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:39,695 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:40,085 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:40,088 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:40,451 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:40,451 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:40,785 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:40,785 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:41,129 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:41,130 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:41,477 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:41,477 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:41,795 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:41,795 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:42,083 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:42,083 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:42,380 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:42,380 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:42,633 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:42,633 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:42,953 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:42,954 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:43,225 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:43,225 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:43,492 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:43,492 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:43,785 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:43,785 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:44,052 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:44,052 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:44,353 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:44,353 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:44,638 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:44,638 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:44,936 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:44,936 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:45,173 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:45,174 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:45,409 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:45,409 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:45,634 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:45,634 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:45,884 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:45,884 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:46,117 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:46,117 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:46,353 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:46,353 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:46,578 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:46,578 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:46,793 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:46,793 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:47,011 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:47,012 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:47,192 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:47,192 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:47,452 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:47,452 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:47,682 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:47,682 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:47,939 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:47,939 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:48,168 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:48,168 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:48,392 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:48,392 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:48,594 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:48,594 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:48,809 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:48,809 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:49,017 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:49,017 - FrameDrawing - DEBUG - No valid fixation coordinates
+2024-10-07 15:53:49,274 - FrameDrawing - DEBUG - No valid gaze coordinates
+2024-10-07 15:53:49,274 - FrameDrawing - DEBUG - No valid fixation coordinates

@@ -1,0 +1,88 @@
+2024-10-07 00:48:45,435 - __main__ - INFO - Starting Gaze Drawing App
+2024-10-07 00:48:45,435 - SurfaceListener - DEBUG - Initialized SurfaceListener with topic: b'surfaces', gaze key: gaze_on_surfaces, fixation key: fixations_on_surfaces
+2024-10-07 00:48:45,435 - SurfaceListener - DEBUG - SurfaceListener thread started
+2024-10-07 00:48:45,435 - __main__ - INFO - Attempted connection to Surface Listener
+2024-10-07 00:48:45,436 - __main__ - INFO - Created Empty Video stream
+2024-10-07 00:48:45,495 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-10-07 00:48:45,495 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 41 6
+2024-10-07 00:48:45,495 - PIL.PngImagePlugin - DEBUG - b'bKGD' 41 6 (unknown)
+2024-10-07 00:48:45,495 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 59 5036
+2024-10-07 00:48:45,544 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2024-10-07 00:48:45,544 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 41 6
+2024-10-07 00:48:45,544 - PIL.PngImagePlugin - DEBUG - b'bKGD' 41 6 (unknown)
+2024-10-07 00:48:45,544 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 59 5021
+2024-10-07 00:48:45,556 - __main__ - INFO - Created AprilTagRenderer
+2024-10-07 00:48:45,556 - __main__ - INFO - Created FrameDrawing object
+2024-10-07 00:48:45,582 - __main__ - INFO - Created display window: Debug Window
+2024-10-07 00:48:46,872 - __main__ - DEBUG - Processed frame 100
+2024-10-07 00:48:46,873 - __main__ - DEBUG - Got raw frame: (1080, 1920, 3)
+2024-10-07 00:48:46,873 - __main__ - DEBUG - Got gaze coordinates: (None, None)
+2024-10-07 00:48:46,873 - __main__ - DEBUG - Got fixation coordinates: (None, None)
+2024-10-07 00:48:46,873 - __main__ - DEBUG - Got drawn frame: (1080, 1920, 3)
+2024-10-07 00:48:46,873 - __main__ - DEBUG - Got final frame: (1080, 1920, 3)
+2024-10-07 00:48:47,815 - SurfaceListener - INFO - Connected to Pupil on port 50020, subscribed on port 43629
+2024-10-07 00:48:47,816 - SurfaceListener - INFO - Subscribed to surface topic: b'surfaces'
+2024-10-07 00:48:47,974 - __main__ - DEBUG - Processed frame 200
+2024-10-07 00:48:47,974 - __main__ - DEBUG - Got raw frame: (1080, 1920, 3)
+2024-10-07 00:48:47,974 - __main__ - DEBUG - Got gaze coordinates: (None, None)
+2024-10-07 00:48:47,974 - __main__ - DEBUG - Got fixation coordinates: (None, None)
+2024-10-07 00:48:47,974 - __main__ - DEBUG - Got drawn frame: (1080, 1920, 3)
+2024-10-07 00:48:47,974 - __main__ - DEBUG - Got final frame: (1080, 1920, 3)
+2024-10-07 00:48:48,816 - SurfaceListener - DEBUG - No data received within timeout
+2024-10-07 00:48:49,162 - __main__ - DEBUG - Processed frame 300
+2024-10-07 00:48:49,162 - __main__ - DEBUG - Got raw frame: (1080, 1920, 3)
+2024-10-07 00:48:49,162 - __main__ - DEBUG - Got gaze coordinates: (None, None)
+2024-10-07 00:48:49,162 - __main__ - DEBUG - Got fixation coordinates: (None, None)
+2024-10-07 00:48:49,162 - __main__ - DEBUG - Got drawn frame: (1080, 1920, 3)
+2024-10-07 00:48:49,162 - __main__ - DEBUG - Got final frame: (1080, 1920, 3)
+2024-10-07 00:48:49,817 - SurfaceListener - DEBUG - No data received within timeout
+2024-10-07 00:48:50,634 - __main__ - DEBUG - Processed frame 400
+2024-10-07 00:48:50,635 - __main__ - DEBUG - Got raw frame: (1080, 1920, 3)
+2024-10-07 00:48:50,635 - __main__ - DEBUG - Got gaze coordinates: (None, None)
+2024-10-07 00:48:50,635 - __main__ - DEBUG - Got fixation coordinates: (None, None)
+2024-10-07 00:48:50,635 - __main__ - DEBUG - Got drawn frame: (1080, 1920, 3)
+2024-10-07 00:48:50,635 - __main__ - DEBUG - Got final frame: (1080, 1920, 3)
+2024-10-07 00:48:50,818 - SurfaceListener - DEBUG - No data received within timeout
+2024-10-07 00:48:51,820 - SurfaceListener - DEBUG - No data received within timeout
+2024-10-07 00:48:52,295 - __main__ - DEBUG - Processed frame 500
+2024-10-07 00:48:52,295 - __main__ - DEBUG - Got raw frame: (1080, 1920, 3)
+2024-10-07 00:48:52,295 - __main__ - DEBUG - Got gaze coordinates: (None, None)
+2024-10-07 00:48:52,295 - __main__ - DEBUG - Got fixation coordinates: (None, None)
+2024-10-07 00:48:52,295 - __main__ - DEBUG - Got drawn frame: (1080, 1920, 3)
+2024-10-07 00:48:52,295 - __main__ - DEBUG - Got final frame: (1080, 1920, 3)
+2024-10-07 00:48:52,820 - SurfaceListener - DEBUG - No data received within timeout
+2024-10-07 00:48:53,821 - SurfaceListener - DEBUG - No data received within timeout
+2024-10-07 00:48:53,954 - __main__ - DEBUG - Processed frame 600
+2024-10-07 00:48:53,954 - __main__ - DEBUG - Got raw frame: (1080, 1920, 3)
+2024-10-07 00:48:53,954 - __main__ - DEBUG - Got gaze coordinates: (None, None)
+2024-10-07 00:48:53,954 - __main__ - DEBUG - Got fixation coordinates: (None, None)
+2024-10-07 00:48:53,954 - __main__ - DEBUG - Got drawn frame: (1080, 1920, 3)
+2024-10-07 00:48:53,954 - __main__ - DEBUG - Got final frame: (1080, 1920, 3)
+2024-10-07 00:48:54,822 - SurfaceListener - DEBUG - No data received within timeout
+2024-10-07 00:48:55,694 - __main__ - DEBUG - Processed frame 700
+2024-10-07 00:48:55,694 - __main__ - DEBUG - Got raw frame: (1080, 1920, 3)
+2024-10-07 00:48:55,694 - __main__ - DEBUG - Got gaze coordinates: (None, None)
+2024-10-07 00:48:55,694 - __main__ - DEBUG - Got fixation coordinates: (None, None)
+2024-10-07 00:48:55,694 - __main__ - DEBUG - Got drawn frame: (1080, 1920, 3)
+2024-10-07 00:48:55,694 - __main__ - DEBUG - Got final frame: (1080, 1920, 3)
+2024-10-07 00:48:55,823 - SurfaceListener - DEBUG - No data received within timeout
+2024-10-07 00:48:56,824 - SurfaceListener - DEBUG - No data received within timeout
+2024-10-07 00:48:57,407 - __main__ - DEBUG - Processed frame 800
+2024-10-07 00:48:57,407 - __main__ - DEBUG - Got raw frame: (1080, 1920, 3)
+2024-10-07 00:48:57,407 - __main__ - DEBUG - Got gaze coordinates: (None, None)
+2024-10-07 00:48:57,407 - __main__ - DEBUG - Got fixation coordinates: (None, None)
+2024-10-07 00:48:57,407 - __main__ - DEBUG - Got drawn frame: (1080, 1920, 3)
+2024-10-07 00:48:57,407 - __main__ - DEBUG - Got final frame: (1080, 1920, 3)
+2024-10-07 00:48:57,825 - SurfaceListener - DEBUG - No data received within timeout
+2024-10-07 00:48:58,827 - SurfaceListener - DEBUG - No data received within timeout
+2024-10-07 00:48:59,109 - __main__ - DEBUG - Processed frame 900
+2024-10-07 00:48:59,109 - __main__ - DEBUG - Got raw frame: (1080, 1920, 3)
+2024-10-07 00:48:59,109 - __main__ - DEBUG - Got gaze coordinates: (None, None)
+2024-10-07 00:48:59,109 - __main__ - DEBUG - Got fixation coordinates: (None, None)
+2024-10-07 00:48:59,109 - __main__ - DEBUG - Got drawn frame: (1080, 1920, 3)
+2024-10-07 00:48:59,109 - __main__ - DEBUG - Got final frame: (1080, 1920, 3)
+2024-10-07 00:48:59,746 - __main__ - INFO - Quit signal received
+2024-10-07 00:48:59,827 - SurfaceListener - DEBUG - No data received within timeout
+2024-10-07 00:48:59,828 - SurfaceListener - INFO - Closed ZMQ connections
+2024-10-07 00:48:59,828 - SurfaceListener - DEBUG - SurfaceListener stopped
+2024-10-07 00:48:59,828 - __main__ - INFO - Application closed successfully

@@ -1,8 +1,0 @@
-2024-10-06 20:13:21,666 - __main__ - INFO - Starting Gaze Drawing App
-2024-10-06 20:13:23,809 - __main__ - INFO - Connected to Pupil
-2024-10-06 20:13:23,809 - __main__ - INFO - Connected to surface topic
-2024-10-06 20:13:23,810 - __main__ - INFO - Attempted connection to Surface Listener
-2024-10-06 20:13:23,810 - __main__ - INFO - Created Empty Video stream
-2024-10-06 20:13:23,936 - __main__ - INFO - Created AprilTagRenderer
-2024-10-06 20:13:23,936 - __main__ - INFO - Created FrameDrawing object
-2024-10-06 20:13:24,007 - __main__ - INFO - Created display window: Debug Window
