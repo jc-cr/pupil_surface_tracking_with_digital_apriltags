@@ -1,367 +1,459 @@
-2024-10-07 15:53:06,033 - world - [DEBUG] uvc: Not running on macOS. Will attempt to detach kernel drivers.
-2024-10-07 15:53:06,048 - world - [DEBUG] launchables.world: Application Version: 3.6.3
-2024-10-07 15:53:06,050 - world - [DEBUG] launchables.world: System Info: User: pupiluser, Platform: Linux, Machine: jc-thinkpad, Release: 6.8.0-45-generic, Version: #45-Ubuntu SMP PREEMPT_DYNAMIC Fri Aug 30 12:02:04 UTC 2024
-2024-10-07 15:53:06,051 - world - [DEBUG] launchables.world: Debug flag: False
-2024-10-07 15:53:07,631 - world - [DEBUG] video_capture.ndsi_backend: Suppressing pyre debug logs (except zbeacon)
-2024-10-07 15:53:07,697 - world - [DEBUG] pupil_apriltags.bindings: Testing possible hit: /usr/local/lib/python3.8/site-packages/pupil_apriltags/lib64/libapriltag.so.3.1.0...
-2024-10-07 15:53:07,699 - world - [DEBUG] pupil_apriltags.bindings: Found working clib at /usr/local/lib/python3.8/site-packages/pupil_apriltags/lib64/libapriltag.so.3.1.0
-2024-10-07 15:53:07,813 - world - [DEBUG] remote_recorder: Suppressing pyre debug logs (except zbeacon)
-2024-10-07 15:53:07,836 - world - [DEBUG] plugin: Searching /app/pupil/capture_settings/plugins...
-2024-10-07 15:53:07,837 - world - [DEBUG] file_methods: Session settings file '/app/pupil/capture_settings/user_settings_world' not found. Will make new one on exit.
-2024-10-07 15:53:07,837 - world - [DEBUG] launchables.world: Session setting are from a different version of this app. I will not use those.
-2024-10-07 15:53:07,988 - world - [DEBUG] plugin: Plugin HMD_Streaming_Manager failed to load, not available for import.
-2024-10-07 15:53:07,988 - world - [DEBUG] plugin: Plugin Dummy_Gaze_Mapper failed to load, not available for import.
-2024-10-07 15:53:07,989 - world - [DEBUG] plugin: Loading plugin: UVC_Manager with settings {}
-2024-10-07 15:53:08,429 - world - [DEBUG] plugin: Loading plugin: NDSI_Manager with settings {}
-2024-10-07 15:53:08,430 - world - [DEBUG] ndsi.network: Starting network...
-2024-10-07 15:53:08,438 - world - [DEBUG] pyre.zbeacon: Available interfaces: [{'enp0s31f6': {17: {'addr': 'f8:75:a4:fe:03:9a'}}}, {'wlp0s20f3': {17: {'addr': 'b8:9a:2a:66:2d:f8'}, 2: {'addr': '192.168.1.104', 'netmask': '255.255.255.0', 'broadcast': '192.168.1.255'}, 10: {'addr': 'fe80::ba9a:2aff:fe66:2df8', 'scope': 3, 'netmask': 'ffff:ffff:ffff:ffff::'}}}, {'br-bb681f6ff42c': {17: {'addr': '02:42:75:ac:f1:e0'}, 2: {'addr': '172.24.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.24.255.255'}}}, {'br-ed8cfcfaf92e': {17: {'addr': '02:42:b7:71:f8:e1'}, 2: {'addr': '172.25.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.25.255.255'}}}, {'docker0': {17: {'addr': '02:42:34:91:ff:fa'}, 2: {'addr': '172.17.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.17.255.255'}, 10: {'addr': 'fe80::42:34ff:fe91:fffa', 'scope': 6, 'netmask': 'ffff:ffff:ffff:ffff::'}}}, {'br-4be18ffac5c9': {17: {'addr': '02:42:2a:27:1f:28'}, 2: {'addr': '172.21.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.21.255.255'}}}, {'br-5eb13c9765ac': {17: {'addr': '02:42:f0:70:c2:e7'}, 2: {'addr': '172.26.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.26.255.255'}}}, {'br-70a7d590bc36': {17: {'addr': '02:42:90:32:b8:8e'}, 2: {'addr': '172.20.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.20.255.255'}}}, {'br-e87dafb95a95': {17: {'addr': '02:42:f2:21:97:7d'}, 2: {'addr': '172.19.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.19.255.255'}}}, {'br-f13a35e8aeb7': {17: {'addr': '02:42:ed:c2:a6:72'}, 2: {'addr': '172.22.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.22.255.255'}}}, {'br-44832085d669': {17: {'addr': '02:42:7e:62:cd:c1'}, 2: {'addr': '172.18.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.18.255.255'}}}, {'lo': {2: {'addr': '127.0.0.1', 'netmask': '255.0.0.0'}, 10: {'addr': '::1', 'netmask': 'ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff'}}}]
-2024-10-07 15:53:08,438 - world - [DEBUG] pyre.zbeacon: Checking out interface enp0s31f6.
-2024-10-07 15:53:08,438 - world - [DEBUG] pyre.zbeacon: No data_2 found for interface enp0s31f6.
-2024-10-07 15:53:08,438 - world - [DEBUG] pyre.zbeacon: Checking out interface wlp0s20f3.
-2024-10-07 15:53:08,438 - world - [DEBUG] pyre.zbeacon: Finished scanning interfaces.
-2024-10-07 15:53:08,438 - world - [DEBUG] pyre.zbeacon: Address: 192.168.1.104
-2024-10-07 15:53:08,438 - world - [DEBUG] pyre.zbeacon: Network: 192.168.1.0
-2024-10-07 15:53:08,438 - world - [DEBUG] pyre.zbeacon: Broadcast: 192.168.1.255
-2024-10-07 15:53:08,438 - world - [DEBUG] pyre.zbeacon: Interface name: wlp0s20f3
-2024-10-07 15:53:08,438 - world - [DEBUG] pyre.zbeacon: Set up a broadcast beacon to 192.168.1.255:5670
-2024-10-07 15:53:08,439 - world - [DEBUG] ndsi.network: Starting network...
-2024-10-07 15:53:08,441 - world - [DEBUG] pyre.zbeacon: Available interfaces: [{'enp0s31f6': {17: {'addr': 'f8:75:a4:fe:03:9a'}}}, {'wlp0s20f3': {17: {'addr': 'b8:9a:2a:66:2d:f8'}, 2: {'addr': '192.168.1.104', 'netmask': '255.255.255.0', 'broadcast': '192.168.1.255'}, 10: {'addr': 'fe80::ba9a:2aff:fe66:2df8', 'scope': 3, 'netmask': 'ffff:ffff:ffff:ffff::'}}}, {'br-bb681f6ff42c': {17: {'addr': '02:42:75:ac:f1:e0'}, 2: {'addr': '172.24.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.24.255.255'}}}, {'br-ed8cfcfaf92e': {17: {'addr': '02:42:b7:71:f8:e1'}, 2: {'addr': '172.25.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.25.255.255'}}}, {'docker0': {17: {'addr': '02:42:34:91:ff:fa'}, 2: {'addr': '172.17.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.17.255.255'}, 10: {'addr': 'fe80::42:34ff:fe91:fffa', 'scope': 6, 'netmask': 'ffff:ffff:ffff:ffff::'}}}, {'br-4be18ffac5c9': {17: {'addr': '02:42:2a:27:1f:28'}, 2: {'addr': '172.21.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.21.255.255'}}}, {'br-5eb13c9765ac': {17: {'addr': '02:42:f0:70:c2:e7'}, 2: {'addr': '172.26.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.26.255.255'}}}, {'br-70a7d590bc36': {17: {'addr': '02:42:90:32:b8:8e'}, 2: {'addr': '172.20.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.20.255.255'}}}, {'br-e87dafb95a95': {17: {'addr': '02:42:f2:21:97:7d'}, 2: {'addr': '172.19.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.19.255.255'}}}, {'br-f13a35e8aeb7': {17: {'addr': '02:42:ed:c2:a6:72'}, 2: {'addr': '172.22.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.22.255.255'}}}, {'br-44832085d669': {17: {'addr': '02:42:7e:62:cd:c1'}, 2: {'addr': '172.18.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.18.255.255'}}}, {'lo': {2: {'addr': '127.0.0.1', 'netmask': '255.0.0.0'}, 10: {'addr': '::1', 'netmask': 'ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff'}}}]
-2024-10-07 15:53:08,442 - world - [DEBUG] pyre.zbeacon: Checking out interface enp0s31f6.
-2024-10-07 15:53:08,442 - world - [DEBUG] pyre.zbeacon: No data_2 found for interface enp0s31f6.
-2024-10-07 15:53:08,442 - world - [DEBUG] pyre.zbeacon: Checking out interface wlp0s20f3.
-2024-10-07 15:53:08,442 - world - [DEBUG] pyre.zbeacon: Finished scanning interfaces.
-2024-10-07 15:53:08,442 - world - [DEBUG] pyre.zbeacon: Address: 192.168.1.104
-2024-10-07 15:53:08,442 - world - [DEBUG] pyre.zbeacon: Network: 192.168.1.0
-2024-10-07 15:53:08,442 - world - [DEBUG] pyre.zbeacon: Broadcast: 192.168.1.255
-2024-10-07 15:53:08,442 - world - [DEBUG] pyre.zbeacon: Interface name: wlp0s20f3
-2024-10-07 15:53:08,442 - world - [DEBUG] pyre.zbeacon: Set up a broadcast beacon to 192.168.1.255:5670
-2024-10-07 15:53:08,443 - world - [DEBUG] plugin: Loading plugin: Neon_Manager with settings {}
-2024-10-07 15:53:09,154 - world - [DEBUG] video_capture.neon_backend.plugin: Neon backend manager launched with []
-2024-10-07 15:53:09,155 - world - [DEBUG] plugin: Loading plugin: File_Manager with settings {}
-2024-10-07 15:53:09,155 - world - [DEBUG] plugin: Loading plugin: UVC_Source with settings {'preferred_names': ['Pupil Cam1 ID2', 'Logitech Camera', '(046d:081d)', 'C510', 'B525', 'C525', 'C615', 'C920', 'C930e'], 'frame_size': (1280, 720), 'frame_rate': 30}
-2024-10-07 15:53:09,196 - world - [DEBUG] uvc: Found device that mached uid: 1:20
-2024-10-07 15:53:09,204 - world - [DEBUG] uvc: Device info: {'name': 'Pupil Cam1 ID2', 'manufacturer': 'Pupil Cam1 ID2', 'serialNumber': 'unknown', 'idProduct': 37426, 'idVendor': 1443, 'device_address': 20, 'bus_number': 1, 'uid': '1:20'}
-2024-10-07 15:53:09,213 - world - [DEBUG] uvc: Device '1:20' opended.
-2024-10-07 15:53:09,214 - world - [DEBUG] uvc: Capture(name='Pupil Cam1 ID2' manufacturer='Pupil Cam1 ID2' serialNumber='unknown' idProduct=37426 idVendor=1443 device_address=20 bus_number=1 uid='1:20') - all camera modes: [CameraMode(width=1920, height=1080, fps=30, format_native=7, format_name='MJPG', supported=True), CameraMode(width=640, height=480, fps=120, format_native=7, format_name='MJPG', supported=True), CameraMode(width=640, height=480, fps=90, format_native=7, format_name='MJPG', supported=True), CameraMode(width=640, height=480, fps=60, format_native=7, format_name='MJPG', supported=True), CameraMode(width=640, height=480, fps=30, format_native=7, format_name='MJPG', supported=True), CameraMode(width=1280, height=720, fps=60, format_native=7, format_name='MJPG', supported=True), CameraMode(width=1280, height=720, fps=30, format_native=7, format_name='MJPG', supported=True), CameraMode(width=1024, height=768, fps=30, format_native=7, format_name='MJPG', supported=True), CameraMode(width=800, height=600, fps=60, format_native=7, format_name='MJPG', supported=True), CameraMode(width=1280, height=1024, fps=30, format_native=7, format_name='MJPG', supported=True), CameraMode(width=320, height=240, fps=120, format_native=7, format_name='MJPG', supported=True), CameraMode(width=1920, height=1080, fps=6, format_native=3, format_name='YUY2', supported=False), CameraMode(width=640, height=480, fps=30, format_native=3, format_name='YUY2', supported=False), CameraMode(width=1280, height=720, fps=9, format_native=3, format_name='YUY2', supported=False), CameraMode(width=1024, height=768, fps=6, format_native=3, format_name='YUY2', supported=False), CameraMode(width=800, height=600, fps=20, format_native=3, format_name='YUY2', supported=False), CameraMode(width=1280, height=1024, fps=6, format_native=3, format_name='YUY2', supported=False), CameraMode(width=320, height=240, fps=30, format_native=3, format_name='YUY2', supported=False)]
-2024-10-07 15:53:09,214 - world - [DEBUG] uvc: Adding "Auto Exposure Mode" control.
-2024-10-07 15:53:09,218 - world - [DEBUG] uvc: Adding "Auto Exposure Priority" control.
-2024-10-07 15:53:09,220 - world - [DEBUG] uvc: Adding "Absolute Exposure Time" control.
-2024-10-07 15:53:09,226 - world - [DEBUG] uvc: Adding "Backlight Compensation" control.
-2024-10-07 15:53:09,232 - world - [DEBUG] uvc: Adding "Brightness" control.
-2024-10-07 15:53:09,238 - world - [DEBUG] uvc: Adding "Contrast" control.
-2024-10-07 15:53:09,245 - world - [DEBUG] uvc: Adding "Gain" control.
-2024-10-07 15:53:09,251 - world - [DEBUG] uvc: Adding "Power Line frequency" control.
-2024-10-07 15:53:09,253 - world - [DEBUG] uvc: Adding "Hue" control.
-2024-10-07 15:53:09,259 - world - [DEBUG] uvc: Adding "Saturation" control.
-2024-10-07 15:53:09,266 - world - [DEBUG] uvc: Adding "Sharpness" control.
-2024-10-07 15:53:09,272 - world - [DEBUG] uvc: Adding "Gamma" control.
-2024-10-07 15:53:09,278 - world - [DEBUG] uvc: Adding "White Balance temperature" control.
-2024-10-07 15:53:09,284 - world - [DEBUG] uvc: Adding "White Balance temperature,Auto" control.
-2024-10-07 15:53:09,287 - world - [DEBUG] uvc: Changing resolution to target: (1280, 720)
-2024-10-07 15:53:09,287 - world - [DEBUG] uvc: Setting mode: CameraMode(width=1280, height=720, fps=30, format_native=7, format_name='MJPG', supported=True)
-2024-10-07 15:53:09,314 - world - [DEBUG] uvc: Negotiated frame format: {'bmHint': 1, 'bFormatIndex': 1, 'bFrameIndex': 3, 'dwFrameInterval': 327868, 'wKeyFrameRate': 0, 'wPFrameRate': 0, 'wCompQuality': 0, 'wCompWindowSize': 0, 'wDelay': 0, 'dwMaxVideoFrameSize': 1843789, 'dwMaxPayloadTransferSize': 3072, 'dwClockFrequency': 15000000, 'bmFramingInfo': 0, 'bPreferredVersion': 0, 'bMinVersion': 0, 'bMaxVersion': 0, 'bInterfaceNumber': 1}
-2024-10-07 15:53:09,315 - world - [DEBUG] camera_models: Loading previously recorded intrinsics...
-2024-10-07 15:53:09,315 - world - [DEBUG] camera_models: No recorded intrinsics found in /app/pupil/capture_settings for camera Pupil Cam1 ID2 atresolution (1280, 720)
-2024-10-07 15:53:09,315 - world - [DEBUG] camera_models: Loading default intrinsics!
-2024-10-07 15:53:09,315 - world - [DEBUG] uvc: Available frame rates at 1280x720: (30, 60)
-2024-10-07 15:53:09,315 - world - [DEBUG] uvc: Available frame rates at 1280x720: (30, 60)
-2024-10-07 15:53:09,331 - world - [DEBUG] video_capture.uvc_backend: No UVC setting "Auto Exposure Mode" found from settings.
-2024-10-07 15:53:09,331 - world - [DEBUG] video_capture.uvc_backend: No UVC setting "Auto Exposure Priority" found from settings.
-2024-10-07 15:53:09,331 - world - [DEBUG] video_capture.uvc_backend: No UVC setting "Absolute Exposure Time" found from settings.
-2024-10-07 15:53:09,331 - world - [DEBUG] video_capture.uvc_backend: No UVC setting "Backlight Compensation" found from settings.
-2024-10-07 15:53:09,331 - world - [DEBUG] video_capture.uvc_backend: No UVC setting "Brightness" found from settings.
-2024-10-07 15:53:09,331 - world - [DEBUG] video_capture.uvc_backend: No UVC setting "Contrast" found from settings.
-2024-10-07 15:53:09,331 - world - [DEBUG] video_capture.uvc_backend: No UVC setting "Gain" found from settings.
-2024-10-07 15:53:09,331 - world - [DEBUG] video_capture.uvc_backend: No UVC setting "Power Line frequency" found from settings.
-2024-10-07 15:53:09,331 - world - [DEBUG] video_capture.uvc_backend: No UVC setting "Hue" found from settings.
-2024-10-07 15:53:09,331 - world - [DEBUG] video_capture.uvc_backend: No UVC setting "Saturation" found from settings.
-2024-10-07 15:53:09,331 - world - [DEBUG] video_capture.uvc_backend: No UVC setting "Sharpness" found from settings.
-2024-10-07 15:53:09,331 - world - [DEBUG] video_capture.uvc_backend: No UVC setting "Gamma" found from settings.
-2024-10-07 15:53:09,331 - world - [DEBUG] video_capture.uvc_backend: No UVC setting "White Balance temperature" found from settings.
-2024-10-07 15:53:09,331 - world - [DEBUG] video_capture.uvc_backend: No UVC setting "White Balance temperature,Auto" found from settings.
-2024-10-07 15:53:09,373 - world - [DEBUG] uvc: Available frame rates at 1280x720: (30, 60)
-2024-10-07 15:53:09,373 - world - [DEBUG] uvc: Available frame rates at 1280x720: (30, 60)
-2024-10-07 15:53:09,374 - world - [DEBUG] uvc: Available frame rates at 1280x720: (30, 60)
-2024-10-07 15:53:09,374 - world - [DEBUG] uvc: Available frame rates at 1280x720: (30, 60)
-2024-10-07 15:53:09,375 - world - [DEBUG] plugin: Loading plugin: NetworkApiPlugin with settings {}
-2024-10-07 15:53:09,375 - world - [DEBUG] plugin: 'frame_publishing.started' notification sent with keys: ('subject', 'format')
-2024-10-07 15:53:09,380 - world - [DEBUG] network_api.controller.pupil_remote_controller: on_pupil_remote_server_did_start(*:50020)
-2024-10-07 15:53:09,387 - world - [DEBUG] plugin: Loading plugin: Fixation_Detector with settings {}
-2024-10-07 15:53:09,389 - world - [DEBUG] plugin: Loading plugin: ScreenMarkerChoreographyPlugin with settings {}
-2024-10-07 15:53:09,391 - world - [DEBUG] plugin: Loading plugin: Pupil_Data_Relay with settings {}
-2024-10-07 15:53:09,392 - world - [DEBUG] plugin: Loading plugin: Log_Display with settings {}
-2024-10-07 15:53:09,404 - world - [DEBUG] plugin: Loading plugin: Display_Recent_Gaze with settings {}
-2024-10-07 15:53:09,405 - world - [DEBUG] plugin: Loading plugin: Recorder with settings {}
-2024-10-07 15:53:09,405 - world - [DEBUG] plugin: Loading plugin: Plugin_Manager with settings {}
-2024-10-07 15:53:09,406 - world - [DEBUG] plugin: Loading plugin: System_Graphs with settings {}
-2024-10-07 15:53:09,413 - world - [DEBUG] plugin: Loading plugin: Surface_Tracker_Online with settings {}
-2024-10-07 15:53:09,416 - world - [DEBUG] pupil_apriltags.bindings: Testing possible hit: /usr/local/lib/python3.8/site-packages/pupil_apriltags/lib64/libapriltag.so.3.1.0...
-2024-10-07 15:53:09,416 - world - [DEBUG] pupil_apriltags.bindings: Found working clib at /usr/local/lib/python3.8/site-packages/pupil_apriltags/lib64/libapriltag.so.3.1.0
-2024-10-07 15:53:09,437 - world - [DEBUG] network_api.controller.pupil_remote_controller: Request: 'SUB_PORT', Response: '44437'
-2024-10-07 15:53:09,601 - world - [DEBUG] surface_tracker.surface_marker_detector: Init Apriltag Detector (
+2024-10-07 20:53:04,879 - world - [DEBUG] uvc: Not running on macOS. Will attempt to detach kernel drivers.
+2024-10-07 20:53:04,889 - world - [DEBUG] launchables.world: Application Version: 3.6.3
+2024-10-07 20:53:04,889 - world - [DEBUG] launchables.world: System Info: User: pupiluser, Platform: Linux, Machine: jc-thinkpad, Release: 6.8.0-45-generic, Version: #45-Ubuntu SMP PREEMPT_DYNAMIC Fri Aug 30 12:02:04 UTC 2024
+2024-10-07 20:53:04,890 - world - [DEBUG] launchables.world: Debug flag: False
+2024-10-07 20:53:06,000 - world - [DEBUG] video_capture.ndsi_backend: Suppressing pyre debug logs (except zbeacon)
+2024-10-07 20:53:06,050 - world - [DEBUG] pupil_apriltags.bindings: Testing possible hit: /usr/local/lib/python3.8/site-packages/pupil_apriltags/lib64/libapriltag.so.3.1.0...
+2024-10-07 20:53:06,051 - world - [DEBUG] pupil_apriltags.bindings: Found working clib at /usr/local/lib/python3.8/site-packages/pupil_apriltags/lib64/libapriltag.so.3.1.0
+2024-10-07 20:53:06,135 - world - [DEBUG] remote_recorder: Suppressing pyre debug logs (except zbeacon)
+2024-10-07 20:53:06,156 - world - [DEBUG] plugin: Searching /app/pupil/capture_settings/plugins...
+2024-10-07 20:53:06,156 - world - [DEBUG] file_methods: Session settings file '/app/pupil/capture_settings/user_settings_world' not found. Will make new one on exit.
+2024-10-07 20:53:06,157 - world - [DEBUG] launchables.world: Session setting are from a different version of this app. I will not use those.
+2024-10-07 20:53:06,241 - world - [DEBUG] plugin: Plugin HMD_Streaming_Manager failed to load, not available for import.
+2024-10-07 20:53:06,241 - world - [DEBUG] plugin: Plugin Dummy_Gaze_Mapper failed to load, not available for import.
+2024-10-07 20:53:06,241 - world - [DEBUG] plugin: Loading plugin: UVC_Manager with settings {}
+2024-10-07 20:53:06,679 - world - [DEBUG] plugin: Loading plugin: NDSI_Manager with settings {}
+2024-10-07 20:53:06,679 - world - [DEBUG] ndsi.network: Starting network...
+2024-10-07 20:53:06,682 - world - [DEBUG] pyre.zbeacon: Available interfaces: [{'enp0s31f6': {17: {'addr': 'f8:75:a4:fe:03:9a'}}}, {'wlp0s20f3': {17: {'addr': 'b8:9a:2a:66:2d:f8'}, 2: {'addr': '192.168.1.104', 'netmask': '255.255.255.0', 'broadcast': '192.168.1.255'}, 10: {'addr': 'fe80::ba9a:2aff:fe66:2df8', 'scope': 3, 'netmask': 'ffff:ffff:ffff:ffff::'}}}, {'br-bb681f6ff42c': {17: {'addr': '02:42:75:ac:f1:e0'}, 2: {'addr': '172.24.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.24.255.255'}}}, {'br-ed8cfcfaf92e': {17: {'addr': '02:42:b7:71:f8:e1'}, 2: {'addr': '172.25.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.25.255.255'}}}, {'docker0': {17: {'addr': '02:42:34:91:ff:fa'}, 2: {'addr': '172.17.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.17.255.255'}, 10: {'addr': 'fe80::42:34ff:fe91:fffa', 'scope': 6, 'netmask': 'ffff:ffff:ffff:ffff::'}}}, {'br-4be18ffac5c9': {17: {'addr': '02:42:2a:27:1f:28'}, 2: {'addr': '172.21.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.21.255.255'}}}, {'br-5eb13c9765ac': {17: {'addr': '02:42:f0:70:c2:e7'}, 2: {'addr': '172.26.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.26.255.255'}}}, {'br-70a7d590bc36': {17: {'addr': '02:42:90:32:b8:8e'}, 2: {'addr': '172.20.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.20.255.255'}}}, {'br-e87dafb95a95': {17: {'addr': '02:42:f2:21:97:7d'}, 2: {'addr': '172.19.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.19.255.255'}}}, {'br-f13a35e8aeb7': {17: {'addr': '02:42:ed:c2:a6:72'}, 2: {'addr': '172.22.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.22.255.255'}}}, {'br-44832085d669': {17: {'addr': '02:42:7e:62:cd:c1'}, 2: {'addr': '172.18.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.18.255.255'}}}, {'lo': {2: {'addr': '127.0.0.1', 'netmask': '255.0.0.0'}, 10: {'addr': '::1', 'netmask': 'ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff'}}}]
+2024-10-07 20:53:06,683 - world - [DEBUG] pyre.zbeacon: Checking out interface enp0s31f6.
+2024-10-07 20:53:06,683 - world - [DEBUG] pyre.zbeacon: No data_2 found for interface enp0s31f6.
+2024-10-07 20:53:06,683 - world - [DEBUG] pyre.zbeacon: Checking out interface wlp0s20f3.
+2024-10-07 20:53:06,683 - world - [DEBUG] pyre.zbeacon: Finished scanning interfaces.
+2024-10-07 20:53:06,683 - world - [DEBUG] pyre.zbeacon: Address: 192.168.1.104
+2024-10-07 20:53:06,683 - world - [DEBUG] pyre.zbeacon: Network: 192.168.1.0
+2024-10-07 20:53:06,683 - world - [DEBUG] pyre.zbeacon: Broadcast: 192.168.1.255
+2024-10-07 20:53:06,683 - world - [DEBUG] pyre.zbeacon: Interface name: wlp0s20f3
+2024-10-07 20:53:06,683 - world - [DEBUG] pyre.zbeacon: Set up a broadcast beacon to 192.168.1.255:5670
+2024-10-07 20:53:06,683 - world - [DEBUG] ndsi.network: Starting network...
+2024-10-07 20:53:06,686 - world - [DEBUG] pyre.zbeacon: Available interfaces: [{'enp0s31f6': {17: {'addr': 'f8:75:a4:fe:03:9a'}}}, {'wlp0s20f3': {17: {'addr': 'b8:9a:2a:66:2d:f8'}, 2: {'addr': '192.168.1.104', 'netmask': '255.255.255.0', 'broadcast': '192.168.1.255'}, 10: {'addr': 'fe80::ba9a:2aff:fe66:2df8', 'scope': 3, 'netmask': 'ffff:ffff:ffff:ffff::'}}}, {'br-bb681f6ff42c': {17: {'addr': '02:42:75:ac:f1:e0'}, 2: {'addr': '172.24.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.24.255.255'}}}, {'br-ed8cfcfaf92e': {17: {'addr': '02:42:b7:71:f8:e1'}, 2: {'addr': '172.25.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.25.255.255'}}}, {'docker0': {17: {'addr': '02:42:34:91:ff:fa'}, 2: {'addr': '172.17.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.17.255.255'}, 10: {'addr': 'fe80::42:34ff:fe91:fffa', 'scope': 6, 'netmask': 'ffff:ffff:ffff:ffff::'}}}, {'br-4be18ffac5c9': {17: {'addr': '02:42:2a:27:1f:28'}, 2: {'addr': '172.21.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.21.255.255'}}}, {'br-5eb13c9765ac': {17: {'addr': '02:42:f0:70:c2:e7'}, 2: {'addr': '172.26.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.26.255.255'}}}, {'br-70a7d590bc36': {17: {'addr': '02:42:90:32:b8:8e'}, 2: {'addr': '172.20.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.20.255.255'}}}, {'br-e87dafb95a95': {17: {'addr': '02:42:f2:21:97:7d'}, 2: {'addr': '172.19.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.19.255.255'}}}, {'br-f13a35e8aeb7': {17: {'addr': '02:42:ed:c2:a6:72'}, 2: {'addr': '172.22.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.22.255.255'}}}, {'br-44832085d669': {17: {'addr': '02:42:7e:62:cd:c1'}, 2: {'addr': '172.18.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.18.255.255'}}}, {'lo': {2: {'addr': '127.0.0.1', 'netmask': '255.0.0.0'}, 10: {'addr': '::1', 'netmask': 'ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff'}}}]
+2024-10-07 20:53:06,686 - world - [DEBUG] pyre.zbeacon: Checking out interface enp0s31f6.
+2024-10-07 20:53:06,686 - world - [DEBUG] pyre.zbeacon: No data_2 found for interface enp0s31f6.
+2024-10-07 20:53:06,686 - world - [DEBUG] pyre.zbeacon: Checking out interface wlp0s20f3.
+2024-10-07 20:53:06,686 - world - [DEBUG] pyre.zbeacon: Finished scanning interfaces.
+2024-10-07 20:53:06,686 - world - [DEBUG] pyre.zbeacon: Address: 192.168.1.104
+2024-10-07 20:53:06,686 - world - [DEBUG] pyre.zbeacon: Network: 192.168.1.0
+2024-10-07 20:53:06,686 - world - [DEBUG] pyre.zbeacon: Broadcast: 192.168.1.255
+2024-10-07 20:53:06,686 - world - [DEBUG] pyre.zbeacon: Interface name: wlp0s20f3
+2024-10-07 20:53:06,686 - world - [DEBUG] pyre.zbeacon: Set up a broadcast beacon to 192.168.1.255:5670
+2024-10-07 20:53:06,687 - world - [DEBUG] plugin: Loading plugin: Neon_Manager with settings {}
+2024-10-07 20:53:07,403 - world - [DEBUG] video_capture.neon_backend.plugin: Neon backend manager launched with []
+2024-10-07 20:53:07,403 - world - [DEBUG] plugin: Loading plugin: File_Manager with settings {}
+2024-10-07 20:53:07,403 - world - [DEBUG] plugin: Loading plugin: UVC_Source with settings {'preferred_names': ['Pupil Cam1 ID2', 'Logitech Camera', '(046d:081d)', 'C510', 'B525', 'C525', 'C615', 'C920', 'C930e'], 'frame_size': (1280, 720), 'frame_rate': 30}
+2024-10-07 20:53:07,434 - world - [DEBUG] uvc: Found device that mached uid: 1:24
+2024-10-07 20:53:07,442 - world - [DEBUG] uvc: Device info: {'name': 'Pupil Cam1 ID2', 'manufacturer': 'Pupil Cam1 ID2', 'serialNumber': 'unknown', 'idProduct': 37426, 'idVendor': 1443, 'device_address': 24, 'bus_number': 1, 'uid': '1:24'}
+2024-10-07 20:53:07,449 - world - [DEBUG] uvc: Device '1:24' opended.
+2024-10-07 20:53:07,450 - world - [DEBUG] uvc: Capture(name='Pupil Cam1 ID2' manufacturer='Pupil Cam1 ID2' serialNumber='unknown' idProduct=37426 idVendor=1443 device_address=24 bus_number=1 uid='1:24') - all camera modes: [CameraMode(width=1920, height=1080, fps=30, format_native=7, format_name='MJPG', supported=True), CameraMode(width=640, height=480, fps=120, format_native=7, format_name='MJPG', supported=True), CameraMode(width=640, height=480, fps=90, format_native=7, format_name='MJPG', supported=True), CameraMode(width=640, height=480, fps=60, format_native=7, format_name='MJPG', supported=True), CameraMode(width=640, height=480, fps=30, format_native=7, format_name='MJPG', supported=True), CameraMode(width=1280, height=720, fps=60, format_native=7, format_name='MJPG', supported=True), CameraMode(width=1280, height=720, fps=30, format_native=7, format_name='MJPG', supported=True), CameraMode(width=1024, height=768, fps=30, format_native=7, format_name='MJPG', supported=True), CameraMode(width=800, height=600, fps=60, format_native=7, format_name='MJPG', supported=True), CameraMode(width=1280, height=1024, fps=30, format_native=7, format_name='MJPG', supported=True), CameraMode(width=320, height=240, fps=120, format_native=7, format_name='MJPG', supported=True), CameraMode(width=1920, height=1080, fps=6, format_native=3, format_name='YUY2', supported=False), CameraMode(width=640, height=480, fps=30, format_native=3, format_name='YUY2', supported=False), CameraMode(width=1280, height=720, fps=9, format_native=3, format_name='YUY2', supported=False), CameraMode(width=1024, height=768, fps=6, format_native=3, format_name='YUY2', supported=False), CameraMode(width=800, height=600, fps=20, format_native=3, format_name='YUY2', supported=False), CameraMode(width=1280, height=1024, fps=6, format_native=3, format_name='YUY2', supported=False), CameraMode(width=320, height=240, fps=30, format_native=3, format_name='YUY2', supported=False)]
+2024-10-07 20:53:07,451 - world - [DEBUG] uvc: Adding "Auto Exposure Mode" control.
+2024-10-07 20:53:07,455 - world - [DEBUG] uvc: Adding "Auto Exposure Priority" control.
+2024-10-07 20:53:07,457 - world - [DEBUG] uvc: Adding "Absolute Exposure Time" control.
+2024-10-07 20:53:07,462 - world - [DEBUG] uvc: Adding "Backlight Compensation" control.
+2024-10-07 20:53:07,468 - world - [DEBUG] uvc: Adding "Brightness" control.
+2024-10-07 20:53:07,474 - world - [DEBUG] uvc: Adding "Contrast" control.
+2024-10-07 20:53:07,479 - world - [DEBUG] uvc: Adding "Gain" control.
+2024-10-07 20:53:07,485 - world - [DEBUG] uvc: Adding "Power Line frequency" control.
+2024-10-07 20:53:07,488 - world - [DEBUG] uvc: Adding "Hue" control.
+2024-10-07 20:53:07,494 - world - [DEBUG] uvc: Adding "Saturation" control.
+2024-10-07 20:53:07,500 - world - [DEBUG] uvc: Adding "Sharpness" control.
+2024-10-07 20:53:07,505 - world - [DEBUG] uvc: Adding "Gamma" control.
+2024-10-07 20:53:07,511 - world - [DEBUG] uvc: Adding "White Balance temperature" control.
+2024-10-07 20:53:07,518 - world - [DEBUG] uvc: Adding "White Balance temperature,Auto" control.
+2024-10-07 20:53:07,521 - world - [DEBUG] uvc: Changing resolution to target: (1280, 720)
+2024-10-07 20:53:07,521 - world - [DEBUG] uvc: Setting mode: CameraMode(width=1280, height=720, fps=30, format_native=7, format_name='MJPG', supported=True)
+2024-10-07 20:53:07,548 - world - [DEBUG] uvc: Negotiated frame format: {'bmHint': 1, 'bFormatIndex': 1, 'bFrameIndex': 3, 'dwFrameInterval': 327868, 'wKeyFrameRate': 0, 'wPFrameRate': 0, 'wCompQuality': 0, 'wCompWindowSize': 0, 'wDelay': 0, 'dwMaxVideoFrameSize': 1843789, 'dwMaxPayloadTransferSize': 3072, 'dwClockFrequency': 15000000, 'bmFramingInfo': 0, 'bPreferredVersion': 0, 'bMinVersion': 0, 'bMaxVersion': 0, 'bInterfaceNumber': 1}
+2024-10-07 20:53:07,548 - world - [DEBUG] camera_models: Loading previously recorded intrinsics...
+2024-10-07 20:53:07,549 - world - [DEBUG] camera_models: No recorded intrinsics found in /app/pupil/capture_settings for camera Pupil Cam1 ID2 atresolution (1280, 720)
+2024-10-07 20:53:07,549 - world - [DEBUG] camera_models: Loading default intrinsics!
+2024-10-07 20:53:07,549 - world - [DEBUG] uvc: Available frame rates at 1280x720: (30, 60)
+2024-10-07 20:53:07,549 - world - [DEBUG] uvc: Available frame rates at 1280x720: (30, 60)
+2024-10-07 20:53:07,559 - world - [DEBUG] video_capture.uvc_backend: No UVC setting "Auto Exposure Mode" found from settings.
+2024-10-07 20:53:07,560 - world - [DEBUG] video_capture.uvc_backend: No UVC setting "Auto Exposure Priority" found from settings.
+2024-10-07 20:53:07,560 - world - [DEBUG] video_capture.uvc_backend: No UVC setting "Absolute Exposure Time" found from settings.
+2024-10-07 20:53:07,560 - world - [DEBUG] video_capture.uvc_backend: No UVC setting "Backlight Compensation" found from settings.
+2024-10-07 20:53:07,560 - world - [DEBUG] video_capture.uvc_backend: No UVC setting "Brightness" found from settings.
+2024-10-07 20:53:07,560 - world - [DEBUG] video_capture.uvc_backend: No UVC setting "Contrast" found from settings.
+2024-10-07 20:53:07,560 - world - [DEBUG] video_capture.uvc_backend: No UVC setting "Gain" found from settings.
+2024-10-07 20:53:07,560 - world - [DEBUG] video_capture.uvc_backend: No UVC setting "Power Line frequency" found from settings.
+2024-10-07 20:53:07,560 - world - [DEBUG] video_capture.uvc_backend: No UVC setting "Hue" found from settings.
+2024-10-07 20:53:07,560 - world - [DEBUG] video_capture.uvc_backend: No UVC setting "Saturation" found from settings.
+2024-10-07 20:53:07,560 - world - [DEBUG] video_capture.uvc_backend: No UVC setting "Sharpness" found from settings.
+2024-10-07 20:53:07,560 - world - [DEBUG] video_capture.uvc_backend: No UVC setting "Gamma" found from settings.
+2024-10-07 20:53:07,560 - world - [DEBUG] video_capture.uvc_backend: No UVC setting "White Balance temperature" found from settings.
+2024-10-07 20:53:07,560 - world - [DEBUG] video_capture.uvc_backend: No UVC setting "White Balance temperature,Auto" found from settings.
+2024-10-07 20:53:07,597 - world - [DEBUG] uvc: Available frame rates at 1280x720: (30, 60)
+2024-10-07 20:53:07,597 - world - [DEBUG] uvc: Available frame rates at 1280x720: (30, 60)
+2024-10-07 20:53:07,597 - world - [DEBUG] uvc: Available frame rates at 1280x720: (30, 60)
+2024-10-07 20:53:07,597 - world - [DEBUG] uvc: Available frame rates at 1280x720: (30, 60)
+2024-10-07 20:53:07,598 - world - [DEBUG] plugin: Loading plugin: NetworkApiPlugin with settings {}
+2024-10-07 20:53:07,598 - world - [DEBUG] plugin: 'frame_publishing.started' notification sent with keys: ('subject', 'format')
+2024-10-07 20:53:07,599 - world - [DEBUG] network_api.controller.pupil_remote_controller: on_pupil_remote_server_did_start(*:50020)
+2024-10-07 20:53:07,602 - world - [DEBUG] plugin: Loading plugin: Fixation_Detector with settings {}
+2024-10-07 20:53:07,603 - world - [DEBUG] plugin: Loading plugin: ScreenMarkerChoreographyPlugin with settings {}
+2024-10-07 20:53:07,607 - world - [DEBUG] plugin: Loading plugin: Pupil_Data_Relay with settings {}
+2024-10-07 20:53:07,608 - world - [DEBUG] plugin: Loading plugin: Log_Display with settings {}
+2024-10-07 20:53:07,611 - world - [DEBUG] plugin: Loading plugin: Display_Recent_Gaze with settings {}
+2024-10-07 20:53:07,611 - world - [DEBUG] plugin: Loading plugin: Recorder with settings {}
+2024-10-07 20:53:07,612 - world - [DEBUG] plugin: Loading plugin: Plugin_Manager with settings {}
+2024-10-07 20:53:07,612 - world - [DEBUG] plugin: Loading plugin: System_Graphs with settings {}
+2024-10-07 20:53:07,618 - world - [DEBUG] plugin: Loading plugin: Surface_Tracker_Online with settings {}
+2024-10-07 20:53:07,620 - world - [DEBUG] pupil_apriltags.bindings: Testing possible hit: /usr/local/lib/python3.8/site-packages/pupil_apriltags/lib64/libapriltag.so.3.1.0...
+2024-10-07 20:53:07,620 - world - [DEBUG] pupil_apriltags.bindings: Found working clib at /usr/local/lib/python3.8/site-packages/pupil_apriltags/lib64/libapriltag.so.3.1.0
+2024-10-07 20:53:07,625 - world - [DEBUG] network_api.controller.pupil_remote_controller: Request: 'SUB_PORT', Response: '34075'
+2024-10-07 20:53:07,756 - world - [DEBUG] surface_tracker.surface_marker_detector: Init Apriltag Detector (
 	apriltag_families=ApriltagFamily.tagStandard41h12
 	apriltag_nthreads=2
 	apriltag_quad_decimate=2.0
 	apriltag_decode_sharpening=1.0
 )
-2024-10-07 15:53:09,604 - world - [DEBUG] plugin: Loading plugin: Blink_Detection with settings {}
-2024-10-07 15:53:09,605 - world - [DEBUG] plugin: Loading plugin: Accuracy_Visualizer with settings {}
-2024-10-07 15:53:09,646 - world - [DEBUG] launchables.world: Process started.
-2024-10-07 15:53:09,647 - world - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from 344b5359a9e444acaac6df3d41149ca5>
-2024-10-07 15:53:09,647 - world - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from e6e101b1a4324c7f955824f56acf3ae4>
-2024-10-07 15:53:09,792 - world - [DEBUG] uvc: Stream start.
-2024-10-07 15:53:09,867 - world - [DEBUG] video_capture.uvc_backend: Received frame with invalid timestamp. This can happen after a disconnect. Frame will be dropped!
-2024-10-07 15:53:10,541 - world - [DEBUG] plugin: 'backend.change_mode' notification sent with keys: ('subject', 'mode')
-2024-10-07 15:53:10,541 - world - [DEBUG] plugin: 'frame_publishing.started' notification sent with keys: ('subject', 'format')
-2024-10-07 15:53:10,813 - world - [DEBUG] plugin: 'backend.change_mode' notification sent with keys: ('subject', 'mode')
-2024-10-07 15:53:10,813 - world - [DEBUG] plugin: 'frame_publishing.started' notification sent with keys: ('subject', 'format')
-2024-10-07 15:53:11,985 - eye0 - [DEBUG] uvc: Not running on macOS. Will attempt to detach kernel drivers.
-2024-10-07 15:53:11,989 - eye1 - [DEBUG] uvc: Not running on macOS. Will attempt to detach kernel drivers.
-2024-10-07 15:53:12,055 - eye1 - [DEBUG] video_capture.ndsi_backend: Suppressing pyre debug logs (except zbeacon)
-2024-10-07 15:53:12,059 - eye0 - [DEBUG] video_capture.ndsi_backend: Suppressing pyre debug logs (except zbeacon)
-2024-10-07 15:53:12,158 - eye0 - [DEBUG] pupil_detector_plugins: Using refraction corrected 3D pupil detector.
-2024-10-07 15:53:12,158 - eye0 - [DEBUG] plugin: Searching /app/pupil/capture_settings/plugins...
-2024-10-07 15:53:12,158 - eye0 - [DEBUG] file_methods: Session settings file '/app/pupil/capture_settings/user_settings_eye0' not found. Will make new one on exit.
-2024-10-07 15:53:12,159 - eye0 - [DEBUG] launchables.eye: Session setting are from a different version of this app. I will not use those.
-2024-10-07 15:53:12,158 - eye1 - [DEBUG] pupil_detector_plugins: Using refraction corrected 3D pupil detector.
-2024-10-07 15:53:12,158 - eye1 - [DEBUG] plugin: Searching /app/pupil/capture_settings/plugins...
-2024-10-07 15:53:12,158 - eye1 - [DEBUG] file_methods: Session settings file '/app/pupil/capture_settings/user_settings_eye1' not found. Will make new one on exit.
-2024-10-07 15:53:12,158 - eye1 - [DEBUG] launchables.eye: Session setting are from a different version of this app. I will not use those.
-2024-10-07 15:53:12,339 - eye0 - [DEBUG] plugin: Plugin HMD_Streaming_Manager failed to load, not available for import.
-2024-10-07 15:53:12,339 - eye0 - [DEBUG] plugin: Loading plugin: UVC_Manager with settings {}
-2024-10-07 15:53:12,355 - eye1 - [DEBUG] plugin: Plugin HMD_Streaming_Manager failed to load, not available for import.
-2024-10-07 15:53:12,356 - eye1 - [DEBUG] plugin: Loading plugin: UVC_Manager with settings {}
-2024-10-07 15:53:12,617 - eye0 - [DEBUG] plugin: Loading plugin: NDSI_Manager with settings {}
-2024-10-07 15:53:12,617 - eye0 - [DEBUG] ndsi.network: Starting network...
-2024-10-07 15:53:12,625 - eye0 - [DEBUG] pyre.zbeacon: Available interfaces: [{'enp0s31f6': {17: {'addr': 'f8:75:a4:fe:03:9a'}}}, {'wlp0s20f3': {17: {'addr': 'b8:9a:2a:66:2d:f8'}, 2: {'addr': '192.168.1.104', 'netmask': '255.255.255.0', 'broadcast': '192.168.1.255'}, 10: {'addr': 'fe80::ba9a:2aff:fe66:2df8', 'scope': 3, 'netmask': 'ffff:ffff:ffff:ffff::'}}}, {'br-bb681f6ff42c': {17: {'addr': '02:42:75:ac:f1:e0'}, 2: {'addr': '172.24.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.24.255.255'}}}, {'br-ed8cfcfaf92e': {17: {'addr': '02:42:b7:71:f8:e1'}, 2: {'addr': '172.25.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.25.255.255'}}}, {'docker0': {17: {'addr': '02:42:34:91:ff:fa'}, 2: {'addr': '172.17.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.17.255.255'}, 10: {'addr': 'fe80::42:34ff:fe91:fffa', 'scope': 6, 'netmask': 'ffff:ffff:ffff:ffff::'}}}, {'br-4be18ffac5c9': {17: {'addr': '02:42:2a:27:1f:28'}, 2: {'addr': '172.21.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.21.255.255'}}}, {'br-5eb13c9765ac': {17: {'addr': '02:42:f0:70:c2:e7'}, 2: {'addr': '172.26.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.26.255.255'}}}, {'br-70a7d590bc36': {17: {'addr': '02:42:90:32:b8:8e'}, 2: {'addr': '172.20.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.20.255.255'}}}, {'br-e87dafb95a95': {17: {'addr': '02:42:f2:21:97:7d'}, 2: {'addr': '172.19.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.19.255.255'}}}, {'br-f13a35e8aeb7': {17: {'addr': '02:42:ed:c2:a6:72'}, 2: {'addr': '172.22.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.22.255.255'}}}, {'br-44832085d669': {17: {'addr': '02:42:7e:62:cd:c1'}, 2: {'addr': '172.18.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.18.255.255'}}}, {'lo': {2: {'addr': '127.0.0.1', 'netmask': '255.0.0.0'}, 10: {'addr': '::1', 'netmask': 'ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff'}}}]
-2024-10-07 15:53:12,626 - eye0 - [DEBUG] pyre.zbeacon: Checking out interface enp0s31f6.
-2024-10-07 15:53:12,626 - eye0 - [DEBUG] pyre.zbeacon: No data_2 found for interface enp0s31f6.
-2024-10-07 15:53:12,626 - eye0 - [DEBUG] pyre.zbeacon: Checking out interface wlp0s20f3.
-2024-10-07 15:53:12,626 - eye0 - [DEBUG] pyre.zbeacon: Finished scanning interfaces.
-2024-10-07 15:53:12,626 - eye0 - [DEBUG] pyre.zbeacon: Address: 192.168.1.104
-2024-10-07 15:53:12,626 - eye0 - [DEBUG] pyre.zbeacon: Network: 192.168.1.0
-2024-10-07 15:53:12,626 - eye0 - [DEBUG] pyre.zbeacon: Broadcast: 192.168.1.255
-2024-10-07 15:53:12,626 - eye0 - [DEBUG] pyre.zbeacon: Interface name: wlp0s20f3
-2024-10-07 15:53:12,626 - eye0 - [DEBUG] pyre.zbeacon: Set up a broadcast beacon to 192.168.1.255:5670
-2024-10-07 15:53:12,630 - eye0 - [DEBUG] ndsi.network: Starting network...
-2024-10-07 15:53:12,656 - eye0 - [DEBUG] pyre.zbeacon: Available interfaces: [{'enp0s31f6': {17: {'addr': 'f8:75:a4:fe:03:9a'}}}, {'wlp0s20f3': {17: {'addr': 'b8:9a:2a:66:2d:f8'}, 2: {'addr': '192.168.1.104', 'netmask': '255.255.255.0', 'broadcast': '192.168.1.255'}, 10: {'addr': 'fe80::ba9a:2aff:fe66:2df8', 'scope': 3, 'netmask': 'ffff:ffff:ffff:ffff::'}}}, {'br-bb681f6ff42c': {17: {'addr': '02:42:75:ac:f1:e0'}, 2: {'addr': '172.24.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.24.255.255'}}}, {'br-ed8cfcfaf92e': {17: {'addr': '02:42:b7:71:f8:e1'}, 2: {'addr': '172.25.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.25.255.255'}}}, {'docker0': {17: {'addr': '02:42:34:91:ff:fa'}, 2: {'addr': '172.17.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.17.255.255'}, 10: {'addr': 'fe80::42:34ff:fe91:fffa', 'scope': 6, 'netmask': 'ffff:ffff:ffff:ffff::'}}}, {'br-4be18ffac5c9': {17: {'addr': '02:42:2a:27:1f:28'}, 2: {'addr': '172.21.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.21.255.255'}}}, {'br-5eb13c9765ac': {17: {'addr': '02:42:f0:70:c2:e7'}, 2: {'addr': '172.26.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.26.255.255'}}}, {'br-70a7d590bc36': {17: {'addr': '02:42:90:32:b8:8e'}, 2: {'addr': '172.20.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.20.255.255'}}}, {'br-e87dafb95a95': {17: {'addr': '02:42:f2:21:97:7d'}, 2: {'addr': '172.19.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.19.255.255'}}}, {'br-f13a35e8aeb7': {17: {'addr': '02:42:ed:c2:a6:72'}, 2: {'addr': '172.22.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.22.255.255'}}}, {'br-44832085d669': {17: {'addr': '02:42:7e:62:cd:c1'}, 2: {'addr': '172.18.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.18.255.255'}}}, {'lo': {2: {'addr': '127.0.0.1', 'netmask': '255.0.0.0'}, 10: {'addr': '::1', 'netmask': 'ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff'}}}]
-2024-10-07 15:53:12,657 - eye0 - [DEBUG] pyre.zbeacon: Checking out interface enp0s31f6.
-2024-10-07 15:53:12,658 - eye0 - [DEBUG] pyre.zbeacon: No data_2 found for interface enp0s31f6.
-2024-10-07 15:53:12,658 - eye0 - [DEBUG] pyre.zbeacon: Checking out interface wlp0s20f3.
-2024-10-07 15:53:12,659 - eye0 - [DEBUG] pyre.zbeacon: Finished scanning interfaces.
-2024-10-07 15:53:12,661 - eye0 - [DEBUG] pyre.zbeacon: Address: 192.168.1.104
-2024-10-07 15:53:12,661 - eye0 - [DEBUG] pyre.zbeacon: Network: 192.168.1.0
-2024-10-07 15:53:12,661 - eye0 - [DEBUG] pyre.zbeacon: Broadcast: 192.168.1.255
-2024-10-07 15:53:12,661 - eye0 - [DEBUG] pyre.zbeacon: Interface name: wlp0s20f3
-2024-10-07 15:53:12,663 - eye0 - [DEBUG] pyre.zbeacon: Set up a broadcast beacon to 192.168.1.255:5670
-2024-10-07 15:53:12,665 - eye0 - [DEBUG] plugin: Loading plugin: File_Manager with settings {}
-2024-10-07 15:53:12,665 - eye0 - [DEBUG] plugin: Loading plugin: UVC_Source with settings {'preferred_names': ['Pupil Cam3 ID0', 'Pupil Cam2 ID0', 'Pupil Cam1 ID0', 'HD-6000'], 'frame_size': (192, 192), 'frame_rate': 120}
-2024-10-07 15:53:12,701 - world - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from fc5345e2a0c94712baed1e84c1102fe2>
-2024-10-07 15:53:12,702 - world - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from fc5345e2a0c94712baed1e84c1102fe2>
-2024-10-07 15:53:12,928 - eye1 - [DEBUG] plugin: Loading plugin: NDSI_Manager with settings {}
-2024-10-07 15:53:12,928 - eye1 - [DEBUG] ndsi.network: Starting network...
-2024-10-07 15:53:12,934 - eye0 - [DEBUG] uvc: Found device that mached uid: 1:21
-2024-10-07 15:53:12,934 - eye1 - [DEBUG] pyre.zbeacon: Available interfaces: [{'enp0s31f6': {17: {'addr': 'f8:75:a4:fe:03:9a'}}}, {'wlp0s20f3': {17: {'addr': 'b8:9a:2a:66:2d:f8'}, 2: {'addr': '192.168.1.104', 'netmask': '255.255.255.0', 'broadcast': '192.168.1.255'}, 10: {'addr': 'fe80::ba9a:2aff:fe66:2df8', 'scope': 3, 'netmask': 'ffff:ffff:ffff:ffff::'}}}, {'br-bb681f6ff42c': {17: {'addr': '02:42:75:ac:f1:e0'}, 2: {'addr': '172.24.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.24.255.255'}}}, {'br-ed8cfcfaf92e': {17: {'addr': '02:42:b7:71:f8:e1'}, 2: {'addr': '172.25.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.25.255.255'}}}, {'docker0': {17: {'addr': '02:42:34:91:ff:fa'}, 2: {'addr': '172.17.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.17.255.255'}, 10: {'addr': 'fe80::42:34ff:fe91:fffa', 'scope': 6, 'netmask': 'ffff:ffff:ffff:ffff::'}}}, {'br-4be18ffac5c9': {17: {'addr': '02:42:2a:27:1f:28'}, 2: {'addr': '172.21.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.21.255.255'}}}, {'br-5eb13c9765ac': {17: {'addr': '02:42:f0:70:c2:e7'}, 2: {'addr': '172.26.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.26.255.255'}}}, {'br-70a7d590bc36': {17: {'addr': '02:42:90:32:b8:8e'}, 2: {'addr': '172.20.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.20.255.255'}}}, {'br-e87dafb95a95': {17: {'addr': '02:42:f2:21:97:7d'}, 2: {'addr': '172.19.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.19.255.255'}}}, {'br-f13a35e8aeb7': {17: {'addr': '02:42:ed:c2:a6:72'}, 2: {'addr': '172.22.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.22.255.255'}}}, {'br-44832085d669': {17: {'addr': '02:42:7e:62:cd:c1'}, 2: {'addr': '172.18.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.18.255.255'}}}, {'lo': {2: {'addr': '127.0.0.1', 'netmask': '255.0.0.0'}, 10: {'addr': '::1', 'netmask': 'ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff'}}}]
-2024-10-07 15:53:12,934 - eye1 - [DEBUG] pyre.zbeacon: Checking out interface enp0s31f6.
-2024-10-07 15:53:12,935 - eye1 - [DEBUG] pyre.zbeacon: No data_2 found for interface enp0s31f6.
-2024-10-07 15:53:12,935 - eye1 - [DEBUG] pyre.zbeacon: Checking out interface wlp0s20f3.
-2024-10-07 15:53:12,935 - eye1 - [DEBUG] pyre.zbeacon: Finished scanning interfaces.
-2024-10-07 15:53:12,935 - eye1 - [DEBUG] pyre.zbeacon: Address: 192.168.1.104
-2024-10-07 15:53:12,935 - eye1 - [DEBUG] pyre.zbeacon: Network: 192.168.1.0
-2024-10-07 15:53:12,935 - eye1 - [DEBUG] pyre.zbeacon: Broadcast: 192.168.1.255
-2024-10-07 15:53:12,935 - eye1 - [DEBUG] pyre.zbeacon: Interface name: wlp0s20f3
-2024-10-07 15:53:12,935 - eye1 - [DEBUG] pyre.zbeacon: Set up a broadcast beacon to 192.168.1.255:5670
-2024-10-07 15:53:12,936 - eye1 - [DEBUG] ndsi.network: Starting network...
-2024-10-07 15:53:12,943 - eye0 - [DEBUG] uvc: Device info: {'name': 'Pupil Cam2 ID0', 'manufacturer': 'Pupil Cam2 ID0', 'serialNumber': 'unknown', 'idProduct': 25771, 'idVendor': 3141, 'device_address': 21, 'bus_number': 1, 'uid': '1:21'}
-2024-10-07 15:53:12,947 - eye1 - [DEBUG] pyre.zbeacon: Available interfaces: [{'enp0s31f6': {17: {'addr': 'f8:75:a4:fe:03:9a'}}}, {'wlp0s20f3': {17: {'addr': 'b8:9a:2a:66:2d:f8'}, 2: {'addr': '192.168.1.104', 'netmask': '255.255.255.0', 'broadcast': '192.168.1.255'}, 10: {'addr': 'fe80::ba9a:2aff:fe66:2df8', 'scope': 3, 'netmask': 'ffff:ffff:ffff:ffff::'}}}, {'br-bb681f6ff42c': {17: {'addr': '02:42:75:ac:f1:e0'}, 2: {'addr': '172.24.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.24.255.255'}}}, {'br-ed8cfcfaf92e': {17: {'addr': '02:42:b7:71:f8:e1'}, 2: {'addr': '172.25.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.25.255.255'}}}, {'docker0': {17: {'addr': '02:42:34:91:ff:fa'}, 2: {'addr': '172.17.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.17.255.255'}, 10: {'addr': 'fe80::42:34ff:fe91:fffa', 'scope': 6, 'netmask': 'ffff:ffff:ffff:ffff::'}}}, {'br-4be18ffac5c9': {17: {'addr': '02:42:2a:27:1f:28'}, 2: {'addr': '172.21.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.21.255.255'}}}, {'br-5eb13c9765ac': {17: {'addr': '02:42:f0:70:c2:e7'}, 2: {'addr': '172.26.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.26.255.255'}}}, {'br-70a7d590bc36': {17: {'addr': '02:42:90:32:b8:8e'}, 2: {'addr': '172.20.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.20.255.255'}}}, {'br-e87dafb95a95': {17: {'addr': '02:42:f2:21:97:7d'}, 2: {'addr': '172.19.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.19.255.255'}}}, {'br-f13a35e8aeb7': {17: {'addr': '02:42:ed:c2:a6:72'}, 2: {'addr': '172.22.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.22.255.255'}}}, {'br-44832085d669': {17: {'addr': '02:42:7e:62:cd:c1'}, 2: {'addr': '172.18.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.18.255.255'}}}, {'lo': {2: {'addr': '127.0.0.1', 'netmask': '255.0.0.0'}, 10: {'addr': '::1', 'netmask': 'ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff'}}}]
-2024-10-07 15:53:12,947 - eye1 - [DEBUG] pyre.zbeacon: Checking out interface enp0s31f6.
-2024-10-07 15:53:12,947 - eye1 - [DEBUG] pyre.zbeacon: No data_2 found for interface enp0s31f6.
-2024-10-07 15:53:12,947 - eye1 - [DEBUG] pyre.zbeacon: Checking out interface wlp0s20f3.
-2024-10-07 15:53:12,948 - eye1 - [DEBUG] pyre.zbeacon: Finished scanning interfaces.
-2024-10-07 15:53:12,948 - eye1 - [DEBUG] pyre.zbeacon: Address: 192.168.1.104
-2024-10-07 15:53:12,949 - eye1 - [DEBUG] pyre.zbeacon: Network: 192.168.1.0
-2024-10-07 15:53:12,949 - eye1 - [DEBUG] pyre.zbeacon: Broadcast: 192.168.1.255
-2024-10-07 15:53:12,949 - eye1 - [DEBUG] pyre.zbeacon: Interface name: wlp0s20f3
-2024-10-07 15:53:12,949 - eye1 - [DEBUG] pyre.zbeacon: Set up a broadcast beacon to 192.168.1.255:5670
-2024-10-07 15:53:12,950 - eye1 - [DEBUG] plugin: Loading plugin: File_Manager with settings {}
-2024-10-07 15:53:12,950 - eye1 - [DEBUG] plugin: Loading plugin: UVC_Source with settings {'preferred_names': ['Pupil Cam3 ID1', 'Pupil Cam2 ID1', 'Pupil Cam1 ID1'], 'frame_size': (192, 192), 'frame_rate': 120}
-2024-10-07 15:53:12,951 - eye0 - [DEBUG] uvc: Device '1:21' opended.
-2024-10-07 15:53:12,952 - eye0 - [DEBUG] uvc: Capture(name='Pupil Cam2 ID0' manufacturer='Pupil Cam2 ID0' serialNumber='unknown' idProduct=25771 idVendor=3141 device_address=21 bus_number=1 uid='1:21') - all camera modes: [CameraMode(width=400, height=400, fps=30, format_native=3, format_name='YUY2', supported=False), CameraMode(width=192, height=192, fps=200, format_native=3, format_name='YUY2', supported=False), CameraMode(width=192, height=192, fps=180, format_native=3, format_name='YUY2', supported=False), CameraMode(width=192, height=192, fps=120, format_native=3, format_name='YUY2', supported=False), CameraMode(width=192, height=192, fps=90, format_native=3, format_name='YUY2', supported=False), CameraMode(width=192, height=192, fps=60, format_native=3, format_name='YUY2', supported=False), CameraMode(width=192, height=192, fps=30, format_native=3, format_name='YUY2', supported=False), CameraMode(width=400, height=400, fps=120, format_native=7, format_name='MJPG', supported=True), CameraMode(width=400, height=400, fps=90, format_native=7, format_name='MJPG', supported=True), CameraMode(width=400, height=400, fps=60, format_native=7, format_name='MJPG', supported=True), CameraMode(width=400, height=400, fps=30, format_native=7, format_name='MJPG', supported=True), CameraMode(width=192, height=192, fps=200, format_native=7, format_name='MJPG', supported=True), CameraMode(width=192, height=192, fps=180, format_native=7, format_name='MJPG', supported=True), CameraMode(width=192, height=192, fps=120, format_native=7, format_name='MJPG', supported=True), CameraMode(width=192, height=192, fps=90, format_native=7, format_name='MJPG', supported=True), CameraMode(width=192, height=192, fps=60, format_native=7, format_name='MJPG', supported=True), CameraMode(width=192, height=192, fps=30, format_native=7, format_name='MJPG', supported=True)]
-2024-10-07 15:53:12,952 - eye0 - [DEBUG] uvc: Adding "Auto Exposure Mode" control.
-2024-10-07 15:53:12,955 - eye0 - [DEBUG] uvc: Adding "Auto Exposure Priority" control.
-2024-10-07 15:53:12,957 - world - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from ddbce4c0de144ec195eae07034afdcf9>
-2024-10-07 15:53:12,957 - world - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from ddbce4c0de144ec195eae07034afdcf9>
-2024-10-07 15:53:12,957 - world - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from 8e64fb1c2b494cb6b7ce589635fd521f>
-2024-10-07 15:53:12,957 - eye0 - [DEBUG] uvc: Adding "Absolute Exposure Time" control.
-2024-10-07 15:53:12,966 - eye0 - [DEBUG] uvc: Adding "Auto Focus" control.
-2024-10-07 15:53:12,971 - eye0 - [DEBUG] uvc: Adding "Absolute Focus" control.
-2024-10-07 15:53:12,976 - eye0 - [DEBUG] uvc: Adding "Absolute Iris " control.
-2024-10-07 15:53:12,979 - eye0 - [DEBUG] uvc: Adding "Scanning Mode " control.
-2024-10-07 15:53:12,981 - eye1 - [DEBUG] uvc: Found device that mached uid: 1:22
-2024-10-07 15:53:12,981 - eye0 - [DEBUG] uvc: Adding "Zoom absolute control" control.
-2024-10-07 15:53:12,985 - eye0 - [DEBUG] uvc: Adding "Pan control" control.
-2024-10-07 15:53:12,985 - eye1 - [DEBUG] uvc: Device info: {'name': 'Pupil Cam2 ID1', 'manufacturer': 'Pupil Cam2 ID1', 'serialNumber': 'unknown', 'idProduct': 25771, 'idVendor': 3141, 'device_address': 22, 'bus_number': 1, 'uid': '1:22'}
-2024-10-07 15:53:12,988 - eye0 - [DEBUG] uvc: Adding "Tilt control" control.
-2024-10-07 15:53:12,990 - eye1 - [DEBUG] uvc: Device '1:22' opended.
-2024-10-07 15:53:12,991 - eye1 - [DEBUG] uvc: Capture(name='Pupil Cam2 ID1' manufacturer='Pupil Cam2 ID1' serialNumber='unknown' idProduct=25771 idVendor=3141 device_address=22 bus_number=1 uid='1:22') - all camera modes: [CameraMode(width=400, height=400, fps=30, format_native=3, format_name='YUY2', supported=False), CameraMode(width=192, height=192, fps=200, format_native=3, format_name='YUY2', supported=False), CameraMode(width=192, height=192, fps=180, format_native=3, format_name='YUY2', supported=False), CameraMode(width=192, height=192, fps=120, format_native=3, format_name='YUY2', supported=False), CameraMode(width=192, height=192, fps=90, format_native=3, format_name='YUY2', supported=False), CameraMode(width=192, height=192, fps=60, format_native=3, format_name='YUY2', supported=False), CameraMode(width=192, height=192, fps=30, format_native=3, format_name='YUY2', supported=False), CameraMode(width=400, height=400, fps=120, format_native=7, format_name='MJPG', supported=True), CameraMode(width=400, height=400, fps=90, format_native=7, format_name='MJPG', supported=True), CameraMode(width=400, height=400, fps=60, format_native=7, format_name='MJPG', supported=True), CameraMode(width=400, height=400, fps=30, format_native=7, format_name='MJPG', supported=True), CameraMode(width=192, height=192, fps=200, format_native=7, format_name='MJPG', supported=True), CameraMode(width=192, height=192, fps=180, format_native=7, format_name='MJPG', supported=True), CameraMode(width=192, height=192, fps=120, format_native=7, format_name='MJPG', supported=True), CameraMode(width=192, height=192, fps=90, format_native=7, format_name='MJPG', supported=True), CameraMode(width=192, height=192, fps=60, format_native=7, format_name='MJPG', supported=True), CameraMode(width=192, height=192, fps=30, format_native=7, format_name='MJPG', supported=True)]
-2024-10-07 15:53:12,991 - eye1 - [DEBUG] uvc: Adding "Auto Exposure Mode" control.
-2024-10-07 15:53:12,993 - eye0 - [DEBUG] uvc: Adding "Roll absolute control" control.
-2024-10-07 15:53:12,994 - eye1 - [DEBUG] uvc: Adding "Auto Exposure Priority" control.
-2024-10-07 15:53:12,997 - eye0 - [DEBUG] uvc: Adding "Privacy Shutter control" control.
-2024-10-07 15:53:12,998 - eye1 - [DEBUG] uvc: Adding "Absolute Exposure Time" control.
-2024-10-07 15:53:12,998 - eye0 - [DEBUG] uvc: Adding "Backlight Compensation" control.
-2024-10-07 15:53:13,000 - world - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from 57abd742bcbd4805b5dcff9e67758bf4>
-2024-10-07 15:53:13,001 - world - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from 8e64fb1c2b494cb6b7ce589635fd521f>
-2024-10-07 15:53:13,002 - eye1 - [DEBUG] uvc: Adding "Auto Focus" control.
-2024-10-07 15:53:13,002 - eye0 - [DEBUG] uvc: Adding "Brightness" control.
-2024-10-07 15:53:13,004 - eye1 - [DEBUG] uvc: Adding "Absolute Focus" control.
-2024-10-07 15:53:13,007 - eye0 - [DEBUG] uvc: Adding "Contrast" control.
-2024-10-07 15:53:13,014 - eye0 - [DEBUG] uvc: Adding "Gain" control.
-2024-10-07 15:53:13,014 - eye1 - [DEBUG] uvc: Adding "Absolute Iris " control.
-2024-10-07 15:53:13,018 - eye0 - [DEBUG] uvc: Adding "Power Line frequency" control.
-2024-10-07 15:53:13,018 - eye1 - [DEBUG] uvc: Adding "Scanning Mode " control.
-2024-10-07 15:53:13,020 - eye1 - [DEBUG] uvc: Adding "Zoom absolute control" control.
-2024-10-07 15:53:13,021 - eye0 - [DEBUG] uvc: Adding "Hue" control.
-2024-10-07 15:53:13,024 - eye1 - [DEBUG] uvc: Adding "Pan control" control.
-2024-10-07 15:53:13,025 - eye0 - [DEBUG] uvc: Adding "Saturation" control.
-2024-10-07 15:53:13,028 - eye1 - [DEBUG] uvc: Adding "Tilt control" control.
-2024-10-07 15:53:13,028 - eye0 - [DEBUG] uvc: Adding "Sharpness" control.
-2024-10-07 15:53:13,032 - eye1 - [DEBUG] uvc: Adding "Roll absolute control" control.
-2024-10-07 15:53:13,034 - eye0 - [DEBUG] uvc: Adding "Gamma" control.
-2024-10-07 15:53:13,035 - world - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from 57abd742bcbd4805b5dcff9e67758bf4>
-2024-10-07 15:53:13,036 - eye1 - [DEBUG] uvc: Adding "Privacy Shutter control" control.
-2024-10-07 15:53:13,038 - eye1 - [DEBUG] uvc: Adding "Backlight Compensation" control.
-2024-10-07 15:53:13,038 - eye0 - [DEBUG] uvc: Adding "White Balance temperature" control.
-2024-10-07 15:53:13,042 - eye1 - [DEBUG] uvc: Adding "Brightness" control.
-2024-10-07 15:53:13,042 - eye0 - [DEBUG] uvc: Adding "White Balance temperature,Auto" control.
-2024-10-07 15:53:13,045 - eye0 - [DEBUG] uvc: Changing resolution to target: (192, 192)
-2024-10-07 15:53:13,046 - eye1 - [DEBUG] uvc: Adding "Contrast" control.
-2024-10-07 15:53:13,046 - eye0 - [DEBUG] uvc: Setting mode: CameraMode(width=192, height=192, fps=30, format_native=7, format_name='MJPG', supported=True)
-2024-10-07 15:53:13,050 - eye1 - [DEBUG] uvc: Adding "Gain" control.
-2024-10-07 15:53:13,054 - eye1 - [DEBUG] uvc: Adding "Power Line frequency" control.
-2024-10-07 15:53:13,055 - eye1 - [DEBUG] uvc: Adding "Hue" control.
-2024-10-07 15:53:13,059 - eye1 - [DEBUG] uvc: Adding "Saturation" control.
-2024-10-07 15:53:13,063 - eye1 - [DEBUG] uvc: Adding "Sharpness" control.
-2024-10-07 15:53:13,063 - eye0 - [DEBUG] uvc: Negotiated frame format: {'bmHint': 1, 'bFormatIndex': 2, 'bFrameIndex': 2, 'dwFrameInterval': 331125, 'wKeyFrameRate': 0, 'wPFrameRate': 0, 'wCompQuality': 0, 'wCompWindowSize': 0, 'wDelay': 0, 'dwMaxVideoFrameSize': 73549, 'dwMaxPayloadTransferSize': 3072, 'dwClockFrequency': 15000000, 'bmFramingInfo': 0, 'bPreferredVersion': 0, 'bMinVersion': 0, 'bMaxVersion': 0, 'bInterfaceNumber': 1}
-2024-10-07 15:53:13,064 - eye0 - [DEBUG] camera_models: Loading previously recorded intrinsics...
-2024-10-07 15:53:13,064 - eye0 - [DEBUG] camera_models: No recorded intrinsics found in /app/pupil/capture_settings for camera Pupil Cam2 ID0 atresolution (192, 192)
-2024-10-07 15:53:13,064 - eye0 - [DEBUG] camera_models: Loading default intrinsics!
-2024-10-07 15:53:13,064 - eye0 - [DEBUG] uvc: Available frame rates at 192x192: (30, 60, 90, 120, 180, 200)
-2024-10-07 15:53:13,064 - eye0 - [DEBUG] uvc: Available frame rates at 192x192: (30, 60, 90, 120, 180, 200)
-2024-10-07 15:53:13,065 - eye0 - [DEBUG] uvc: Changing frame rate to target: 120
-2024-10-07 15:53:13,065 - eye0 - [DEBUG] uvc: Setting mode: CameraMode(width=192, height=192, fps=120, format_native=7, format_name='MJPG', supported=True)
-2024-10-07 15:53:13,068 - eye1 - [DEBUG] uvc: Adding "Gamma" control.
-2024-10-07 15:53:13,073 - eye1 - [DEBUG] uvc: Adding "White Balance temperature" control.
-2024-10-07 15:53:13,080 - eye1 - [DEBUG] uvc: Adding "White Balance temperature,Auto" control.
-2024-10-07 15:53:13,081 - eye0 - [DEBUG] uvc: Negotiated frame format: {'bmHint': 1, 'bFormatIndex': 2, 'bFrameIndex': 2, 'dwFrameInterval': 82712, 'wKeyFrameRate': 0, 'wPFrameRate': 0, 'wCompQuality': 0, 'wCompWindowSize': 0, 'wDelay': 0, 'dwMaxVideoFrameSize': 73549, 'dwMaxPayloadTransferSize': 3072, 'dwClockFrequency': 15000000, 'bmFramingInfo': 0, 'bPreferredVersion': 0, 'bMinVersion': 0, 'bMaxVersion': 0, 'bInterfaceNumber': 1}
-2024-10-07 15:53:13,084 - eye1 - [DEBUG] uvc: Changing resolution to target: (192, 192)
-2024-10-07 15:53:13,084 - eye1 - [DEBUG] uvc: Setting mode: CameraMode(width=192, height=192, fps=30, format_native=7, format_name='MJPG', supported=True)
-2024-10-07 15:53:13,101 - eye1 - [DEBUG] uvc: Negotiated frame format: {'bmHint': 1, 'bFormatIndex': 2, 'bFrameIndex': 2, 'dwFrameInterval': 331125, 'wKeyFrameRate': 0, 'wPFrameRate': 0, 'wCompQuality': 0, 'wCompWindowSize': 0, 'wDelay': 0, 'dwMaxVideoFrameSize': 73549, 'dwMaxPayloadTransferSize': 3072, 'dwClockFrequency': 15000000, 'bmFramingInfo': 0, 'bPreferredVersion': 0, 'bMinVersion': 0, 'bMaxVersion': 0, 'bInterfaceNumber': 1}
-2024-10-07 15:53:13,101 - eye1 - [DEBUG] camera_models: Loading previously recorded intrinsics...
-2024-10-07 15:53:13,101 - eye0 - [DEBUG] video_capture.uvc_backend: No UVC setting "Auto Exposure Mode" found from settings.
-2024-10-07 15:53:13,101 - eye1 - [DEBUG] camera_models: No recorded intrinsics found in /app/pupil/capture_settings for camera Pupil Cam2 ID1 atresolution (192, 192)
-2024-10-07 15:53:13,101 - eye1 - [DEBUG] camera_models: Loading default intrinsics!
-2024-10-07 15:53:13,101 - eye1 - [DEBUG] uvc: Available frame rates at 192x192: (30, 60, 90, 120, 180, 200)
-2024-10-07 15:53:13,102 - eye1 - [DEBUG] uvc: Available frame rates at 192x192: (30, 60, 90, 120, 180, 200)
-2024-10-07 15:53:13,102 - eye1 - [DEBUG] uvc: Changing frame rate to target: 120
-2024-10-07 15:53:13,102 - eye1 - [DEBUG] uvc: Setting mode: CameraMode(width=192, height=192, fps=120, format_native=7, format_name='MJPG', supported=True)
-2024-10-07 15:53:13,102 - eye0 - [DEBUG] video_capture.uvc_backend: No UVC setting "Auto Exposure Priority" found from settings.
-2024-10-07 15:53:13,102 - eye0 - [DEBUG] video_capture.uvc_backend: No UVC setting "Absolute Exposure Time" found from settings.
-2024-10-07 15:53:13,102 - eye0 - [DEBUG] video_capture.uvc_backend: No UVC setting "Auto Focus" found from settings.
-2024-10-07 15:53:13,102 - eye0 - [DEBUG] video_capture.uvc_backend: No UVC setting "Absolute Focus" found from settings.
-2024-10-07 15:53:13,102 - eye0 - [DEBUG] video_capture.uvc_backend: No UVC setting "Absolute Iris " found from settings.
-2024-10-07 15:53:13,102 - eye0 - [DEBUG] video_capture.uvc_backend: No UVC setting "Scanning Mode " found from settings.
-2024-10-07 15:53:13,102 - eye0 - [DEBUG] video_capture.uvc_backend: No UVC setting "Zoom absolute control" found from settings.
-2024-10-07 15:53:13,102 - eye0 - [DEBUG] video_capture.uvc_backend: No UVC setting "Pan control" found from settings.
-2024-10-07 15:53:13,102 - eye0 - [DEBUG] video_capture.uvc_backend: No UVC setting "Tilt control" found from settings.
-2024-10-07 15:53:13,102 - eye0 - [DEBUG] video_capture.uvc_backend: No UVC setting "Roll absolute control" found from settings.
-2024-10-07 15:53:13,102 - eye0 - [DEBUG] video_capture.uvc_backend: No UVC setting "Privacy Shutter control" found from settings.
-2024-10-07 15:53:13,102 - eye0 - [DEBUG] video_capture.uvc_backend: No UVC setting "Backlight Compensation" found from settings.
-2024-10-07 15:53:13,102 - eye0 - [DEBUG] video_capture.uvc_backend: No UVC setting "Brightness" found from settings.
-2024-10-07 15:53:13,103 - eye0 - [DEBUG] video_capture.uvc_backend: No UVC setting "Contrast" found from settings.
-2024-10-07 15:53:13,103 - eye0 - [DEBUG] video_capture.uvc_backend: No UVC setting "Gain" found from settings.
-2024-10-07 15:53:13,103 - eye0 - [DEBUG] video_capture.uvc_backend: No UVC setting "Power Line frequency" found from settings.
-2024-10-07 15:53:13,103 - eye0 - [DEBUG] video_capture.uvc_backend: No UVC setting "Hue" found from settings.
-2024-10-07 15:53:13,103 - eye0 - [DEBUG] video_capture.uvc_backend: No UVC setting "Saturation" found from settings.
-2024-10-07 15:53:13,103 - eye0 - [DEBUG] video_capture.uvc_backend: No UVC setting "Sharpness" found from settings.
-2024-10-07 15:53:13,103 - eye0 - [DEBUG] video_capture.uvc_backend: No UVC setting "Gamma" found from settings.
-2024-10-07 15:53:13,103 - eye0 - [DEBUG] video_capture.uvc_backend: No UVC setting "White Balance temperature" found from settings.
-2024-10-07 15:53:13,103 - eye0 - [DEBUG] video_capture.uvc_backend: No UVC setting "White Balance temperature,Auto" found from settings.
-2024-10-07 15:53:13,119 - eye1 - [DEBUG] uvc: Negotiated frame format: {'bmHint': 1, 'bFormatIndex': 2, 'bFrameIndex': 2, 'dwFrameInterval': 82712, 'wKeyFrameRate': 0, 'wPFrameRate': 0, 'wCompQuality': 0, 'wCompWindowSize': 0, 'wDelay': 0, 'dwMaxVideoFrameSize': 73549, 'dwMaxPayloadTransferSize': 3072, 'dwClockFrequency': 15000000, 'bmFramingInfo': 0, 'bPreferredVersion': 0, 'bMinVersion': 0, 'bMaxVersion': 0, 'bInterfaceNumber': 1}
-2024-10-07 15:53:13,135 - eye0 - [DEBUG] uvc: Available frame rates at 192x192: (30, 60, 90, 120, 180, 200)
-2024-10-07 15:53:13,135 - eye0 - [DEBUG] uvc: Available frame rates at 192x192: (30, 60, 90, 120, 180, 200)
-2024-10-07 15:53:13,135 - eye0 - [DEBUG] uvc: Available frame rates at 192x192: (30, 60, 90, 120, 180, 200)
-2024-10-07 15:53:13,135 - eye0 - [DEBUG] uvc: Available frame rates at 192x192: (30, 60, 90, 120, 180, 200)
-2024-10-07 15:53:13,136 - eye0 - [DEBUG] plugin: Loading plugin: Roi with settings {}
-2024-10-07 15:53:13,136 - eye0 - [DEBUG] plugin: Loading plugin: Detector2DPlugin with settings {}
-2024-10-07 15:53:13,138 - eye0 - [DEBUG] plugin: Loading plugin: Pye3DPlugin with settings {}
-2024-10-07 15:53:13,139 - eye0 - [DEBUG] pupil_detector_plugins.pye3d_plugin: Running asynchronous in capture
-2024-10-07 15:53:13,140 - eye1 - [DEBUG] video_capture.uvc_backend: No UVC setting "Auto Exposure Mode" found from settings.
-2024-10-07 15:53:13,141 - eye1 - [DEBUG] video_capture.uvc_backend: No UVC setting "Auto Exposure Priority" found from settings.
-2024-10-07 15:53:13,141 - eye1 - [DEBUG] video_capture.uvc_backend: No UVC setting "Absolute Exposure Time" found from settings.
-2024-10-07 15:53:13,141 - eye1 - [DEBUG] video_capture.uvc_backend: No UVC setting "Auto Focus" found from settings.
-2024-10-07 15:53:13,141 - eye1 - [DEBUG] video_capture.uvc_backend: No UVC setting "Absolute Focus" found from settings.
-2024-10-07 15:53:13,141 - eye1 - [DEBUG] video_capture.uvc_backend: No UVC setting "Absolute Iris " found from settings.
-2024-10-07 15:53:13,141 - eye1 - [DEBUG] video_capture.uvc_backend: No UVC setting "Scanning Mode " found from settings.
-2024-10-07 15:53:13,141 - eye1 - [DEBUG] video_capture.uvc_backend: No UVC setting "Zoom absolute control" found from settings.
-2024-10-07 15:53:13,141 - eye1 - [DEBUG] video_capture.uvc_backend: No UVC setting "Pan control" found from settings.
-2024-10-07 15:53:13,142 - eye1 - [DEBUG] video_capture.uvc_backend: No UVC setting "Tilt control" found from settings.
-2024-10-07 15:53:13,142 - eye1 - [DEBUG] video_capture.uvc_backend: No UVC setting "Roll absolute control" found from settings.
-2024-10-07 15:53:13,142 - eye1 - [DEBUG] video_capture.uvc_backend: No UVC setting "Privacy Shutter control" found from settings.
-2024-10-07 15:53:13,142 - eye1 - [DEBUG] video_capture.uvc_backend: No UVC setting "Backlight Compensation" found from settings.
-2024-10-07 15:53:13,142 - eye1 - [DEBUG] video_capture.uvc_backend: No UVC setting "Brightness" found from settings.
-2024-10-07 15:53:13,142 - eye1 - [DEBUG] video_capture.uvc_backend: No UVC setting "Contrast" found from settings.
-2024-10-07 15:53:13,142 - eye1 - [DEBUG] video_capture.uvc_backend: No UVC setting "Gain" found from settings.
-2024-10-07 15:53:13,142 - eye1 - [DEBUG] video_capture.uvc_backend: No UVC setting "Power Line frequency" found from settings.
-2024-10-07 15:53:13,142 - eye1 - [DEBUG] video_capture.uvc_backend: No UVC setting "Hue" found from settings.
-2024-10-07 15:53:13,142 - eye1 - [DEBUG] video_capture.uvc_backend: No UVC setting "Saturation" found from settings.
-2024-10-07 15:53:13,143 - eye1 - [DEBUG] video_capture.uvc_backend: No UVC setting "Sharpness" found from settings.
-2024-10-07 15:53:13,143 - eye1 - [DEBUG] video_capture.uvc_backend: No UVC setting "Gamma" found from settings.
-2024-10-07 15:53:13,143 - eye1 - [DEBUG] video_capture.uvc_backend: No UVC setting "White Balance temperature" found from settings.
-2024-10-07 15:53:13,143 - eye1 - [DEBUG] video_capture.uvc_backend: No UVC setting "White Balance temperature,Auto" found from settings.
-2024-10-07 15:53:13,160 - eye1 - [DEBUG] uvc: Available frame rates at 192x192: (30, 60, 90, 120, 180, 200)
-2024-10-07 15:53:13,160 - eye1 - [DEBUG] uvc: Available frame rates at 192x192: (30, 60, 90, 120, 180, 200)
-2024-10-07 15:53:13,160 - eye1 - [DEBUG] uvc: Available frame rates at 192x192: (30, 60, 90, 120, 180, 200)
-2024-10-07 15:53:13,160 - eye1 - [DEBUG] uvc: Available frame rates at 192x192: (30, 60, 90, 120, 180, 200)
-2024-10-07 15:53:13,161 - eye1 - [DEBUG] plugin: Loading plugin: Roi with settings {}
-2024-10-07 15:53:13,161 - eye1 - [DEBUG] plugin: Loading plugin: Detector2DPlugin with settings {}
-2024-10-07 15:53:13,161 - eye1 - [DEBUG] plugin: Loading plugin: Pye3DPlugin with settings {}
-2024-10-07 15:53:13,162 - eye1 - [DEBUG] pupil_detector_plugins.pye3d_plugin: Running asynchronous in capture
-2024-10-07 15:53:13,189 - eye0 - [DEBUG] pye3d.detector_3d: <class 'pye3d.detector_3d.Detector3D'> initialized with long_term_mode=DetectorMode.asynchronous calculate_rms_residual=False settings={'threshold_swirski': 0.7, 'threshold_kalman': 0.98, 'threshold_short_term': 0.8, 'threshold_long_term': 0.98, 'long_term_buffer_size': 30, 'long_term_forget_time': 5, 'long_term_forget_observations': 300, 'model_update_interval_long_term': 1.0, 'model_update_interval_ult_long_term': 10.0, 'model_warmup_duration': 5.0}
-2024-10-07 15:53:13,245 - eye1 - [DEBUG] pye3d.detector_3d: <class 'pye3d.detector_3d.Detector3D'> initialized with long_term_mode=DetectorMode.asynchronous calculate_rms_residual=False settings={'threshold_swirski': 0.7, 'threshold_kalman': 0.98, 'threshold_short_term': 0.8, 'threshold_long_term': 0.98, 'long_term_buffer_size': 30, 'long_term_forget_time': 5, 'long_term_forget_observations': 300, 'model_update_interval_long_term': 1.0, 'model_update_interval_ult_long_term': 10.0, 'model_warmup_duration': 5.0}
-2024-10-07 15:53:13,308 - eye0 - [DEBUG] launchables.eye: Process started.
-2024-10-07 15:53:13,311 - eye0 - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from 344b5359a9e444acaac6df3d41149ca5>
-2024-10-07 15:53:13,311 - eye0 - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from 344b5359a9e444acaac6df3d41149ca5>
-2024-10-07 15:53:13,311 - eye0 - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from e6e101b1a4324c7f955824f56acf3ae4>
-2024-10-07 15:53:13,312 - eye0 - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from 8e64fb1c2b494cb6b7ce589635fd521f>
-2024-10-07 15:53:13,312 - eye0 - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from ddbce4c0de144ec195eae07034afdcf9>
-2024-10-07 15:53:13,312 - eye0 - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from e6e101b1a4324c7f955824f56acf3ae4>
-2024-10-07 15:53:13,312 - eye0 - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from 57abd742bcbd4805b5dcff9e67758bf4>
-2024-10-07 15:53:13,313 - eye0 - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from fc5345e2a0c94712baed1e84c1102fe2>
-2024-10-07 15:53:13,313 - eye0 - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from 8e64fb1c2b494cb6b7ce589635fd521f>
-2024-10-07 15:53:13,313 - eye0 - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from 57abd742bcbd4805b5dcff9e67758bf4>
-2024-10-07 15:53:13,343 - eye1 - [DEBUG] launchables.eye: Process started.
-2024-10-07 15:53:13,347 - eye1 - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from 344b5359a9e444acaac6df3d41149ca5>
-2024-10-07 15:53:13,347 - eye1 - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from e6e101b1a4324c7f955824f56acf3ae4>
-2024-10-07 15:53:13,350 - eye1 - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from e6e101b1a4324c7f955824f56acf3ae4>
-2024-10-07 15:53:13,350 - eye1 - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from 8e64fb1c2b494cb6b7ce589635fd521f>
-2024-10-07 15:53:13,350 - eye1 - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from ddbce4c0de144ec195eae07034afdcf9>
-2024-10-07 15:53:13,350 - eye1 - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from ddbce4c0de144ec195eae07034afdcf9>
-2024-10-07 15:53:13,351 - eye1 - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from fc5345e2a0c94712baed1e84c1102fe2>
-2024-10-07 15:53:13,351 - eye1 - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from 344b5359a9e444acaac6df3d41149ca5>
-2024-10-07 15:53:13,351 - eye1 - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from 57abd742bcbd4805b5dcff9e67758bf4>
-2024-10-07 15:53:13,351 - eye1 - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from fc5345e2a0c94712baed1e84c1102fe2>
-2024-10-07 15:53:13,479 - eye0 - [DEBUG] uvc: Stream start.
-2024-10-07 15:53:13,509 - eye0 - [DEBUG] video_capture.uvc_backend: Received frame with invalid timestamp. This can happen after a disconnect. Frame will be dropped!
-2024-10-07 15:53:13,512 - eye0 - [DEBUG] pupil_detector_plugins.detector_base_plugin: enabled set to True
-2024-10-07 15:53:13,512 - eye0 - [DEBUG] pupil_detector_plugins.detector_base_plugin: enabled set to True
-2024-10-07 15:53:13,619 - eye1 - [DEBUG] uvc: Stream start.
-2024-10-07 15:53:13,647 - eye1 - [DEBUG] video_capture.uvc_backend: Received frame with invalid timestamp. This can happen after a disconnect. Frame will be dropped!
-2024-10-07 15:53:13,647 - eye1 - [DEBUG] pupil_detector_plugins.detector_base_plugin: enabled set to True
-2024-10-07 15:53:13,649 - eye1 - [DEBUG] pupil_detector_plugins.detector_base_plugin: enabled set to True
-2024-10-07 15:53:14,102 - eye0 - [DEBUG] pupil_detector_plugins.detector_base_plugin: enabled set to True
-2024-10-07 15:53:14,102 - eye0 - [DEBUG] pupil_detector_plugins.detector_base_plugin: enabled set to True
-2024-10-07 15:53:14,229 - Pye3D Background Process - [DEBUG] pye3d.eye_model.asynchronous: Setting up backend: (<SynchronizedArray wrapper for <multiprocessing.sharedctypes.c_double_Array_3 object at 0x74c234046040>>, <SynchronizedArray wrapper for <multiprocessing.sharedctypes.c_double_Array_3 object at 0x74c234046140>>, <SynchronizedArray wrapper for <multiprocessing.sharedctypes.c_double_Array_2 object at 0x74c234046240>>, <Synchronized wrapper for c_long(0)>, <Synchronized wrapper for c_double(0.0)>, <multiprocessing.synchronize.Event object at 0x74c234045250>), {'camera': CameraModel(focal_length=283.269172, resolution=(192, 192)), 'storage_cls': <class 'pye3d.observation.BinBufferedObservationStorage'>, 'storage_kwargs': {'camera': CameraModel(focal_length=283.269172, resolution=(192, 192)), 'confidence_threshold': 0.98, 'n_bins_horizontal': 10, 'bin_buffer_length': 30, 'forget_min_observations': 300, 'forget_min_time': 5}}
-2024-10-07 15:53:14,229 - Pye3D Background Process - [DEBUG] pye3d.eye_model.asynchronous: Setting up backend: (<SynchronizedArray wrapper for <multiprocessing.sharedctypes.c_double_Array_3 object at 0x79cb13b83040>>, <SynchronizedArray wrapper for <multiprocessing.sharedctypes.c_double_Array_3 object at 0x79cb13b83140>>, <SynchronizedArray wrapper for <multiprocessing.sharedctypes.c_double_Array_2 object at 0x79cb13b83240>>, <Synchronized wrapper for c_long(0)>, <Synchronized wrapper for c_double(0.0)>, <multiprocessing.synchronize.Event object at 0x79cb13b82250>), {'camera': CameraModel(focal_length=283.269172, resolution=(192, 192)), 'storage_cls': <class 'pye3d.observation.BinBufferedObservationStorage'>, 'storage_kwargs': {'camera': CameraModel(focal_length=283.269172, resolution=(192, 192)), 'confidence_threshold': 0.98, 'n_bins_horizontal': 10, 'bin_buffer_length': 30, 'forget_min_observations': 600, 'forget_min_time': 60}}
-2024-10-07 15:53:14,248 - Pye3D Background Process - [DEBUG] pye3d.eye_model.asynchronous: Setting up backend: (<SynchronizedArray wrapper for <multiprocessing.sharedctypes.c_double_Array_3 object at 0x70b1fa982040>>, <SynchronizedArray wrapper for <multiprocessing.sharedctypes.c_double_Array_3 object at 0x70b1fa982140>>, <SynchronizedArray wrapper for <multiprocessing.sharedctypes.c_double_Array_2 object at 0x70b1fa982240>>, <Synchronized wrapper for c_long(0)>, <Synchronized wrapper for c_double(0.0)>, <multiprocessing.synchronize.Event object at 0x70b1fa97e250>), {'camera': CameraModel(focal_length=283.269172, resolution=(192, 192)), 'storage_cls': <class 'pye3d.observation.BinBufferedObservationStorage'>, 'storage_kwargs': {'camera': CameraModel(focal_length=283.269172, resolution=(192, 192)), 'confidence_threshold': 0.98, 'n_bins_horizontal': 10, 'bin_buffer_length': 30, 'forget_min_observations': 300, 'forget_min_time': 5}}
-2024-10-07 15:53:14,233 - Pye3D Background Process - [DEBUG] pye3d.eye_model.asynchronous: Setting up backend: (<SynchronizedArray wrapper for <multiprocessing.sharedctypes.c_double_Array_3 object at 0x71819f6a4040>>, <SynchronizedArray wrapper for <multiprocessing.sharedctypes.c_double_Array_3 object at 0x71819f6a4140>>, <SynchronizedArray wrapper for <multiprocessing.sharedctypes.c_double_Array_2 object at 0x71819f6a4240>>, <Synchronized wrapper for c_long(0)>, <Synchronized wrapper for c_double(0.0)>, <multiprocessing.synchronize.Event object at 0x71819f6a3250>), {'camera': CameraModel(focal_length=283.269172, resolution=(192, 192)), 'storage_cls': <class 'pye3d.observation.BinBufferedObservationStorage'>, 'storage_kwargs': {'camera': CameraModel(focal_length=283.269172, resolution=(192, 192)), 'confidence_threshold': 0.98, 'n_bins_horizontal': 10, 'bin_buffer_length': 30, 'forget_min_observations': 600, 'forget_min_time': 60}}
+2024-10-07 20:53:07,757 - world - [DEBUG] plugin: Loading plugin: Blink_Detection with settings {}
+2024-10-07 20:53:07,757 - world - [DEBUG] plugin: Loading plugin: Accuracy_Visualizer with settings {}
+2024-10-07 20:53:07,785 - world - [DEBUG] launchables.world: Process started.
+2024-10-07 20:53:07,785 - world - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from b142a61d307644d49150404021548692>
+2024-10-07 20:53:07,785 - world - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from c480e8e2a1a5450899bb0e2c30b00209>
+2024-10-07 20:53:07,867 - world - [DEBUG] uvc: Stream start.
+2024-10-07 20:53:07,961 - world - [DEBUG] video_capture.uvc_backend: Received frame with invalid timestamp. This can happen after a disconnect. Frame will be dropped!
+2024-10-07 20:53:08,537 - world - [DEBUG] plugin: 'backend.change_mode' notification sent with keys: ('subject', 'mode')
+2024-10-07 20:53:08,537 - world - [DEBUG] plugin: 'frame_publishing.started' notification sent with keys: ('subject', 'format')
+2024-10-07 20:53:08,868 - world - [DEBUG] plugin: 'backend.change_mode' notification sent with keys: ('subject', 'mode')
+2024-10-07 20:53:08,868 - world - [DEBUG] plugin: 'frame_publishing.started' notification sent with keys: ('subject', 'format')
+2024-10-07 20:53:09,342 - eye0 - [DEBUG] uvc: Not running on macOS. Will attempt to detach kernel drivers.
+2024-10-07 20:53:09,391 - eye0 - [DEBUG] video_capture.ndsi_backend: Suppressing pyre debug logs (except zbeacon)
+2024-10-07 20:53:09,438 - eye0 - [DEBUG] pupil_detector_plugins: Using refraction corrected 3D pupil detector.
+2024-10-07 20:53:09,438 - eye0 - [DEBUG] plugin: Searching /app/pupil/capture_settings/plugins...
+2024-10-07 20:53:09,438 - eye0 - [DEBUG] file_methods: Session settings file '/app/pupil/capture_settings/user_settings_eye0' not found. Will make new one on exit.
+2024-10-07 20:53:09,438 - eye0 - [DEBUG] launchables.eye: Session setting are from a different version of this app. I will not use those.
+2024-10-07 20:53:09,557 - eye0 - [DEBUG] plugin: Plugin HMD_Streaming_Manager failed to load, not available for import.
+2024-10-07 20:53:09,557 - eye0 - [DEBUG] plugin: Loading plugin: UVC_Manager with settings {}
+2024-10-07 20:53:09,579 - eye0 - [DEBUG] plugin: Loading plugin: NDSI_Manager with settings {}
+2024-10-07 20:53:09,580 - eye0 - [DEBUG] ndsi.network: Starting network...
+2024-10-07 20:53:09,589 - eye0 - [DEBUG] pyre.zbeacon: Available interfaces: [{'enp0s31f6': {17: {'addr': 'f8:75:a4:fe:03:9a'}}}, {'wlp0s20f3': {17: {'addr': 'b8:9a:2a:66:2d:f8'}, 2: {'addr': '192.168.1.104', 'netmask': '255.255.255.0', 'broadcast': '192.168.1.255'}, 10: {'addr': 'fe80::ba9a:2aff:fe66:2df8', 'scope': 3, 'netmask': 'ffff:ffff:ffff:ffff::'}}}, {'br-bb681f6ff42c': {17: {'addr': '02:42:75:ac:f1:e0'}, 2: {'addr': '172.24.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.24.255.255'}}}, {'br-ed8cfcfaf92e': {17: {'addr': '02:42:b7:71:f8:e1'}, 2: {'addr': '172.25.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.25.255.255'}}}, {'docker0': {17: {'addr': '02:42:34:91:ff:fa'}, 2: {'addr': '172.17.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.17.255.255'}, 10: {'addr': 'fe80::42:34ff:fe91:fffa', 'scope': 6, 'netmask': 'ffff:ffff:ffff:ffff::'}}}, {'br-4be18ffac5c9': {17: {'addr': '02:42:2a:27:1f:28'}, 2: {'addr': '172.21.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.21.255.255'}}}, {'br-5eb13c9765ac': {17: {'addr': '02:42:f0:70:c2:e7'}, 2: {'addr': '172.26.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.26.255.255'}}}, {'br-70a7d590bc36': {17: {'addr': '02:42:90:32:b8:8e'}, 2: {'addr': '172.20.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.20.255.255'}}}, {'br-e87dafb95a95': {17: {'addr': '02:42:f2:21:97:7d'}, 2: {'addr': '172.19.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.19.255.255'}}}, {'br-f13a35e8aeb7': {17: {'addr': '02:42:ed:c2:a6:72'}, 2: {'addr': '172.22.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.22.255.255'}}}, {'br-44832085d669': {17: {'addr': '02:42:7e:62:cd:c1'}, 2: {'addr': '172.18.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.18.255.255'}}}, {'lo': {2: {'addr': '127.0.0.1', 'netmask': '255.0.0.0'}, 10: {'addr': '::1', 'netmask': 'ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff'}}}]
+2024-10-07 20:53:09,589 - eye0 - [DEBUG] pyre.zbeacon: Checking out interface enp0s31f6.
+2024-10-07 20:53:09,589 - eye0 - [DEBUG] pyre.zbeacon: No data_2 found for interface enp0s31f6.
+2024-10-07 20:53:09,589 - eye0 - [DEBUG] pyre.zbeacon: Checking out interface wlp0s20f3.
+2024-10-07 20:53:09,589 - eye0 - [DEBUG] pyre.zbeacon: Finished scanning interfaces.
+2024-10-07 20:53:09,589 - eye0 - [DEBUG] pyre.zbeacon: Address: 192.168.1.104
+2024-10-07 20:53:09,589 - eye0 - [DEBUG] pyre.zbeacon: Network: 192.168.1.0
+2024-10-07 20:53:09,589 - eye0 - [DEBUG] pyre.zbeacon: Broadcast: 192.168.1.255
+2024-10-07 20:53:09,589 - eye0 - [DEBUG] pyre.zbeacon: Interface name: wlp0s20f3
+2024-10-07 20:53:09,589 - eye0 - [DEBUG] pyre.zbeacon: Set up a broadcast beacon to 192.168.1.255:5670
+2024-10-07 20:53:09,590 - eye0 - [DEBUG] ndsi.network: Starting network...
+2024-10-07 20:53:09,597 - eye0 - [DEBUG] pyre.zbeacon: Available interfaces: [{'enp0s31f6': {17: {'addr': 'f8:75:a4:fe:03:9a'}}}, {'wlp0s20f3': {17: {'addr': 'b8:9a:2a:66:2d:f8'}, 2: {'addr': '192.168.1.104', 'netmask': '255.255.255.0', 'broadcast': '192.168.1.255'}, 10: {'addr': 'fe80::ba9a:2aff:fe66:2df8', 'scope': 3, 'netmask': 'ffff:ffff:ffff:ffff::'}}}, {'br-bb681f6ff42c': {17: {'addr': '02:42:75:ac:f1:e0'}, 2: {'addr': '172.24.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.24.255.255'}}}, {'br-ed8cfcfaf92e': {17: {'addr': '02:42:b7:71:f8:e1'}, 2: {'addr': '172.25.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.25.255.255'}}}, {'docker0': {17: {'addr': '02:42:34:91:ff:fa'}, 2: {'addr': '172.17.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.17.255.255'}, 10: {'addr': 'fe80::42:34ff:fe91:fffa', 'scope': 6, 'netmask': 'ffff:ffff:ffff:ffff::'}}}, {'br-4be18ffac5c9': {17: {'addr': '02:42:2a:27:1f:28'}, 2: {'addr': '172.21.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.21.255.255'}}}, {'br-5eb13c9765ac': {17: {'addr': '02:42:f0:70:c2:e7'}, 2: {'addr': '172.26.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.26.255.255'}}}, {'br-70a7d590bc36': {17: {'addr': '02:42:90:32:b8:8e'}, 2: {'addr': '172.20.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.20.255.255'}}}, {'br-e87dafb95a95': {17: {'addr': '02:42:f2:21:97:7d'}, 2: {'addr': '172.19.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.19.255.255'}}}, {'br-f13a35e8aeb7': {17: {'addr': '02:42:ed:c2:a6:72'}, 2: {'addr': '172.22.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.22.255.255'}}}, {'br-44832085d669': {17: {'addr': '02:42:7e:62:cd:c1'}, 2: {'addr': '172.18.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.18.255.255'}}}, {'lo': {2: {'addr': '127.0.0.1', 'netmask': '255.0.0.0'}, 10: {'addr': '::1', 'netmask': 'ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff'}}}]
+2024-10-07 20:53:09,597 - eye0 - [DEBUG] pyre.zbeacon: Checking out interface enp0s31f6.
+2024-10-07 20:53:09,597 - eye0 - [DEBUG] pyre.zbeacon: No data_2 found for interface enp0s31f6.
+2024-10-07 20:53:09,597 - eye0 - [DEBUG] pyre.zbeacon: Checking out interface wlp0s20f3.
+2024-10-07 20:53:09,597 - eye0 - [DEBUG] pyre.zbeacon: Finished scanning interfaces.
+2024-10-07 20:53:09,597 - eye0 - [DEBUG] pyre.zbeacon: Address: 192.168.1.104
+2024-10-07 20:53:09,597 - eye0 - [DEBUG] pyre.zbeacon: Network: 192.168.1.0
+2024-10-07 20:53:09,597 - eye0 - [DEBUG] pyre.zbeacon: Broadcast: 192.168.1.255
+2024-10-07 20:53:09,597 - eye0 - [DEBUG] pyre.zbeacon: Interface name: wlp0s20f3
+2024-10-07 20:53:09,597 - eye0 - [DEBUG] pyre.zbeacon: Set up a broadcast beacon to 192.168.1.255:5670
+2024-10-07 20:53:09,611 - eye0 - [DEBUG] plugin: Loading plugin: File_Manager with settings {}
+2024-10-07 20:53:09,611 - eye0 - [DEBUG] plugin: Loading plugin: UVC_Source with settings {'preferred_names': ['Pupil Cam3 ID0', 'Pupil Cam2 ID0', 'Pupil Cam1 ID0', 'HD-6000'], 'frame_size': (192, 192), 'frame_rate': 120}
+2024-10-07 20:53:09,637 - world - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from 49ee6bfd06654da38ca56a6802a6f57b>
+2024-10-07 20:53:09,637 - world - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from 49ee6bfd06654da38ca56a6802a6f57b>
+2024-10-07 20:53:09,639 - eye0 - [DEBUG] uvc: Found device that mached uid: 1:25
+2024-10-07 20:53:09,644 - eye0 - [DEBUG] uvc: Device info: {'name': 'Pupil Cam2 ID0', 'manufacturer': 'Pupil Cam2 ID0', 'serialNumber': 'unknown', 'idProduct': 25771, 'idVendor': 3141, 'device_address': 25, 'bus_number': 1, 'uid': '1:25'}
+2024-10-07 20:53:09,654 - eye0 - [DEBUG] uvc: Device '1:25' opended.
+2024-10-07 20:53:09,654 - eye0 - [DEBUG] uvc: Capture(name='Pupil Cam2 ID0' manufacturer='Pupil Cam2 ID0' serialNumber='unknown' idProduct=25771 idVendor=3141 device_address=25 bus_number=1 uid='1:25') - all camera modes: [CameraMode(width=400, height=400, fps=30, format_native=3, format_name='YUY2', supported=False), CameraMode(width=192, height=192, fps=200, format_native=3, format_name='YUY2', supported=False), CameraMode(width=192, height=192, fps=180, format_native=3, format_name='YUY2', supported=False), CameraMode(width=192, height=192, fps=120, format_native=3, format_name='YUY2', supported=False), CameraMode(width=192, height=192, fps=90, format_native=3, format_name='YUY2', supported=False), CameraMode(width=192, height=192, fps=60, format_native=3, format_name='YUY2', supported=False), CameraMode(width=192, height=192, fps=30, format_native=3, format_name='YUY2', supported=False), CameraMode(width=400, height=400, fps=120, format_native=7, format_name='MJPG', supported=True), CameraMode(width=400, height=400, fps=90, format_native=7, format_name='MJPG', supported=True), CameraMode(width=400, height=400, fps=60, format_native=7, format_name='MJPG', supported=True), CameraMode(width=400, height=400, fps=30, format_native=7, format_name='MJPG', supported=True), CameraMode(width=192, height=192, fps=200, format_native=7, format_name='MJPG', supported=True), CameraMode(width=192, height=192, fps=180, format_native=7, format_name='MJPG', supported=True), CameraMode(width=192, height=192, fps=120, format_native=7, format_name='MJPG', supported=True), CameraMode(width=192, height=192, fps=90, format_native=7, format_name='MJPG', supported=True), CameraMode(width=192, height=192, fps=60, format_native=7, format_name='MJPG', supported=True), CameraMode(width=192, height=192, fps=30, format_native=7, format_name='MJPG', supported=True)]
+2024-10-07 20:53:09,657 - eye0 - [DEBUG] uvc: Adding "Auto Exposure Mode" control.
+2024-10-07 20:53:09,660 - eye1 - [DEBUG] uvc: Not running on macOS. Will attempt to detach kernel drivers.
+2024-10-07 20:53:09,663 - eye0 - [DEBUG] uvc: Adding "Auto Exposure Priority" control.
+2024-10-07 20:53:09,667 - eye0 - [DEBUG] uvc: Adding "Absolute Exposure Time" control.
+2024-10-07 20:53:09,671 - eye0 - [DEBUG] uvc: Adding "Auto Focus" control.
+2024-10-07 20:53:09,673 - eye0 - [DEBUG] uvc: Adding "Absolute Focus" control.
+2024-10-07 20:53:09,679 - eye0 - [DEBUG] uvc: Adding "Absolute Iris " control.
+2024-10-07 20:53:09,684 - world - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from 3244ac3f64804195b780b3d146627bde>
+2024-10-07 20:53:09,684 - world - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from 3244ac3f64804195b780b3d146627bde>
+2024-10-07 20:53:09,687 - eye0 - [DEBUG] uvc: Adding "Scanning Mode " control.
+2024-10-07 20:53:09,688 - eye0 - [DEBUG] uvc: Adding "Zoom absolute control" control.
+2024-10-07 20:53:09,692 - eye0 - [DEBUG] uvc: Adding "Pan control" control.
+2024-10-07 20:53:09,697 - eye0 - [DEBUG] uvc: Adding "Tilt control" control.
+2024-10-07 20:53:09,701 - eye0 - [DEBUG] uvc: Adding "Roll absolute control" control.
+2024-10-07 20:53:09,707 - eye0 - [DEBUG] uvc: Adding "Privacy Shutter control" control.
+2024-10-07 20:53:09,708 - eye0 - [DEBUG] uvc: Adding "Backlight Compensation" control.
+2024-10-07 20:53:09,715 - eye0 - [DEBUG] uvc: Adding "Brightness" control.
+2024-10-07 20:53:09,718 - eye0 - [DEBUG] uvc: Adding "Contrast" control.
+2024-10-07 20:53:09,722 - eye1 - [DEBUG] video_capture.ndsi_backend: Suppressing pyre debug logs (except zbeacon)
+2024-10-07 20:53:09,724 - eye0 - [DEBUG] uvc: Adding "Gain" control.
+2024-10-07 20:53:09,727 - eye0 - [DEBUG] uvc: Adding "Power Line frequency" control.
+2024-10-07 20:53:09,729 - eye0 - [DEBUG] uvc: Adding "Hue" control.
+2024-10-07 20:53:09,733 - eye0 - [DEBUG] uvc: Adding "Saturation" control.
+2024-10-07 20:53:09,737 - eye0 - [DEBUG] uvc: Adding "Sharpness" control.
+2024-10-07 20:53:09,741 - eye0 - [DEBUG] uvc: Adding "Gamma" control.
+2024-10-07 20:53:09,746 - eye0 - [DEBUG] uvc: Adding "White Balance temperature" control.
+2024-10-07 20:53:09,750 - eye0 - [DEBUG] uvc: Adding "White Balance temperature,Auto" control.
+2024-10-07 20:53:09,754 - eye0 - [DEBUG] uvc: Changing resolution to target: (192, 192)
+2024-10-07 20:53:09,754 - eye0 - [DEBUG] uvc: Setting mode: CameraMode(width=192, height=192, fps=30, format_native=7, format_name='MJPG', supported=True)
+2024-10-07 20:53:09,758 - eye1 - [DEBUG] pupil_detector_plugins: Using refraction corrected 3D pupil detector.
+2024-10-07 20:53:09,758 - eye1 - [DEBUG] plugin: Searching /app/pupil/capture_settings/plugins...
+2024-10-07 20:53:09,758 - eye1 - [DEBUG] file_methods: Session settings file '/app/pupil/capture_settings/user_settings_eye1' not found. Will make new one on exit.
+2024-10-07 20:53:09,758 - eye1 - [DEBUG] launchables.eye: Session setting are from a different version of this app. I will not use those.
+2024-10-07 20:53:09,772 - eye0 - [DEBUG] uvc: Negotiated frame format: {'bmHint': 1, 'bFormatIndex': 2, 'bFrameIndex': 2, 'dwFrameInterval': 331125, 'wKeyFrameRate': 0, 'wPFrameRate': 0, 'wCompQuality': 0, 'wCompWindowSize': 0, 'wDelay': 0, 'dwMaxVideoFrameSize': 73549, 'dwMaxPayloadTransferSize': 3072, 'dwClockFrequency': 15000000, 'bmFramingInfo': 0, 'bPreferredVersion': 0, 'bMinVersion': 0, 'bMaxVersion': 0, 'bInterfaceNumber': 1}
+2024-10-07 20:53:09,772 - eye0 - [DEBUG] camera_models: Loading previously recorded intrinsics...
+2024-10-07 20:53:09,773 - eye0 - [DEBUG] camera_models: No recorded intrinsics found in /app/pupil/capture_settings for camera Pupil Cam2 ID0 atresolution (192, 192)
+2024-10-07 20:53:09,773 - eye0 - [DEBUG] camera_models: Loading default intrinsics!
+2024-10-07 20:53:09,773 - eye0 - [DEBUG] uvc: Available frame rates at 192x192: (30, 60, 90, 120, 180, 200)
+2024-10-07 20:53:09,773 - eye0 - [DEBUG] uvc: Available frame rates at 192x192: (30, 60, 90, 120, 180, 200)
+2024-10-07 20:53:09,773 - eye0 - [DEBUG] uvc: Changing frame rate to target: 120
+2024-10-07 20:53:09,773 - eye0 - [DEBUG] uvc: Setting mode: CameraMode(width=192, height=192, fps=120, format_native=7, format_name='MJPG', supported=True)
+2024-10-07 20:53:09,790 - eye0 - [DEBUG] uvc: Negotiated frame format: {'bmHint': 1, 'bFormatIndex': 2, 'bFrameIndex': 2, 'dwFrameInterval': 82712, 'wKeyFrameRate': 0, 'wPFrameRate': 0, 'wCompQuality': 0, 'wCompWindowSize': 0, 'wDelay': 0, 'dwMaxVideoFrameSize': 73549, 'dwMaxPayloadTransferSize': 3072, 'dwClockFrequency': 15000000, 'bmFramingInfo': 0, 'bPreferredVersion': 0, 'bMinVersion': 0, 'bMaxVersion': 0, 'bInterfaceNumber': 1}
+2024-10-07 20:53:09,809 - eye0 - [DEBUG] video_capture.uvc_backend: No UVC setting "Auto Exposure Mode" found from settings.
+2024-10-07 20:53:09,809 - eye0 - [DEBUG] video_capture.uvc_backend: No UVC setting "Auto Exposure Priority" found from settings.
+2024-10-07 20:53:09,809 - eye0 - [DEBUG] video_capture.uvc_backend: No UVC setting "Absolute Exposure Time" found from settings.
+2024-10-07 20:53:09,809 - eye0 - [DEBUG] video_capture.uvc_backend: No UVC setting "Auto Focus" found from settings.
+2024-10-07 20:53:09,809 - eye0 - [DEBUG] video_capture.uvc_backend: No UVC setting "Absolute Focus" found from settings.
+2024-10-07 20:53:09,809 - eye0 - [DEBUG] video_capture.uvc_backend: No UVC setting "Absolute Iris " found from settings.
+2024-10-07 20:53:09,809 - eye0 - [DEBUG] video_capture.uvc_backend: No UVC setting "Scanning Mode " found from settings.
+2024-10-07 20:53:09,809 - eye0 - [DEBUG] video_capture.uvc_backend: No UVC setting "Zoom absolute control" found from settings.
+2024-10-07 20:53:09,809 - eye0 - [DEBUG] video_capture.uvc_backend: No UVC setting "Pan control" found from settings.
+2024-10-07 20:53:09,809 - eye0 - [DEBUG] video_capture.uvc_backend: No UVC setting "Tilt control" found from settings.
+2024-10-07 20:53:09,809 - eye0 - [DEBUG] video_capture.uvc_backend: No UVC setting "Roll absolute control" found from settings.
+2024-10-07 20:53:09,809 - eye0 - [DEBUG] video_capture.uvc_backend: No UVC setting "Privacy Shutter control" found from settings.
+2024-10-07 20:53:09,809 - eye0 - [DEBUG] video_capture.uvc_backend: No UVC setting "Backlight Compensation" found from settings.
+2024-10-07 20:53:09,809 - eye0 - [DEBUG] video_capture.uvc_backend: No UVC setting "Brightness" found from settings.
+2024-10-07 20:53:09,809 - eye0 - [DEBUG] video_capture.uvc_backend: No UVC setting "Contrast" found from settings.
+2024-10-07 20:53:09,809 - eye0 - [DEBUG] video_capture.uvc_backend: No UVC setting "Gain" found from settings.
+2024-10-07 20:53:09,810 - eye0 - [DEBUG] video_capture.uvc_backend: No UVC setting "Power Line frequency" found from settings.
+2024-10-07 20:53:09,810 - eye0 - [DEBUG] video_capture.uvc_backend: No UVC setting "Hue" found from settings.
+2024-10-07 20:53:09,810 - eye0 - [DEBUG] video_capture.uvc_backend: No UVC setting "Saturation" found from settings.
+2024-10-07 20:53:09,810 - eye0 - [DEBUG] video_capture.uvc_backend: No UVC setting "Sharpness" found from settings.
+2024-10-07 20:53:09,810 - eye0 - [DEBUG] video_capture.uvc_backend: No UVC setting "Gamma" found from settings.
+2024-10-07 20:53:09,810 - eye0 - [DEBUG] video_capture.uvc_backend: No UVC setting "White Balance temperature" found from settings.
+2024-10-07 20:53:09,810 - eye0 - [DEBUG] video_capture.uvc_backend: No UVC setting "White Balance temperature,Auto" found from settings.
+2024-10-07 20:53:09,828 - eye0 - [DEBUG] uvc: Available frame rates at 192x192: (30, 60, 90, 120, 180, 200)
+2024-10-07 20:53:09,829 - eye0 - [DEBUG] uvc: Available frame rates at 192x192: (30, 60, 90, 120, 180, 200)
+2024-10-07 20:53:09,829 - eye0 - [DEBUG] uvc: Available frame rates at 192x192: (30, 60, 90, 120, 180, 200)
+2024-10-07 20:53:09,829 - eye0 - [DEBUG] uvc: Available frame rates at 192x192: (30, 60, 90, 120, 180, 200)
+2024-10-07 20:53:09,829 - eye0 - [DEBUG] plugin: Loading plugin: Roi with settings {}
+2024-10-07 20:53:09,830 - eye0 - [DEBUG] plugin: Loading plugin: Detector2DPlugin with settings {}
+2024-10-07 20:53:09,831 - eye0 - [DEBUG] plugin: Loading plugin: Pye3DPlugin with settings {}
+2024-10-07 20:53:09,832 - eye0 - [DEBUG] pupil_detector_plugins.pye3d_plugin: Running asynchronous in capture
+2024-10-07 20:53:09,850 - eye1 - [DEBUG] plugin: Plugin HMD_Streaming_Manager failed to load, not available for import.
+2024-10-07 20:53:09,850 - eye1 - [DEBUG] plugin: Loading plugin: UVC_Manager with settings {}
+2024-10-07 20:53:09,878 - eye1 - [DEBUG] plugin: Loading plugin: NDSI_Manager with settings {}
+2024-10-07 20:53:09,879 - eye1 - [DEBUG] ndsi.network: Starting network...
+2024-10-07 20:53:09,882 - eye1 - [DEBUG] pyre.zbeacon: Available interfaces: [{'enp0s31f6': {17: {'addr': 'f8:75:a4:fe:03:9a'}}}, {'wlp0s20f3': {17: {'addr': 'b8:9a:2a:66:2d:f8'}, 2: {'addr': '192.168.1.104', 'netmask': '255.255.255.0', 'broadcast': '192.168.1.255'}, 10: {'addr': 'fe80::ba9a:2aff:fe66:2df8', 'scope': 3, 'netmask': 'ffff:ffff:ffff:ffff::'}}}, {'br-bb681f6ff42c': {17: {'addr': '02:42:75:ac:f1:e0'}, 2: {'addr': '172.24.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.24.255.255'}}}, {'br-ed8cfcfaf92e': {17: {'addr': '02:42:b7:71:f8:e1'}, 2: {'addr': '172.25.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.25.255.255'}}}, {'docker0': {17: {'addr': '02:42:34:91:ff:fa'}, 2: {'addr': '172.17.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.17.255.255'}, 10: {'addr': 'fe80::42:34ff:fe91:fffa', 'scope': 6, 'netmask': 'ffff:ffff:ffff:ffff::'}}}, {'br-4be18ffac5c9': {17: {'addr': '02:42:2a:27:1f:28'}, 2: {'addr': '172.21.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.21.255.255'}}}, {'br-5eb13c9765ac': {17: {'addr': '02:42:f0:70:c2:e7'}, 2: {'addr': '172.26.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.26.255.255'}}}, {'br-70a7d590bc36': {17: {'addr': '02:42:90:32:b8:8e'}, 2: {'addr': '172.20.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.20.255.255'}}}, {'br-e87dafb95a95': {17: {'addr': '02:42:f2:21:97:7d'}, 2: {'addr': '172.19.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.19.255.255'}}}, {'br-f13a35e8aeb7': {17: {'addr': '02:42:ed:c2:a6:72'}, 2: {'addr': '172.22.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.22.255.255'}}}, {'br-44832085d669': {17: {'addr': '02:42:7e:62:cd:c1'}, 2: {'addr': '172.18.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.18.255.255'}}}, {'lo': {2: {'addr': '127.0.0.1', 'netmask': '255.0.0.0'}, 10: {'addr': '::1', 'netmask': 'ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff'}}}]
+2024-10-07 20:53:09,883 - eye1 - [DEBUG] pyre.zbeacon: Checking out interface enp0s31f6.
+2024-10-07 20:53:09,883 - eye1 - [DEBUG] pyre.zbeacon: No data_2 found for interface enp0s31f6.
+2024-10-07 20:53:09,883 - eye1 - [DEBUG] pyre.zbeacon: Checking out interface wlp0s20f3.
+2024-10-07 20:53:09,883 - eye1 - [DEBUG] pyre.zbeacon: Finished scanning interfaces.
+2024-10-07 20:53:09,883 - eye1 - [DEBUG] pyre.zbeacon: Address: 192.168.1.104
+2024-10-07 20:53:09,883 - eye1 - [DEBUG] pyre.zbeacon: Network: 192.168.1.0
+2024-10-07 20:53:09,883 - eye1 - [DEBUG] pyre.zbeacon: Broadcast: 192.168.1.255
+2024-10-07 20:53:09,883 - eye1 - [DEBUG] pyre.zbeacon: Interface name: wlp0s20f3
+2024-10-07 20:53:09,883 - eye1 - [DEBUG] pyre.zbeacon: Set up a broadcast beacon to 192.168.1.255:5670
+2024-10-07 20:53:09,884 - eye1 - [DEBUG] ndsi.network: Starting network...
+2024-10-07 20:53:09,887 - eye0 - [DEBUG] pye3d.detector_3d: <class 'pye3d.detector_3d.Detector3D'> initialized with long_term_mode=DetectorMode.asynchronous calculate_rms_residual=False settings={'threshold_swirski': 0.7, 'threshold_kalman': 0.98, 'threshold_short_term': 0.8, 'threshold_long_term': 0.98, 'long_term_buffer_size': 30, 'long_term_forget_time': 5, 'long_term_forget_observations': 300, 'model_update_interval_long_term': 1.0, 'model_update_interval_ult_long_term': 10.0, 'model_warmup_duration': 5.0}
+2024-10-07 20:53:09,895 - eye1 - [DEBUG] pyre.zbeacon: Available interfaces: [{'enp0s31f6': {17: {'addr': 'f8:75:a4:fe:03:9a'}}}, {'wlp0s20f3': {17: {'addr': 'b8:9a:2a:66:2d:f8'}, 2: {'addr': '192.168.1.104', 'netmask': '255.255.255.0', 'broadcast': '192.168.1.255'}, 10: {'addr': 'fe80::ba9a:2aff:fe66:2df8', 'scope': 3, 'netmask': 'ffff:ffff:ffff:ffff::'}}}, {'br-bb681f6ff42c': {17: {'addr': '02:42:75:ac:f1:e0'}, 2: {'addr': '172.24.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.24.255.255'}}}, {'br-ed8cfcfaf92e': {17: {'addr': '02:42:b7:71:f8:e1'}, 2: {'addr': '172.25.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.25.255.255'}}}, {'docker0': {17: {'addr': '02:42:34:91:ff:fa'}, 2: {'addr': '172.17.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.17.255.255'}, 10: {'addr': 'fe80::42:34ff:fe91:fffa', 'scope': 6, 'netmask': 'ffff:ffff:ffff:ffff::'}}}, {'br-4be18ffac5c9': {17: {'addr': '02:42:2a:27:1f:28'}, 2: {'addr': '172.21.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.21.255.255'}}}, {'br-5eb13c9765ac': {17: {'addr': '02:42:f0:70:c2:e7'}, 2: {'addr': '172.26.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.26.255.255'}}}, {'br-70a7d590bc36': {17: {'addr': '02:42:90:32:b8:8e'}, 2: {'addr': '172.20.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.20.255.255'}}}, {'br-e87dafb95a95': {17: {'addr': '02:42:f2:21:97:7d'}, 2: {'addr': '172.19.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.19.255.255'}}}, {'br-f13a35e8aeb7': {17: {'addr': '02:42:ed:c2:a6:72'}, 2: {'addr': '172.22.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.22.255.255'}}}, {'br-44832085d669': {17: {'addr': '02:42:7e:62:cd:c1'}, 2: {'addr': '172.18.0.1', 'netmask': '255.255.0.0', 'broadcast': '172.18.255.255'}}}, {'lo': {2: {'addr': '127.0.0.1', 'netmask': '255.0.0.0'}, 10: {'addr': '::1', 'netmask': 'ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff'}}}]
+2024-10-07 20:53:09,895 - eye1 - [DEBUG] pyre.zbeacon: Checking out interface enp0s31f6.
+2024-10-07 20:53:09,895 - eye1 - [DEBUG] pyre.zbeacon: No data_2 found for interface enp0s31f6.
+2024-10-07 20:53:09,895 - world - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from cc0d379dbd17492fb94fa41c381d4396>
+2024-10-07 20:53:09,896 - eye1 - [DEBUG] pyre.zbeacon: Checking out interface wlp0s20f3.
+2024-10-07 20:53:09,896 - world - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from cc0d379dbd17492fb94fa41c381d4396>
+2024-10-07 20:53:09,896 - eye1 - [DEBUG] pyre.zbeacon: Finished scanning interfaces.
+2024-10-07 20:53:09,896 - eye1 - [DEBUG] pyre.zbeacon: Address: 192.168.1.104
+2024-10-07 20:53:09,896 - eye1 - [DEBUG] pyre.zbeacon: Network: 192.168.1.0
+2024-10-07 20:53:09,896 - eye1 - [DEBUG] pyre.zbeacon: Broadcast: 192.168.1.255
+2024-10-07 20:53:09,896 - eye1 - [DEBUG] pyre.zbeacon: Interface name: wlp0s20f3
+2024-10-07 20:53:09,896 - eye1 - [DEBUG] pyre.zbeacon: Set up a broadcast beacon to 192.168.1.255:5670
+2024-10-07 20:53:09,897 - eye1 - [DEBUG] plugin: Loading plugin: File_Manager with settings {}
+2024-10-07 20:53:09,897 - eye1 - [DEBUG] plugin: Loading plugin: UVC_Source with settings {'preferred_names': ['Pupil Cam3 ID1', 'Pupil Cam2 ID1', 'Pupil Cam1 ID1'], 'frame_size': (192, 192), 'frame_rate': 120}
+2024-10-07 20:53:09,926 - eye1 - [DEBUG] uvc: Found device that mached uid: 1:26
+2024-10-07 20:53:09,934 - eye0 - [DEBUG] launchables.eye: Process started.
+2024-10-07 20:53:09,932 - eye1 - [DEBUG] uvc: Device info: {'name': 'Pupil Cam2 ID1', 'manufacturer': 'Pupil Cam2 ID1', 'serialNumber': 'unknown', 'idProduct': 25771, 'idVendor': 3141, 'device_address': 26, 'bus_number': 1, 'uid': '1:26'}
+2024-10-07 20:53:09,935 - eye0 - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from b142a61d307644d49150404021548692>
+2024-10-07 20:53:09,935 - eye0 - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from b142a61d307644d49150404021548692>
+2024-10-07 20:53:09,935 - eye0 - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from c480e8e2a1a5450899bb0e2c30b00209>
+2024-10-07 20:53:09,935 - eye0 - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from 49ee6bfd06654da38ca56a6802a6f57b>
+2024-10-07 20:53:09,936 - eye0 - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from 3244ac3f64804195b780b3d146627bde>
+2024-10-07 20:53:09,936 - eye0 - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from c480e8e2a1a5450899bb0e2c30b00209>
+2024-10-07 20:53:09,936 - eye0 - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from cc0d379dbd17492fb94fa41c381d4396>
+2024-10-07 20:53:09,936 - eye0 - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from cc0d379dbd17492fb94fa41c381d4396>
+2024-10-07 20:53:09,937 - eye0 - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from d7fd4708aa63404a9334c7d38e52a487>
+2024-10-07 20:53:09,938 - eye1 - [DEBUG] uvc: Device '1:26' opended.
+2024-10-07 20:53:09,940 - eye1 - [DEBUG] uvc: Capture(name='Pupil Cam2 ID1' manufacturer='Pupil Cam2 ID1' serialNumber='unknown' idProduct=25771 idVendor=3141 device_address=26 bus_number=1 uid='1:26') - all camera modes: [CameraMode(width=400, height=400, fps=30, format_native=3, format_name='YUY2', supported=False), CameraMode(width=192, height=192, fps=200, format_native=3, format_name='YUY2', supported=False), CameraMode(width=192, height=192, fps=180, format_native=3, format_name='YUY2', supported=False), CameraMode(width=192, height=192, fps=120, format_native=3, format_name='YUY2', supported=False), CameraMode(width=192, height=192, fps=90, format_native=3, format_name='YUY2', supported=False), CameraMode(width=192, height=192, fps=60, format_native=3, format_name='YUY2', supported=False), CameraMode(width=192, height=192, fps=30, format_native=3, format_name='YUY2', supported=False), CameraMode(width=400, height=400, fps=120, format_native=7, format_name='MJPG', supported=True), CameraMode(width=400, height=400, fps=90, format_native=7, format_name='MJPG', supported=True), CameraMode(width=400, height=400, fps=60, format_native=7, format_name='MJPG', supported=True), CameraMode(width=400, height=400, fps=30, format_native=7, format_name='MJPG', supported=True), CameraMode(width=192, height=192, fps=200, format_native=7, format_name='MJPG', supported=True), CameraMode(width=192, height=192, fps=180, format_native=7, format_name='MJPG', supported=True), CameraMode(width=192, height=192, fps=120, format_native=7, format_name='MJPG', supported=True), CameraMode(width=192, height=192, fps=90, format_native=7, format_name='MJPG', supported=True), CameraMode(width=192, height=192, fps=60, format_native=7, format_name='MJPG', supported=True), CameraMode(width=192, height=192, fps=30, format_native=7, format_name='MJPG', supported=True)]
+2024-10-07 20:53:09,942 - eye1 - [DEBUG] uvc: Adding "Auto Exposure Mode" control.
+2024-10-07 20:53:09,942 - world - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from d7fd4708aa63404a9334c7d38e52a487>
+2024-10-07 20:53:09,943 - world - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from d7fd4708aa63404a9334c7d38e52a487>
+2024-10-07 20:53:09,945 - eye1 - [DEBUG] uvc: Adding "Auto Exposure Priority" control.
+2024-10-07 20:53:09,946 - eye1 - [DEBUG] uvc: Adding "Absolute Exposure Time" control.
+2024-10-07 20:53:09,950 - eye1 - [DEBUG] uvc: Adding "Auto Focus" control.
+2024-10-07 20:53:09,952 - eye1 - [DEBUG] uvc: Adding "Absolute Focus" control.
+2024-10-07 20:53:09,956 - eye1 - [DEBUG] uvc: Adding "Absolute Iris " control.
+2024-10-07 20:53:09,960 - eye1 - [DEBUG] uvc: Adding "Scanning Mode " control.
+2024-10-07 20:53:09,961 - eye1 - [DEBUG] uvc: Adding "Zoom absolute control" control.
+2024-10-07 20:53:09,964 - eye1 - [DEBUG] uvc: Adding "Pan control" control.
+2024-10-07 20:53:09,968 - eye1 - [DEBUG] uvc: Adding "Tilt control" control.
+2024-10-07 20:53:09,972 - eye1 - [DEBUG] uvc: Adding "Roll absolute control" control.
+2024-10-07 20:53:09,975 - eye1 - [DEBUG] uvc: Adding "Privacy Shutter control" control.
+2024-10-07 20:53:09,977 - eye1 - [DEBUG] uvc: Adding "Backlight Compensation" control.
+2024-10-07 20:53:09,980 - eye1 - [DEBUG] uvc: Adding "Brightness" control.
+2024-10-07 20:53:09,983 - eye1 - [DEBUG] uvc: Adding "Contrast" control.
+2024-10-07 20:53:09,987 - eye1 - [DEBUG] uvc: Adding "Gain" control.
+2024-10-07 20:53:09,990 - eye1 - [DEBUG] uvc: Adding "Power Line frequency" control.
+2024-10-07 20:53:09,992 - eye1 - [DEBUG] uvc: Adding "Hue" control.
+2024-10-07 20:53:09,996 - eye1 - [DEBUG] uvc: Adding "Saturation" control.
+2024-10-07 20:53:10,000 - eye1 - [DEBUG] uvc: Adding "Sharpness" control.
+2024-10-07 20:53:10,003 - eye1 - [DEBUG] uvc: Adding "Gamma" control.
+2024-10-07 20:53:10,008 - eye1 - [DEBUG] uvc: Adding "White Balance temperature" control.
+2024-10-07 20:53:10,013 - eye1 - [DEBUG] uvc: Adding "White Balance temperature,Auto" control.
+2024-10-07 20:53:10,014 - eye0 - [DEBUG] uvc: Stream start.
+2024-10-07 20:53:10,016 - eye1 - [DEBUG] uvc: Changing resolution to target: (192, 192)
+2024-10-07 20:53:10,016 - eye1 - [DEBUG] uvc: Setting mode: CameraMode(width=192, height=192, fps=30, format_native=7, format_name='MJPG', supported=True)
+2024-10-07 20:53:10,033 - eye1 - [DEBUG] uvc: Negotiated frame format: {'bmHint': 1, 'bFormatIndex': 2, 'bFrameIndex': 2, 'dwFrameInterval': 331125, 'wKeyFrameRate': 0, 'wPFrameRate': 0, 'wCompQuality': 0, 'wCompWindowSize': 0, 'wDelay': 0, 'dwMaxVideoFrameSize': 73549, 'dwMaxPayloadTransferSize': 3072, 'dwClockFrequency': 15000000, 'bmFramingInfo': 0, 'bPreferredVersion': 0, 'bMinVersion': 0, 'bMaxVersion': 0, 'bInterfaceNumber': 1}
+2024-10-07 20:53:10,033 - eye1 - [DEBUG] camera_models: Loading previously recorded intrinsics...
+2024-10-07 20:53:10,033 - eye1 - [DEBUG] camera_models: No recorded intrinsics found in /app/pupil/capture_settings for camera Pupil Cam2 ID1 atresolution (192, 192)
+2024-10-07 20:53:10,033 - eye1 - [DEBUG] camera_models: Loading default intrinsics!
+2024-10-07 20:53:10,034 - eye1 - [DEBUG] uvc: Available frame rates at 192x192: (30, 60, 90, 120, 180, 200)
+2024-10-07 20:53:10,034 - eye1 - [DEBUG] uvc: Available frame rates at 192x192: (30, 60, 90, 120, 180, 200)
+2024-10-07 20:53:10,034 - eye1 - [DEBUG] uvc: Changing frame rate to target: 120
+2024-10-07 20:53:10,034 - eye1 - [DEBUG] uvc: Setting mode: CameraMode(width=192, height=192, fps=120, format_native=7, format_name='MJPG', supported=True)
+2024-10-07 20:53:10,044 - eye0 - [DEBUG] video_capture.uvc_backend: Received frame with invalid timestamp. This can happen after a disconnect. Frame will be dropped!
+2024-10-07 20:53:10,044 - eye0 - [DEBUG] pupil_detector_plugins.detector_base_plugin: enabled set to True
+2024-10-07 20:53:10,045 - eye0 - [DEBUG] pupil_detector_plugins.detector_base_plugin: enabled set to True
+2024-10-07 20:53:10,045 - eye0 - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from d7fd4708aa63404a9334c7d38e52a487>
+2024-10-07 20:53:10,051 - eye1 - [DEBUG] uvc: Negotiated frame format: {'bmHint': 1, 'bFormatIndex': 2, 'bFrameIndex': 2, 'dwFrameInterval': 82712, 'wKeyFrameRate': 0, 'wPFrameRate': 0, 'wCompQuality': 0, 'wCompWindowSize': 0, 'wDelay': 0, 'dwMaxVideoFrameSize': 73549, 'dwMaxPayloadTransferSize': 3072, 'dwClockFrequency': 15000000, 'bmFramingInfo': 0, 'bPreferredVersion': 0, 'bMinVersion': 0, 'bMaxVersion': 0, 'bInterfaceNumber': 1}
+2024-10-07 20:53:10,070 - eye1 - [DEBUG] video_capture.uvc_backend: No UVC setting "Auto Exposure Mode" found from settings.
+2024-10-07 20:53:10,071 - eye1 - [DEBUG] video_capture.uvc_backend: No UVC setting "Auto Exposure Priority" found from settings.
+2024-10-07 20:53:10,071 - eye1 - [DEBUG] video_capture.uvc_backend: No UVC setting "Absolute Exposure Time" found from settings.
+2024-10-07 20:53:10,071 - eye1 - [DEBUG] video_capture.uvc_backend: No UVC setting "Auto Focus" found from settings.
+2024-10-07 20:53:10,071 - eye1 - [DEBUG] video_capture.uvc_backend: No UVC setting "Absolute Focus" found from settings.
+2024-10-07 20:53:10,071 - eye1 - [DEBUG] video_capture.uvc_backend: No UVC setting "Absolute Iris " found from settings.
+2024-10-07 20:53:10,071 - eye1 - [DEBUG] video_capture.uvc_backend: No UVC setting "Scanning Mode " found from settings.
+2024-10-07 20:53:10,071 - eye1 - [DEBUG] video_capture.uvc_backend: No UVC setting "Zoom absolute control" found from settings.
+2024-10-07 20:53:10,071 - eye1 - [DEBUG] video_capture.uvc_backend: No UVC setting "Pan control" found from settings.
+2024-10-07 20:53:10,071 - eye1 - [DEBUG] video_capture.uvc_backend: No UVC setting "Tilt control" found from settings.
+2024-10-07 20:53:10,071 - eye1 - [DEBUG] video_capture.uvc_backend: No UVC setting "Roll absolute control" found from settings.
+2024-10-07 20:53:10,071 - eye1 - [DEBUG] video_capture.uvc_backend: No UVC setting "Privacy Shutter control" found from settings.
+2024-10-07 20:53:10,071 - eye1 - [DEBUG] video_capture.uvc_backend: No UVC setting "Backlight Compensation" found from settings.
+2024-10-07 20:53:10,071 - eye1 - [DEBUG] video_capture.uvc_backend: No UVC setting "Brightness" found from settings.
+2024-10-07 20:53:10,071 - eye1 - [DEBUG] video_capture.uvc_backend: No UVC setting "Contrast" found from settings.
+2024-10-07 20:53:10,071 - eye1 - [DEBUG] video_capture.uvc_backend: No UVC setting "Gain" found from settings.
+2024-10-07 20:53:10,071 - eye1 - [DEBUG] video_capture.uvc_backend: No UVC setting "Power Line frequency" found from settings.
+2024-10-07 20:53:10,071 - eye1 - [DEBUG] video_capture.uvc_backend: No UVC setting "Hue" found from settings.
+2024-10-07 20:53:10,071 - eye1 - [DEBUG] video_capture.uvc_backend: No UVC setting "Saturation" found from settings.
+2024-10-07 20:53:10,071 - eye1 - [DEBUG] video_capture.uvc_backend: No UVC setting "Sharpness" found from settings.
+2024-10-07 20:53:10,071 - eye1 - [DEBUG] video_capture.uvc_backend: No UVC setting "Gamma" found from settings.
+2024-10-07 20:53:10,072 - eye1 - [DEBUG] video_capture.uvc_backend: No UVC setting "White Balance temperature" found from settings.
+2024-10-07 20:53:10,072 - eye1 - [DEBUG] video_capture.uvc_backend: No UVC setting "White Balance temperature,Auto" found from settings.
+2024-10-07 20:53:10,303 - Pye3D Background Process - [DEBUG] pye3d.eye_model.asynchronous: Setting up backend: (<SynchronizedArray wrapper for <multiprocessing.sharedctypes.c_double_Array_3 object at 0x7282c74dc040>>, <SynchronizedArray wrapper for <multiprocessing.sharedctypes.c_double_Array_3 object at 0x7282c74dc140>>, <SynchronizedArray wrapper for <multiprocessing.sharedctypes.c_double_Array_2 object at 0x7282c74dc240>>, <Synchronized wrapper for c_long(0)>, <Synchronized wrapper for c_double(0.0)>, <multiprocessing.synchronize.Event object at 0x7282c74d8250>), {'camera': CameraModel(focal_length=283.269172, resolution=(192, 192)), 'storage_cls': <class 'pye3d.observation.BinBufferedObservationStorage'>, 'storage_kwargs': {'camera': CameraModel(focal_length=283.269172, resolution=(192, 192)), 'confidence_threshold': 0.98, 'n_bins_horizontal': 10, 'bin_buffer_length': 30, 'forget_min_observations': 600, 'forget_min_time': 60}}
+2024-10-07 20:53:10,486 - eye1 - [DEBUG] uvc: Available frame rates at 192x192: (30, 60, 90, 120, 180, 200)
+2024-10-07 20:53:10,486 - eye1 - [DEBUG] uvc: Available frame rates at 192x192: (30, 60, 90, 120, 180, 200)
+2024-10-07 20:53:10,487 - eye1 - [DEBUG] uvc: Available frame rates at 192x192: (30, 60, 90, 120, 180, 200)
+2024-10-07 20:53:10,487 - eye1 - [DEBUG] uvc: Available frame rates at 192x192: (30, 60, 90, 120, 180, 200)
+2024-10-07 20:53:10,487 - eye1 - [DEBUG] plugin: Loading plugin: Roi with settings {}
+2024-10-07 20:53:10,488 - eye1 - [DEBUG] plugin: Loading plugin: Detector2DPlugin with settings {}
+2024-10-07 20:53:10,488 - eye1 - [DEBUG] plugin: Loading plugin: Pye3DPlugin with settings {}
+2024-10-07 20:53:10,488 - eye1 - [DEBUG] pupil_detector_plugins.pye3d_plugin: Running asynchronous in capture
+2024-10-07 20:53:10,527 - eye1 - [DEBUG] pye3d.detector_3d: <class 'pye3d.detector_3d.Detector3D'> initialized with long_term_mode=DetectorMode.asynchronous calculate_rms_residual=False settings={'threshold_swirski': 0.7, 'threshold_kalman': 0.98, 'threshold_short_term': 0.8, 'threshold_long_term': 0.98, 'long_term_buffer_size': 30, 'long_term_forget_time': 5, 'long_term_forget_observations': 300, 'model_update_interval_long_term': 1.0, 'model_update_interval_ult_long_term': 10.0, 'model_warmup_duration': 5.0}
+2024-10-07 20:53:10,381 - Pye3D Background Process - [DEBUG] pye3d.eye_model.asynchronous: Setting up backend: (<SynchronizedArray wrapper for <multiprocessing.sharedctypes.c_double_Array_3 object at 0x7e3799edc040>>, <SynchronizedArray wrapper for <multiprocessing.sharedctypes.c_double_Array_3 object at 0x7e3799edc140>>, <SynchronizedArray wrapper for <multiprocessing.sharedctypes.c_double_Array_2 object at 0x7e3799edc240>>, <Synchronized wrapper for c_long(0)>, <Synchronized wrapper for c_double(0.0)>, <multiprocessing.synchronize.Event object at 0x7e3799edb250>), {'camera': CameraModel(focal_length=283.269172, resolution=(192, 192)), 'storage_cls': <class 'pye3d.observation.BinBufferedObservationStorage'>, 'storage_kwargs': {'camera': CameraModel(focal_length=283.269172, resolution=(192, 192)), 'confidence_threshold': 0.98, 'n_bins_horizontal': 10, 'bin_buffer_length': 30, 'forget_min_observations': 300, 'forget_min_time': 5}}
+2024-10-07 20:53:10,566 - eye1 - [DEBUG] launchables.eye: Process started.
+2024-10-07 20:53:10,567 - eye1 - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from c480e8e2a1a5450899bb0e2c30b00209>
+2024-10-07 20:53:10,567 - eye1 - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from b142a61d307644d49150404021548692>
+2024-10-07 20:53:10,567 - eye1 - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from b142a61d307644d49150404021548692>
+2024-10-07 20:53:10,567 - eye1 - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from c480e8e2a1a5450899bb0e2c30b00209>
+2024-10-07 20:53:10,567 - eye1 - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from 49ee6bfd06654da38ca56a6802a6f57b>
+2024-10-07 20:53:10,568 - eye1 - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from cc0d379dbd17492fb94fa41c381d4396>
+2024-10-07 20:53:10,568 - eye1 - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from 3244ac3f64804195b780b3d146627bde>
+2024-10-07 20:53:10,568 - eye1 - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from 49ee6bfd06654da38ca56a6802a6f57b>
+2024-10-07 20:53:10,569 - eye1 - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from d7fd4708aa63404a9334c7d38e52a487>
+2024-10-07 20:53:10,569 - eye1 - [DEBUG] ndsi.network: Dropping <pyre.pyre_event ENTER from 3244ac3f64804195b780b3d146627bde>
+2024-10-07 20:53:10,638 - eye1 - [DEBUG] uvc: Stream start.
+2024-10-07 20:53:10,664 - eye1 - [DEBUG] video_capture.uvc_backend: Received frame with invalid timestamp. This can happen after a disconnect. Frame will be dropped!
+2024-10-07 20:53:10,664 - eye1 - [DEBUG] pupil_detector_plugins.detector_base_plugin: enabled set to True
+2024-10-07 20:53:10,664 - eye1 - [DEBUG] pupil_detector_plugins.detector_base_plugin: enabled set to True
+2024-10-07 20:53:10,804 - eye0 - [DEBUG] pupil_detector_plugins.detector_base_plugin: enabled set to True
+2024-10-07 20:53:10,805 - eye0 - [DEBUG] pupil_detector_plugins.detector_base_plugin: enabled set to True
+2024-10-07 20:53:10,987 - Pye3D Background Process - [DEBUG] pye3d.eye_model.asynchronous: Setting up backend: (<SynchronizedArray wrapper for <multiprocessing.sharedctypes.c_double_Array_3 object at 0x745052339040>>, <SynchronizedArray wrapper for <multiprocessing.sharedctypes.c_double_Array_3 object at 0x745052339140>>, <SynchronizedArray wrapper for <multiprocessing.sharedctypes.c_double_Array_2 object at 0x745052339240>>, <Synchronized wrapper for c_long(0)>, <Synchronized wrapper for c_double(0.0)>, <multiprocessing.synchronize.Event object at 0x745052338250>), {'camera': CameraModel(focal_length=283.269172, resolution=(192, 192)), 'storage_cls': <class 'pye3d.observation.BinBufferedObservationStorage'>, 'storage_kwargs': {'camera': CameraModel(focal_length=283.269172, resolution=(192, 192)), 'confidence_threshold': 0.98, 'n_bins_horizontal': 10, 'bin_buffer_length': 30, 'forget_min_observations': 300, 'forget_min_time': 5}}
+2024-10-07 20:53:11,004 - Pye3D Background Process - [DEBUG] pye3d.eye_model.asynchronous: Setting up backend: (<SynchronizedArray wrapper for <multiprocessing.sharedctypes.c_double_Array_3 object at 0x757e498db040>>, <SynchronizedArray wrapper for <multiprocessing.sharedctypes.c_double_Array_3 object at 0x757e498db140>>, <SynchronizedArray wrapper for <multiprocessing.sharedctypes.c_double_Array_2 object at 0x757e498db240>>, <Synchronized wrapper for c_long(0)>, <Synchronized wrapper for c_double(0.0)>, <multiprocessing.synchronize.Event object at 0x757e498da250>), {'camera': CameraModel(focal_length=283.269172, resolution=(192, 192)), 'storage_cls': <class 'pye3d.observation.BinBufferedObservationStorage'>, 'storage_kwargs': {'camera': CameraModel(focal_length=283.269172, resolution=(192, 192)), 'confidence_threshold': 0.98, 'n_bins_horizontal': 10, 'bin_buffer_length': 30, 'forget_min_observations': 600, 'forget_min_time': 60}}
+2024-10-07 20:53:21,818 - world - [DEBUG] plugin: 'calibration.should_start' notification sent with keys: ('subject',)
+2024-10-07 20:53:21,819 - world - [INFO] calibration_choreography.base_plugin: Starting  Calibration
+2024-10-07 20:53:21,862 - world - [DEBUG] plugin: 'calibration.started' notification sent with keys: ('subject',)
+2024-10-07 20:53:22,063 - world - [DEBUG] calibration_choreography.screen_marker_plugin: Moving screen marker to site at (0.5, 0.5)
+2024-10-07 20:53:30,223 - world - [DEBUG] calibration_choreography.screen_marker_plugin: Moving screen marker to site at (0.0, 1.0)
+2024-10-07 20:53:35,010 - world - [DEBUG] calibration_choreography.screen_marker_plugin: Moving screen marker to site at (1.0, 1.0)
+2024-10-07 20:53:40,225 - world - [DEBUG] calibration_choreography.screen_marker_plugin: Moving screen marker to site at (1.0, 0.0)
+2024-10-07 20:53:45,202 - world - [DEBUG] calibration_choreography.screen_marker_plugin: Moving screen marker to site at (0.0, 0.0)
+2024-10-07 20:53:50,376 - world - [DEBUG] plugin: 'calibration.should_stop' notification sent with keys: ('subject',)
+2024-10-07 20:53:50,421 - world - [DEBUG] plugin: 'calibration.should_stop' notification sent with keys: ('subject',)
+2024-10-07 20:53:50,447 - world - [INFO] calibration_choreography.base_plugin: Stopping  Calibration
+2024-10-07 20:53:50,520 - world - [DEBUG] plugin: 'calibration.stopped' notification sent with keys: ('subject',)
+2024-10-07 20:53:50,524 - world - [DEBUG] plugin: 'start_plugin' notification sent with keys: ('subject', 'name', 'args')
+2024-10-07 20:53:50,947 - world - [DEBUG] calibration_choreography.base_plugin: Calibration already stopped.
+2024-10-07 20:53:51,023 - world - [DEBUG] plugin: 'calibration.setup.v2' notification sent with keys: ('gazer_class_name', 'timestamp', 'calib_data', 'record', 'version', 'subject')
+2024-10-07 20:53:51,102 - world - [DEBUG] gaze_mapping.utils: Dismissing 8.78% pupil data due to confidence < 0.80
+2024-10-07 20:53:51,111 - world - [DEBUG] gaze_mapping.utils: Binocular match rejected due to time dispersion criterion
+2024-10-07 20:53:51,112 - world - [DEBUG] gaze_mapping.utils: Binocular match rejected due to time dispersion criterion
+2024-10-07 20:53:51,112 - world - [DEBUG] gaze_mapping.utils: Binocular match rejected due to time dispersion criterion
+2024-10-07 20:53:51,112 - world - [DEBUG] gaze_mapping.utils: Binocular match rejected due to time dispersion criterion
+2024-10-07 20:53:51,120 - world - [DEBUG] gaze_mapping.utils: Collected 196 binocular references.
+2024-10-07 20:53:51,120 - world - [DEBUG] gaze_mapping.utils: Collected 197 right eye monocular references.
+2024-10-07 20:53:51,120 - world - [DEBUG] gaze_mapping.utils: Collected 198 left eye monocular references.
+2024-10-07 20:53:55,623 - world - [DEBUG] plugin: 'calibration.successful' notification sent with keys: ('gazer_class_name', 'timestamp', 'record', 'subject')
+2024-10-07 20:53:55,626 - world - [DEBUG] plugin: 'calibration.result.v2' notification sent with keys: ('gazer_class_name', 'timestamp', 'params', 'record', 'version', 'subject')
+2024-10-07 20:54:02,572 - world - [DEBUG] plugin: Unloaded Plugin: <recorder.Recorder object at 0x792624279d00>
+2024-10-07 20:54:02,572 - world - [DEBUG] plugin: Unloaded Plugin: <accuracy_visualizer.Accuracy_Visualizer object at 0x7926242a2b80>
+2024-10-07 20:54:02,572 - world - [DEBUG] plugin: Unloaded Plugin: <blink_detection.Blink_Detection object at 0x7926242a2af0>
+2024-10-07 20:54:02,573 - world - [DEBUG] plugin: Unloaded Plugin: <display_recent_gaze.Display_Recent_Gaze object at 0x792624279cd0>
+2024-10-07 20:54:02,573 - world - [DEBUG] plugin: Unloaded Plugin: <gaze_mapping.gazer_3d.gazer_headset.Gazer3D object at 0x792624249400>
+2024-10-07 20:54:02,574 - world - [DEBUG] plugin: Unloaded Plugin: <surface_tracker.surface_tracker_online.Surface_Tracker_Online object at 0x792624279610>
+2024-10-07 20:54:02,574 - world - [DEBUG] plugin: Unloaded Plugin: <system_graphs.System_Graphs object at 0x792624279eb0>
+2024-10-07 20:54:02,574 - world - [DEBUG] plugin: Unloaded Plugin: <plugin_manager.Plugin_Manager object at 0x792624279e20>
+2024-10-07 20:54:02,574 - world - [DEBUG] plugin: Unloaded Plugin: <log_display.Log_Display object at 0x792624279b80>
+2024-10-07 20:54:02,574 - world - [DEBUG] calibration_choreography.controller.marker_window_controller: close_window called for state <class 'calibration_choreography.controller.marker_window_controller.MarkerWindowStateClosed'>; ignoring the call.
+2024-10-07 20:54:02,574 - world - [DEBUG] plugin: Unloaded Plugin: <calibration_choreography.screen_marker_plugin.ScreenMarkerChoreographyPlugin object at 0x7926242d6d00>
+2024-10-07 20:54:02,575 - world - [DEBUG] plugin: Unloaded Plugin: <fixation_detector.Fixation_Detector object at 0x7926242d6a60>
+2024-10-07 20:54:02,575 - world - [DEBUG] plugin: Unloaded Plugin: <pupil_data_relay.Pupil_Data_Relay object at 0x7926242799a0>
+2024-10-07 20:54:02,575 - world - [DEBUG] plugin: 'frame_publishing.stopped' notification sent with keys: ('subject',)
+2024-10-07 20:54:02,675 - world - [DEBUG] network_api.controller.pupil_remote_controller: on_pupil_remote_server_did_stop
+2024-10-07 20:54:02,675 - world - [DEBUG] plugin: Unloaded Plugin: <network_api.network_api_plugin.NetworkApiPlugin object at 0x7926242cad30>
+2024-10-07 20:54:02,691 - world - [DEBUG] uvc: Stream stopped
+2024-10-07 20:54:02,696 - eye1 - [WARNING] uvc: Turbojpeg jpeg2yuv: b'Corrupt JPEG data: premature end of data segment'
+2024-10-07 20:54:02,777 - world - [DEBUG] uvc: Stream closed
+2024-10-07 20:54:02,777 - world - [DEBUG] uvc: Stream stop.
+2024-10-07 20:54:02,834 - world - [DEBUG] uvc: UVC device closed.
+2024-10-07 20:54:02,834 - world - [DEBUG] plugin: Unloaded Plugin: <video_capture.uvc_backend.UVC_Source object at 0x7926242ca880>
+2024-10-07 20:54:02,836 - world - [DEBUG] plugin: Unloaded Plugin: <video_capture.file_backend.File_Manager object at 0x7926242cab50>
+2024-10-07 20:54:02,836 - world - [DEBUG] plugin: Unloaded Plugin: <video_capture.neon_backend.plugin.Neon_Manager object at 0x792625cdd880>
+2024-10-07 20:54:02,836 - world - [DEBUG] ndsi.network: Stopping network...
+2024-10-07 20:54:02,844 - eye1 - [DEBUG] ndsi.network: Dropping <pyre.pyre_event LEAVE from c480e8e2a1a5450899bb0e2c30b00209>
+2024-10-07 20:54:02,844 - eye1 - [DEBUG] ndsi.network: Dropping <pyre.pyre_event LEAVE from c480e8e2a1a5450899bb0e2c30b00209>
+2024-10-07 20:54:02,848 - world - [DEBUG] ndsi.network: Stopping network...
+2024-10-07 20:54:02,852 - eye0 - [DEBUG] ndsi.network: Dropping <pyre.pyre_event LEAVE from c480e8e2a1a5450899bb0e2c30b00209>
+2024-10-07 20:54:02,852 - eye0 - [DEBUG] ndsi.network: Dropping <pyre.pyre_event LEAVE from c480e8e2a1a5450899bb0e2c30b00209>
+2024-10-07 20:54:02,852 - eye0 - [DEBUG] ndsi.network: Dropping <pyre.pyre_event LEAVE from b142a61d307644d49150404021548692>
+2024-10-07 20:54:02,852 - eye0 - [DEBUG] ndsi.network: Dropping <pyre.pyre_event LEAVE from b142a61d307644d49150404021548692>
+2024-10-07 20:54:02,854 - world - [DEBUG] plugin: Unloaded Plugin: <video_capture.ndsi_backend.NDSI_Manager object at 0x792625cdd820>
+2024-10-07 20:54:02,855 - world - [DEBUG] plugin: Unloaded Plugin: <video_capture.uvc_backend.UVC_Manager object at 0x792625cdd730>
+2024-10-07 20:54:02,868 - eye1 - [DEBUG] ndsi.network: Dropping <pyre.pyre_event LEAVE from b142a61d307644d49150404021548692>
+2024-10-07 20:54:02,868 - eye1 - [DEBUG] ndsi.network: Dropping <pyre.pyre_event LEAVE from b142a61d307644d49150404021548692>
+2024-10-07 20:54:02,884 - world - [DEBUG] launchables.world: Process shutting down.
+2024-10-07 20:54:03,897 - eye0 - [DEBUG] launchables.eye: Process shutting down.
+2024-10-07 20:54:03,898 - eye0 - [DEBUG] plugin: Unloaded Plugin: <pupil_detector_plugins.pye3d_plugin.Pye3DPlugin object at 0x768d3c9de8e0>
+2024-10-07 20:54:03,898 - eye0 - [DEBUG] plugin: Unloaded Plugin: <pupil_detector_plugins.detector_2d_plugin.Detector2DPlugin object at 0x768d3c9c1b80>
+2024-10-07 20:54:03,898 - eye0 - [DEBUG] plugin: Unloaded Plugin: <roi.Roi object at 0x768d3c9de730>
+2024-10-07 20:54:03,905 - eye0 - [DEBUG] uvc: Stream stopped
+2024-10-07 20:54:03,919 - eye1 - [DEBUG] launchables.eye: Process shutting down.
+2024-10-07 20:54:03,920 - eye1 - [DEBUG] plugin: Unloaded Plugin: <pupil_detector_plugins.pye3d_plugin.Pye3DPlugin object at 0x77d287fdab20>
+2024-10-07 20:54:03,920 - eye1 - [DEBUG] plugin: Unloaded Plugin: <pupil_detector_plugins.detector_2d_plugin.Detector2DPlugin object at 0x77d287fdaa60>
+2024-10-07 20:54:03,920 - eye1 - [DEBUG] plugin: Unloaded Plugin: <roi.Roi object at 0x77d287fda0d0>
+2024-10-07 20:54:03,928 - eye1 - [DEBUG] uvc: Stream stopped
+2024-10-07 20:54:03,970 - eye1 - [DEBUG] uvc: Stream closed
+2024-10-07 20:54:03,970 - eye1 - [DEBUG] uvc: Stream stop.
+2024-10-07 20:54:03,970 - eye0 - [DEBUG] uvc: Stream closed
+2024-10-07 20:54:03,970 - eye0 - [DEBUG] uvc: Stream stop.
+2024-10-07 20:54:03,985 - eye1 - [DEBUG] uvc: UVC device closed.
+2024-10-07 20:54:03,986 - eye1 - [DEBUG] plugin: Unloaded Plugin: <video_capture.uvc_backend.UVC_Source object at 0x77d287fda280>
+2024-10-07 20:54:03,986 - eye1 - [DEBUG] plugin: Unloaded Plugin: <video_capture.file_backend.File_Manager object at 0x77d287fc2fa0>
+2024-10-07 20:54:03,986 - eye1 - [DEBUG] ndsi.network: Stopping network...
+2024-10-07 20:54:03,989 - eye1 - [DEBUG] ndsi.network: Stopping network...
+2024-10-07 20:54:03,991 - eye1 - [DEBUG] plugin: Unloaded Plugin: <video_capture.ndsi_backend.NDSI_Manager object at 0x77d28b3f2310>
+2024-10-07 20:54:03,992 - eye1 - [DEBUG] plugin: Unloaded Plugin: <video_capture.uvc_backend.UVC_Manager object at 0x77d28b3f22b0>
+2024-10-07 20:54:03,995 - eye1 - [DEBUG] launchables.eye: Process shut down.
+2024-10-07 20:54:04,027 - eye0 - [DEBUG] uvc: UVC device closed.
+2024-10-07 20:54:04,029 - eye0 - [DEBUG] plugin: Unloaded Plugin: <video_capture.uvc_backend.UVC_Source object at 0x768d3c9c1cd0>
+2024-10-07 20:54:04,029 - eye0 - [DEBUG] plugin: Unloaded Plugin: <video_capture.file_backend.File_Manager object at 0x768d3fe193a0>
+2024-10-07 20:54:04,029 - eye0 - [DEBUG] ndsi.network: Stopping network...
+2024-10-07 20:54:04,032 - eye0 - [DEBUG] ndsi.network: Stopping network...
+2024-10-07 20:54:04,036 - eye0 - [DEBUG] plugin: Unloaded Plugin: <video_capture.ndsi_backend.NDSI_Manager object at 0x768d3fe192b0>
+2024-10-07 20:54:04,036 - eye0 - [DEBUG] plugin: Unloaded Plugin: <video_capture.uvc_backend.UVC_Manager object at 0x768d3fe19250>
+2024-10-07 20:54:04,044 - eye0 - [DEBUG] launchables.eye: Process shut down.
