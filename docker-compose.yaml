@@ -26,7 +26,7 @@ services:
     privileged: true
     group_add:
       - plugdev
-    command: "python main.py capture" #--hide-ui"
+    command: "python main.py capture --hide-ui"
 
   surface_module:
     build:

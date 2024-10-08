@@ -114,28 +114,25 @@ class AprilTagRenderer:
 
 
 class SurfaceListener:
-    def __init__(self, ip='127.0.0.1', port=50020, reconnect_interval=5, buffer_size=10):
+    def __init__(self, surface_name="Surface 1", ip='127.0.0.1', port=50020, reconnect_interval=5, buffer_size=10):
         self.logger = logging.getLogger(self.__class__.__name__)
         self.ip = ip
         self.port = port
         self.reconnect_interval = reconnect_interval
         self.buffer_size = buffer_size
+        self.surface_name = surface_name
 
         self.context = zmq.Context()
         self.pupil_remote = None
         self.subscriber = None
         self.sub_port = None
 
-        self.surface_topic = 'surfaces'
-        self.gaze_key = 'gaze_on_surfaces'
-        self.fixation_key = 'fixations_on_surfaces'
+        self.topic = 'surfaces'
 
         self.data_buffer = deque(maxlen=buffer_size)
         self.lock = threading.Lock()
         self.running = False
         self.thread = None
-
-        self.logger.debug(f"Initialized SurfaceListener with topic: {self.surface_topic}")
 
     def start(self):
         self.running = True
@@ -178,15 +175,10 @@ class SurfaceListener:
 
         self.subscriber = self.context.socket(zmq.SUB)
         self.subscriber.connect(f'tcp://{self.ip}:{self.sub_port}')
-        self.subscriber.subscribe(self.surface_topic)
+        self.subscriber.subscribe(self.topic)
 
         self.logger.info(f"Connected to Pupil on port {self.port}, subscribed on port {self.sub_port}")
-
-        # Subscribe to multiple topics
-        for topic in ['surfaces', 'gaze', 'fixations']:
-            self.subscriber.subscribe(topic)
-            self.logger.info(f"Subscribed to topic: {topic}")
-
+        self.logger.info(f"Subscribed to topic: {self.topic}")
 
     def _receive_data(self):
         try:
@@ -194,39 +186,17 @@ class SurfaceListener:
             if topic is None or payload is None:
                 return
 
-            self.logger.debug(f"Received data on topic: {topic}")
-            self.logger.debug(f"Payload keys: {payload.keys()}")
-
-            if self.gaze_key in payload:
-                gaze_data = payload[self.gaze_key]
-                self.logger.debug(f"Gaze data: {gaze_data}")
-                if gaze_data:
-                    gaze_x, gaze_y = gaze_data[-1].get('norm_pos', (None, None))
-                else:
-                    gaze_x, gaze_y = None, None
-            else:
-                gaze_x, gaze_y = None, None
-
-            if self.fixation_key in payload:
-                fixation_data = payload[self.fixation_key]
-                self.logger.debug(f"Fixation data: {fixation_data}")
-                if fixation_data:
-                    fixation_x, fixation_y = fixation_data[-1].get('norm_pos', (None, None))
-                else:
-                    fixation_x, fixation_y = None, None
-            else:
-                fixation_x, fixation_y = None, None
-
-            self._add_to_buffer(gaze_x, gaze_y, fixation_x, fixation_y)
+            if payload.get('name') == self.surface_name:
+                self._process_surface_data(payload)
 
         except Exception as e:
-            self.logger.warning(f"Unexpected error getting surface data: {e}")
+            self.logger.warning(f"Unexpected error getting data: {e}")
             self._close_connections()
 
     def _recv_from_sub(self):
         try:
             topic = self.subscriber.recv_string(zmq.NOBLOCK)
-            payload = msgpack.unpackb(self.subscriber.recv(zmq.NOBLOCK))
+            payload = msgpack.unpackb(self.subscriber.recv(zmq.NOBLOCK), raw=False)
             return topic, payload
         except zmq.Again:
             return None, None
@@ -234,17 +204,29 @@ class SurfaceListener:
             self.logger.warning(f"Error in _recv_from_sub: {e}")
             return None, None
 
+    def _process_surface_data(self, payload):
+        gaze_data = payload.get('gaze_on_surfaces', [])
+        fixation_data = payload.get('fixations_on_surfaces', [])
+
+        if gaze_data:
+            gaze_x, gaze_y = gaze_data[-1].get('norm_pos', (None, None))
+        else:
+            gaze_x, gaze_y = None, None
+
+        if fixation_data:
+            fixation_x, fixation_y = fixation_data[-1].get('norm_pos', (None, None))
+        else:
+            fixation_x, fixation_y = None, None
+
+        self._add_to_buffer(gaze_x, gaze_y, fixation_x, fixation_y)
+
     def _add_to_buffer(self, gaze_x, gaze_y, fixation_x, fixation_y):
         with self.lock:
             self.data_buffer.append((gaze_x, gaze_y, fixation_x, fixation_y))
-        self.logger.debug(f"Added to buffer: gaze({gaze_x}, {gaze_y}), fixation({fixation_x}, {fixation_y})")
 
-    def get_latest_surface_data(self) -> Tuple[Optional[float], Optional[float], Optional[float], Optional[float]]:
+    def get_latest_surface_data(self):
         with self.lock:
-            data = self.data_buffer[-1] if self.data_buffer else (None, None, None, None)
-        if data[0] is not None and data[1] is not None:
-            self.logger.debug(f"Retrieved latest data: gaze({data[0]}, {data[1]})")
-        return data
+            return self.data_buffer[-1] if self.data_buffer else (None, None, None, None)
 
     def _close_connections(self):
         if self.pupil_remote:
@@ -305,7 +287,8 @@ class FrameDrawing:
 
     def update_gaze_heatmap(self, gaze_coordinates):
         if gaze_coordinates[0] is not None and gaze_coordinates[1] is not None:
-            x, y = int(gaze_coordinates[0] * self.frame_width), int(gaze_coordinates[1] * self.frame_height)
+            x = int(gaze_coordinates[0] * self.frame_width)
+            y = int((1 - gaze_coordinates[1]) * self.frame_height)  # Invert Y coordinate
             
             # Ensure coordinates are within the frame
             if 0 <= x < self.frame_width and 0 <= y < self.frame_height:
@@ -314,21 +297,17 @@ class FrameDrawing:
                 self.gaze_heatmap = np.clip(self.gaze_heatmap, 0, 1)
             else:
                 self.logger.warning(f"Gaze coordinates ({x}, {y}) out of frame bounds")
-        else:
-            self.logger.debug("No valid gaze coordinates")
 
     def update_fixation_layer(self, fixation_coordinates):
         if fixation_coordinates[0] is not None and fixation_coordinates[1] is not None:
-            x, y = int(fixation_coordinates[0] * self.frame_width), int(fixation_coordinates[1] * self.frame_height)
+            x = int(fixation_coordinates[0] * self.frame_width)
+            y = int((1 - fixation_coordinates[1]) * self.frame_height)  # Invert Y coordinate
             
             # Ensure coordinates are within the frame
             if 0 <= x < self.frame_width and 0 <= y < self.frame_height:
                 cv2.circle(self.fixation_layer, (x, y), 5, (0, 255, 0, 255), -1)
             else:
                 self.logger.warning(f"Fixation coordinates ({x}, {y}) out of frame bounds")
-        else:
-            self.logger.debug("No valid fixation coordinates")
-
     def clear_drawing(self):
         self.gaze_heatmap.fill(0)
         self.fixation_layer.fill(0)
@@ -380,6 +359,12 @@ if __name__ == "__main__":
             
             # Get gaze and fixation coordinates
             gaze_x, gaze_y, fixation_x, fixation_y = surface_listener.get_latest_surface_data()
+
+            if gaze_x is not None and gaze_y is not None:
+                logger.debug(f"Got gaze coordinates: ({gaze_x}, {gaze_y})")
+
+            if fixation_x is not None and fixation_y is not None:
+                logger.debug(f"Got fixation coordinates: ({fixation_x}, {fixation_y})")
             
             # Pass frame to Drawer, get output
             frame_drawer.set_latest_frame(raw_frame, (gaze_x, gaze_y), (fixation_x, fixation_y))
