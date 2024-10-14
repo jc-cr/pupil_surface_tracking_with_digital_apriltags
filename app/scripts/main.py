@@ -62,32 +62,49 @@ class AprilTagRenderer:
     """
     Renders April tags on a video object to create bounds for a PupilTag surface
     """
-    def __init__(self, upper_left_corner_tag: str, bottom_right_corner_tag: str, scale: float = 1/8):
+    def __init__(self, 
+                 upper_left_corner_tag_path: str,
+                 lower_left_corner_tag_path: str,
+                 upper_right_corner_tag_path: str,
+                 lower_right_corner_tag_path: str,
+                 scale: float = 1/8
+                ):
 
-        self.upper_left_corner_tag_path = upper_left_corner_tag
-        self.bottom_right_corner_tag_path = bottom_right_corner_tag
         self.upper_left_corner_tag = None
-        self.bottom_right_corner_tag = None 
+        self.lower_left_corner_tag = None
+
+        self.upper_right_corner_tag = None
+        self.lower_right_corner_tag = None
+
+        self.__load_tags(upper_left_corner_tag_path=upper_left_corner_tag_path,
+                         lower_left_corner_tag_path=lower_left_corner_tag_path,
+                         upper_right_corner_tag_path=upper_right_corner_tag_path,
+                         lower_right_corner_tag_path=lower_right_corner_tag_path)
+
+
         self.latest_frame = None
         self.scale = scale
-        self.__load_tags()
 
     def set_latest_frame(self, frame):
         self.latest_frame = frame
 
-
     def get_latest_frame(self):
+        """
+        Function to retrun latest frame with April tags rendered
+        """
         frame = self.latest_frame
         height, width = frame.shape[:2]
         
         tag_size = int(min(width, height) * self.scale)
-        
-        # Render upper left corner tag
+
+        # Render tags
         frame = self.__render_tag(frame, self.upper_left_corner_tag, (0, 0), tag_size)
+        frame = self.__render_tag(frame, self.lower_left_corner_tag, (0, height - tag_size), tag_size)
         
-        # Render bottom right corner tag
-        frame = self.__render_tag(frame, self.bottom_right_corner_tag, 
-                                (width - tag_size, height - tag_size), tag_size)
+        frame = self.__render_tag(frame, self.upper_right_corner_tag, (width - tag_size, 0), tag_size)
+
+        frame = self.__render_tag(frame, self.lower_right_corner_tag, (width - tag_size, height - tag_size), tag_size)  
+    
         
         return frame
 
@@ -99,9 +116,13 @@ class AprilTagRenderer:
         frame[y:y+size, x:x+size] = tag_resized
         return frame
 
-    def __load_tags(self):
-        self.upper_left_corner_tag = self.__svg_to_numpy(self.upper_left_corner_tag_path)
-        self.bottom_right_corner_tag = self.__svg_to_numpy(self.bottom_right_corner_tag_path)
+    def __load_tags(self, upper_left_corner_tag_path, lower_left_corner_tag_path, upper_right_corner_tag_path, lower_right_corner_tag_path):
+
+        self.upper_left_corner_tag = self.__svg_to_numpy(upper_left_corner_tag_path)
+        self.lower_left_corner_tag = self.__svg_to_numpy(lower_left_corner_tag_path)
+
+        self.upper_right_corner_tag = self.__svg_to_numpy(upper_right_corner_tag_path)
+        self.lower_right_corner_tag = self.__svg_to_numpy(lower_right_corner_tag_path)
 
     def __svg_to_numpy(self, svg_path):
 
@@ -334,11 +355,21 @@ if __name__ == "__main__":
         logger.info("Created Empty Video stream")
 
         # Specify the paths to the AprilTag SVG files
-        left_corner_tag = "tags/tag41_12_00000.svg"
-        right_corner_tag = "tags/tag41_12_00001.svg"
+        upper_left_corner_tag_path = "tags/tag41_12_00000.svg"
+        lower_left_corner_tag_path = "tags/tag41_12_00001.svg"
+
+        upper_right_corner_tag_path = "tags/tag41_12_00002.svg"
+        lower_right_corner_tag_path = "tags/tag41_12_00003.svg"
         
         # Create AprilTagRenderer object
-        april_tag_renderer = AprilTagRenderer(left_corner_tag, right_corner_tag, scale=1/4)
+        apriltag_renderer = AprilTagRenderer(
+            upper_left_corner_tag_path=upper_left_corner_tag_path,
+            lower_left_corner_tag_path=lower_left_corner_tag_path,
+            upper_right_corner_tag_path=upper_right_corner_tag_path,
+            lower_right_corner_tag_path=lower_right_corner_tag_path,
+            scale=1/8)
+
+        
         logger.info("Created AprilTagRenderer")
 
         # Create FrameDrawing object
@@ -371,8 +402,8 @@ if __name__ == "__main__":
             drawn_frame = frame_drawer.get_latest_frame()
 
             # Add April tags to frame and output the frame
-            april_tag_renderer.set_latest_frame(drawn_frame)
-            final_frame = april_tag_renderer.get_latest_frame()
+            apriltag_renderer.set_latest_frame(drawn_frame)
+            final_frame = apriltag_renderer.get_latest_frame()
 
             # Output the layers to a window
             cv2.imshow(window_name, final_frame)

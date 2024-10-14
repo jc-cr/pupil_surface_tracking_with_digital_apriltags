@@ -63,7 +63,6 @@ def main():
     tag_file = args.tag_file
     out_file = args.out_file
     svg_size = args.svg_size
-    # tag_margin = args.tag_margin #TODO no support for margin yet
 
     apriltag_svg = None
 
